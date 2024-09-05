@@ -1,4 +1,4 @@
-23798711588583239
+23800437158781723
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56657,6 +56657,13 @@ EMS
 0
 10
 10
+EMS
+10SVPS10M
+A5_2021
+Capacitor Polarised
+0
+2
+2
 EMS
 ADM2565EBRNZ-SOIC-28
 

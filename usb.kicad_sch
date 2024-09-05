@@ -3936,6 +3936,12 @@
 		(uuid "44887e70-4dfa-4c4c-9f6b-7bcdac0a2485")
 	)
 	(junction
+		(at 33.02 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49217c70-8308-4fb7-97e5-742fa79ba252")
+	)
+	(junction
 		(at 267.97 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4901,6 +4907,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 132.08) (xy 33.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c770b7b3-715c-4c8d-997f-2eba0c38daec")
+	)
+	(wire
+		(pts
 			(xy 247.65 113.03) (xy 267.97 113.03)
 		)
 		(stroke
@@ -5041,7 +5057,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 128.27) (xy 33.02 130.81)
+			(xy 33.02 128.27) (xy 33.02 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5598,7 +5614,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "R401")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -5670,7 +5686,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0409")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -5678,7 +5694,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 130.81 0)
+		(at 33.02 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5687,7 +5703,7 @@
 		(fields_autoplaced yes)
 		(uuid "09449ec0-2278-4567-b515-03a602e83f89")
 		(property "Reference" "#PWR041"
-			(at 33.02 137.16 0)
+			(at 33.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5712,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 135.89 0)
+			(at 33.02 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 130.81 0)
+			(at 33.02 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 130.81 0)
+			(at 33.02 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 130.81 0)
+			(at 33.02 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5759,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0413")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -5816,7 +5832,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0412")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -5889,7 +5905,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0411")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -5961,7 +5977,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0407")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -6088,7 +6104,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "D402")
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -6160,7 +6176,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0419")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -6285,7 +6301,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "D401")
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -6357,7 +6373,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0408")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -6429,7 +6445,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0418")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -6503,7 +6519,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#FLG0403")
+					(reference "#FLG0203")
 					(unit 1)
 				)
 			)
@@ -6575,7 +6591,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0406")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -6648,7 +6664,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0410")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -6720,7 +6736,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0401")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -6796,7 +6812,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "J402")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -6940,7 +6956,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "Q401")
+					(reference "Q201")
 					(unit 1)
 				)
 			)
@@ -7077,7 +7093,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "U401")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -7151,7 +7167,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#FLG0402")
+					(reference "#FLG0202")
 					(unit 1)
 				)
 			)
@@ -7222,7 +7238,75 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "TP402")
+					(reference "TP202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 33.02 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "819892c1-b0d7-4171-bc7b-64f289e5537c")
+		(property "Reference" "#FLG0204"
+			(at 34.925 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 132.0801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 33.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eb6985d-7ba8-4687-ad6c-29683ef31011")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
+					(reference "#FLG0204")
 					(unit 1)
 				)
 			)
@@ -7365,7 +7449,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "J401")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -7437,7 +7521,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0416")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -7511,7 +7595,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "R402")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -7587,7 +7671,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "C404")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -7658,7 +7742,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "TP401")
+					(reference "TP201")
 					(unit 1)
 				)
 			)
@@ -7802,7 +7886,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "U402")
+					(reference "U202")
 					(unit 1)
 				)
 			)
@@ -7875,7 +7959,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0404")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -8033,7 +8117,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "U403")
+					(reference "U203")
 					(unit 1)
 				)
 			)
@@ -8106,7 +8190,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0417")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -8178,7 +8262,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0402")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -8251,7 +8335,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0405")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -8324,7 +8408,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0415")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -8400,7 +8484,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "R403")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -8476,7 +8560,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "C401")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -8552,7 +8636,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "C403")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -8624,7 +8708,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0403")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -8700,7 +8784,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "C402")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -8773,7 +8857,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0414")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -8847,7 +8931,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#FLG0401")
+					(reference "#FLG0201")
 					(unit 1)
 				)
 			)

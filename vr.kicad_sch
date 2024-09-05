@@ -1308,117 +1308,6 @@
 				)
 			)
 		)
-		(symbol "EMS:+SYS"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#PWR"
-				(at 4.572 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+SYS"
-				(at -0.254 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol for \"+SYSV\""
-				(at -0.508 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+SYS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+SYS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "EMS:-DCDC_1"
 			(power)
 			(pin_numbers hide)
@@ -1946,6 +1835,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2381,6 +2390,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 132.08) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ce4551-fafd-45d8-84f5-6e356e50293f")
+	)
+	(wire
+		(pts
+			(xy 80.01 194.31) (xy 85.09 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a81cc99-436c-49aa-b0bd-11b86ed274d3")
+	)
+	(wire
+		(pts
 			(xy 229.87 52.07) (xy 243.84 52.07)
 		)
 		(stroke
@@ -2538,6 +2567,16 @@
 			(type default)
 		)
 		(uuid "2c60bd3e-3baa-443c-909e-169fa732ea31")
+	)
+	(wire
+		(pts
+			(xy 85.09 194.31) (xy 85.09 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31636fff-bb37-44e5-89fb-bee82f1af5d3")
 	)
 	(wire
 		(pts
@@ -2998,16 +3037,6 @@
 			(type default)
 		)
 		(uuid "9639d0b5-1ec3-40c7-bf68-9481333e615d")
-	)
-	(wire
-		(pts
-			(xy 203.2 132.08) (xy 184.15 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983131fd-1b5d-405b-a3bf-b495a03df91f")
 	)
 	(wire
 		(pts
@@ -3652,7 +3681,7 @@
 		)
 		(uuid "0c30e111-ef4f-4e11-9d71-8bb5094c07b1")
 	)
-	(text "+DCDC_2 supplies Wi-Fi (Optional Component)"
+	(text "+DCDC_2 supplies SD Card and RS-485"
 		(exclude_from_sim no)
 		(at 24.13 157.48 0)
 		(effects
@@ -3810,8 +3839,8 @@
 		)
 		(uuid "3b3f7f58-c74c-47b6-91bf-9c46f45ea549")
 	)
-	(label "CHRG_CAP_C1-"
-		(at 185.42 132.08 0)
+	(label "CHRG_CAP-"
+		(at 184.15 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3821,7 +3850,7 @@
 		)
 		(uuid "5a040dde-f2c8-4a30-a127-56516f6459b8")
 	)
-	(label "CHRG_CAP_C1+"
+	(label "CHRG_CAP+"
 		(at 185.42 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3864,7 +3893,7 @@
 			)
 			(justify right)
 		)
-		(uuid "14faf1ad-6ae7-4ced-8bdf-a8f52bd777f4")
+		(uuid "a142031c-03ea-4b07-9bdb-1de5d1609dd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.3291 54.61 0)
 			(effects
@@ -3895,6 +3924,71 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 194.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "047614fb-02c4-4883-9d31-f48a03ecd308")
+		(property "Reference" "TP304"
+			(at 74.168 192.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 76.708 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
+			(at 80.01 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70804ff7-f737-429e-b37c-7738323084c9")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
+					(reference "TP304")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4381,6 +4475,72 @@
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:+DCDC_2")
+		(at 85.09 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aba10cb-000f-490e-a849-9b3ff5b5767e")
+		(property "Reference" "#PWR0326"
+			(at 85.09 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+DCDC_2"
+			(at 85.09 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol for \"+DCDC_2V\""
+			(at 85.852 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c91ea1db-f205-4afc-a388-8e7203dcbd34")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)
@@ -5187,7 +5347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3u3"
+		(property "Value" "10u"
 			(at 187.96 125.0949 0)
 			(effects
 				(font
@@ -5196,7 +5356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3.9"
+		(property "Footprint" "EMS:10SVPS10M"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -5223,7 +5383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nichicon"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -5232,7 +5392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "UZG1H3R3MCL1GB"
+		(property "Manufacturer_Part_Number" "10SVPS10M"
 			(at 184.15 124.46 0)
 			(effects
 				(font
@@ -5889,6 +6049,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 27.94 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8669e710-d023-47f1-99d7-a71fe1627dd7")
+		(property "Reference" "#PWR0313"
+			(at 27.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 27.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 27.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ee6222e-48b6-4192-8709-ca8867a65295")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EMS:-DCDC_1")
 		(at 49.53 189.23 0)
 		(unit 1)
@@ -6020,6 +6246,72 @@
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
 					(reference "TP303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 27.94 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "958467be-3dbd-4323-a486-d93019398f7a")
+		(property "Reference" "#PWR0303"
+			(at 27.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 27.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 27.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0999f14-5e4f-4ad8-96db-36c70cde13f6")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -6164,77 +6456,6 @@
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
 					(reference "L304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+SYS")
-		(at 27.94 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "a28fa6db-6668-4029-ad20-c22df2bcf1a2")
-		(property "Reference" "#PWR013"
-			(at 32.512 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+SYS"
-			(at 31.75 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+SYSV\""
-			(at 27.432 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2665269a-a25b-4968-b01a-498b94ad978f")
-		)
-		(instances
-			(project "AcousticMonitoringSystem"
-				(path "/25e778da-5dc5-4758-a36a-bcdc19e01b9c/e8ee9548-e211-479e-b215-f27a969505f8"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -7336,7 +7557,7 @@
 		(fields_autoplaced yes)
 		(uuid "e76d1520-75c6-46d0-a161-087c559161e9")
 		(property "Reference" "C310"
-			(at 242.57 139.0649 0)
+			(at 242.57 137.7949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,16 +7565,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3u3"
-			(at 234.95 137.7951 0)
+		(property "Value" "10u"
+			(at 242.57 140.3349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3.9"
+		(property "Footprint" "EMS:10SVPS10M"
 			(at 238.76 138.43 0)
 			(effects
 				(font
@@ -7380,7 +7601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nichicon"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 238.76 138.43 0)
 			(effects
 				(font
@@ -7389,7 +7610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "UZG1H3R3MCL1GB"
+		(property "Manufacturer_Part_Number" "10SVPS10M"
 			(at 238.76 138.43 0)
 			(effects
 				(font
@@ -7408,77 +7629,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
 					(reference "C310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+SYS")
-		(at 27.94 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "eaa7005c-7698-4f74-b8fe-a838a64920e2")
-		(property "Reference" "#PWR020"
-			(at 32.512 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+SYS"
-			(at 31.75 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+SYSV\""
-			(at 27.432 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d407bc08-5161-4d06-aef2-4db468d32d03")
-		)
-		(instances
-			(project "AcousticMonitoringSystem"
-				(path "/25e778da-5dc5-4758-a36a-bcdc19e01b9c/e8ee9548-e211-479e-b215-f27a969505f8"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0313")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,295 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e660428c-c9b7-476c-8ac8-2d419f233469")
+	(paper "A4")
+	(title_block
+		(title "Energy Monitoring System")
+		(date "2024-08-22")
+		(rev "v1.0.0")
+		(company "Manufacturing Innovation Network Laboratory (MINLab)")
+	)
+	(lib_symbols)
+	(text "[1] Power Management\n"
+		(exclude_from_sim no)
+		(at 58.166 27.94 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "288b3e25-01ad-4e4b-9930-e036e1dc0a31")
+	)
+	(text "[2] ADC\n"
+		(exclude_from_sim no)
+		(at 224.79 28.194 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "3eb7d725-c4ca-49f0-81f2-2c7d176d433c")
+	)
+	(text "[3] MCU\n"
+		(exclude_from_sim no)
+		(at 86.36 91.694 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "73a6274f-2343-4a74-9110-f2d23c1a45a6")
+	)
+	(text "[4] Interfacing\n\n"
+		(exclude_from_sim no)
+		(at 235.712 92.964 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "efad8227-ab9a-4e09-8a36-9484ff0e10e6")
+	)
+	(sheet
+		(at 215.9 97.79)
+		(size 39.37 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "107b47ad-de26-4dce-b636-52b3b123a40b")
+		(property "Sheetname" "SDCARD"
+			(at 215.9 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd_card.kicad_sch"
+			(at 215.9 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 36.83)
+		(size 39.37 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "609e23bd-fab9-4064-b1ef-0a1cfc73d358")
+		(property "Sheetname" "VR"
+			(at 76.2 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vr.kicad_sch"
+			(at 76.2 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 36.83)
+		(size 41.91 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7dd15615-8075-471d-b8bf-599b8660331d")
+		(property "Sheetname" "USB"
+			(at 124.46 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 124.46 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 38.1)
+		(size 36.83 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "817d89b0-4ccf-433f-9d8b-ff122ae0551e")
+		(property "Sheetname" "ADC"
+			(at 214.63 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 214.63 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 36.83)
+		(size 38.1 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c50b54ec-8626-41ce-8999-a3633e4e816f")
+		(property "Sheetname" "BM"
+			(at 25.4 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bm.kicad_sch"
+			(at 25.4 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 99.06)
+		(size 39.37 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f7438c3d-eabe-4528-b0fe-8c919241641f")
+		(property "Sheetname" "uC"
+			(at 76.2 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uC.kicad_sch"
+			(at 76.2 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

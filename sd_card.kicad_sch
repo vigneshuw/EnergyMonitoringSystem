@@ -4598,6 +4598,72 @@
 		)
 		(uuid "c1f6fca0-4bbd-4de1-874b-ec8b895205e9")
 	)
+	(label "SD_DAT0"
+		(at 204.47 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ed36fa5-5521-46f5-bb73-b1b6e78ea5b0")
+	)
+	(label "SD_DAT2"
+		(at 204.47 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30a5cad6-37eb-433a-bc7f-d7c660b23d4e")
+	)
+	(label "SD_DAT3"
+		(at 204.47 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55e910ac-f2e4-4240-9a44-0229f474e98b")
+	)
+	(label "SD_CLK"
+		(at 204.47 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b08f83b-f0fd-49d1-9b51-c24fe78927a1")
+	)
+	(label "SD_DAT1"
+		(at 204.47 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fb59268-16b6-41e1-8588-ffd49ecd23be")
+	)
+	(label "SD_CMD"
+		(at 204.47 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6638f55-f2f8-4ab1-8bcb-739080c014ca")
+	)
 	(global_label "SDMMC_D1"
 		(shape input)
 		(at 154.94 45.72 180)

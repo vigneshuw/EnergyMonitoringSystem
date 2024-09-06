@@ -393,13 +393,19 @@
           "label": "Arrow Part Number",
           "name": "Arrow Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor_Link",
+          "name": "Distributor_Link",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Distributor_Link"
     },
     "connection_grid_size": 50.0,
     "drawing": {

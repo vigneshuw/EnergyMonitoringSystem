@@ -573,8 +573,8 @@
         "name": "SPI",
         "pcb_color": "rgb(254, 255, 23)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.21,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -667,7 +667,7 @@
       },
       {
         "netclass": "ADC",
-        "pattern": "/ADC*"
+        "pattern": "*_Phase_*"
       },
       {
         "netclass": "SD",
@@ -684,6 +684,18 @@
       {
         "netclass": "PWR",
         "pattern": "+*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*/SPI*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "ADS*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*ADS_T"
       }
     ]
   },

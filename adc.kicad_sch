@@ -6914,7 +6914,7 @@
 		)
 		(uuid "0cada0ce-0d4f-48b5-8787-b8773b4366ca")
 	)
-	(label "LS_REF"
+	(label "LS_REF_C"
 		(at 139.7 347.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6936,7 +6936,7 @@
 		)
 		(uuid "0f252922-4215-49e8-9b73-02ed458cc53a")
 	)
-	(label "VB_REF"
+	(label "VB_REF_A"
 		(at 74.93 212.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6991,7 +6991,7 @@
 		)
 		(uuid "1f5b7e53-424a-48d6-a04c-36e1a9de3a96")
 	)
-	(label "VB_REF"
+	(label "VB_REF_A"
 		(at 96.52 194.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7013,7 +7013,7 @@
 		)
 		(uuid "29f6aa14-8667-4997-bc76-6a7d5562e414")
 	)
-	(label "LS_REF"
+	(label "LS_REF_A"
 		(at 137.16 209.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7046,7 +7046,7 @@
 		)
 		(uuid "42a1761c-50c7-4160-87a2-79e5a5ba7d27")
 	)
-	(label "LS_REF"
+	(label "LS_REF_A"
 		(at 99.06 228.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7057,7 +7057,7 @@
 		)
 		(uuid "4c3e4d93-2612-4484-a3b3-a211c85a5753")
 	)
-	(label "LS_REF"
+	(label "LS_REF_B"
 		(at 138.43 278.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7090,7 +7090,7 @@
 		)
 		(uuid "5c2102c0-a0d1-4a37-bec6-b13e17996614")
 	)
-	(label "VB_REF"
+	(label "VB_REF_B"
 		(at 97.79 262.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7167,7 +7167,7 @@
 		)
 		(uuid "7c62f9c0-f42a-4864-a2ff-7c23f7dbcd7a")
 	)
-	(label "VB_REF"
+	(label "VB_REF_C"
 		(at 99.06 332.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7178,7 +7178,7 @@
 		)
 		(uuid "84b8a25a-5115-4d60-a220-a5269b03eef8")
 	)
-	(label "LS_REF"
+	(label "LS_REF_B"
 		(at 100.33 297.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7211,7 +7211,7 @@
 		)
 		(uuid "91793770-12df-472a-b843-fd270528c5cb")
 	)
-	(label "VB_REF"
+	(label "VB_REF_B"
 		(at 76.2 280.67 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7244,7 +7244,7 @@
 		)
 		(uuid "b1c22e8b-7989-4fb6-9973-65e2bbeef32f")
 	)
-	(label "LS_REF"
+	(label "LS_REF_C"
 		(at 101.6 367.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7266,7 +7266,7 @@
 		)
 		(uuid "d5b9a82c-5b82-4a10-a2fe-5f729fa41d75")
 	)
-	(label "VB_REF"
+	(label "VB_REF_C"
 		(at 77.47 350.52 180)
 		(fields_autoplaced yes)
 		(effects

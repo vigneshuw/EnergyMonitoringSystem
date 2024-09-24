@@ -5435,7 +5435,7 @@
 		)
 		(uuid "fcd5d844-4a1d-4d31-8ac1-62a7881b0551")
 	)
-	(label "USB_OTG_DM"
+	(label "USB_OTG_D-"
 		(at 53.34 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5457,7 +5457,7 @@
 		)
 		(uuid "1312bb59-288c-45e0-911c-1f8ed5cd8090")
 	)
-	(label "USB_OTG_DM"
+	(label "USB_OTG_D-"
 		(at 53.34 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5479,7 +5479,7 @@
 		)
 		(uuid "1e680965-eb7f-48a2-b72d-c4622d8de5fd")
 	)
-	(label "USB_OTG_DP"
+	(label "USB_OTG_D+"
 		(at 53.34 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5523,7 +5523,7 @@
 		)
 		(uuid "7671018d-b9f7-4c21-b535-2d14759380e3")
 	)
-	(label "USB_OTG_DM"
+	(label "USB_OTG_D-"
 		(at 209.55 43.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5545,7 +5545,7 @@
 		)
 		(uuid "9ed0bc8b-bfe3-4ea5-9f16-7f2090defc4c")
 	)
-	(label "USB_OTG_DP"
+	(label "USB_OTG_D+"
 		(at 53.34 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5567,7 +5567,7 @@
 		)
 		(uuid "ecc02d5f-001f-4469-bad7-1606b426d8e6")
 	)
-	(label "USB_OTG_DP"
+	(label "USB_OTG_D+"
 		(at 209.55 68.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5589,7 +5589,7 @@
 		)
 		(uuid "ef377d30-77df-4f56-9d84-3e7fa22fcfc0")
 	)
-	(global_label "uC_OTG_DM"
+	(global_label "uC_OTG_D-"
 		(shape input)
 		(at 250.19 43.18 0)
 		(fields_autoplaced yes)
@@ -5601,7 +5601,7 @@
 		)
 		(uuid "663a0903-da66-4e35-b331-71e83a69ff03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.8189 43.18 0)
+			(at 263.9399 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5611,7 @@
 			)
 		)
 	)
-	(global_label "uC_OTG_DP"
+	(global_label "uC_OTG_D+"
 		(shape input)
 		(at 250.19 68.58 0)
 		(fields_autoplaced yes)
@@ -5623,7 +5623,7 @@
 		)
 		(uuid "97f0b4ca-dcfc-41cd-8187-859868345b10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.6375 68.58 0)
+			(at 263.9399 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -19296,7 +19296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EMS:ADS131M08IPBS-WQFN-A"
+		(property "Footprint" "EMS:ADS131M08IRSNR-QFN40"
 			(at 378.46 249.682 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-23891508223690850
+23893235552259593
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56724,6 +56724,13 @@ EMS
 ADS131M08IPBS-WQFN-A
 
 ADS131M08IRSNR 
+0
+33
+33
+EMS
+ADS131M08IRSNR-QFN40
+RSN (S-PWQFN-N32)
+Integrated Circuit
 0
 33
 33

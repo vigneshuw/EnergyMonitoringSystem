@@ -5641,10 +5641,6 @@
 		(uuid "10a8c691-5575-4529-aa6a-05b4eec35f53")
 	)
 	(no_connect
-		(at 360.68 153.67)
-		(uuid "2dc50087-06c5-4ef0-bdbe-fbcb223a038c")
-	)
-	(no_connect
 		(at 78.74 193.04)
 		(uuid "351673c3-a9b4-4250-a747-62fa30d57230")
 	)
@@ -9563,6 +9559,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADS_DRDY"
+		(shape input)
+		(at 360.68 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e3f87e9-8089-4aed-af08-3b5c1fe8ec40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 373.0995 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

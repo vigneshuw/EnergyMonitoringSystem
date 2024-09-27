@@ -571,7 +571,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SPI",
-        "pcb_color": "rgb(254, 255, 23)",
+        "pcb_color": "rgb(176, 177, 16)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.21,
         "via_diameter": 0.7,

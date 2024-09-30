@@ -1,4 +1,4 @@
-23893235552259593
+23896692400635232
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96137,6 +96137,20 @@ igbt diode module
 0
 25
 25
+VS-MINLab
+ESDALC6V1-1M2
+ESDALC6V1-1M2-3
+TVS Diode (Uni-directional)
+0
+2
+2
+VS-MINLab
+ST1PS02CQTR
+TQFN12
+Integrated Circuit
+0
+12
+12
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

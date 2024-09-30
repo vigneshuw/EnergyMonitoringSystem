@@ -32419,7 +32419,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C517"
-			(at 0.125 1.9 0)
+			(at 0.025 1.5 0)
 			(layer "F.SilkS")
 			(uuid "de82b296-3e08-4cfa-852a-301c38d98486")
 			(effects
@@ -32968,6 +32968,191 @@
 			)
 		)
 	)
+	(footprint "LOGO"
+		(layer "F.Cu")
+		(uuid "809ff04f-ec36-4fb6-9ec9-056abb14e3fb")
+		(at 187.6 54.5)
+		(property "Reference" "G***"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "41cd0c07-9252-4414-a18b-725482c1068b")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Value" "MINLab"
+			(at 0 7.1 0)
+			(layer "F.SilkS")
+			(uuid "2e3ef0c7-7902-4760-a0d3-55f9f07a9503")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbd93c66-74a4-4f7f-82f1-d0bc6787ee4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf1a49e1-191c-4e0b-a1ba-c927d33259a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d27ca82-9985-482c-a410-5dff8799cf1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_poly
+			(pts
+				(xy 6.009464 -4.41045) (xy 6.009464 -2.804416) (xy 5.406824 -2.804416) (xy 4.804183 -2.804416) (xy 4.825909 -4.386908)
+				(xy 4.847634 -5.9694) (xy 5.428549 -5.992942) (xy 6.009464 -6.016483)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "a84b7064-91e7-465c-bfd5-ed40e79913f2")
+		)
+		(fp_poly
+			(pts
+				(xy 6.009464 3.565615) (xy 6.009464 4.166562) (xy 4.40694 4.166562) (xy 2.804417 4.166562) (xy 2.804417 3.565615)
+				(xy 2.804417 2.964669) (xy 4.40694 2.964669) (xy 6.009464 2.964669)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "0afc787b-201a-4a84-aa0d-ad138a626f67")
+		)
+		(fp_poly
+			(pts
+				(xy 6.009464 5.368454) (xy 6.009464 5.929338) (xy 4.40694 5.929338) (xy 2.804417 5.929338) (xy 2.804417 5.368454)
+				(xy 2.804417 4.807571) (xy 4.40694 4.807571) (xy 6.009464 4.807571)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "23f47771-f849-40aa-8517-fffa49dbbee3")
+		)
+		(fp_poly
+			(pts
+				(xy -3.044795 4.40694) (xy -3.044795 6.009464) (xy -3.552261 6.009464) (xy -3.824259 6.001605) (xy -4.028277 5.981125)
+				(xy -4.113144 5.956046) (xy -4.129702 5.862859) (xy -4.144171 5.634955) (xy -4.155701 5.297863)
+				(xy -4.163441 4.877114) (xy -4.166539 4.398239) (xy -4.166561 4.353523) (xy -4.166561 2.804417)
+				(xy -3.605678 2.804417) (xy -3.044795 2.804417)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "84221a0d-d4dd-4a10-8618-33c73c5e4f86")
+		)
+		(fp_poly
+			(pts
+				(xy 2.385448 -4.386908) (xy 2.407173 -2.804416) (xy 1.813106 -2.804416) (xy 1.484623 -2.812776)
+				(xy 1.286448 -2.841518) (xy 1.18933 -2.896132) (xy 1.172917 -2.924605) (xy 1.145205 -2.953573) (xy 1.077331 -2.977578)
+				(xy 0.955812 -2.99707) (xy 0.767166 -3.012496) (xy 0.49791 -3.024306) (xy 0.134562 -3.032946) (xy -0.336361 -3.038867)
+				(xy -0.928342 -3.042516) (xy -1.654863 -3.044341) (xy -2.441334 -3.044795) (xy -6.009463 -3.044795)
+				(xy -6.009463 -3.605678) (xy -6.009463 -4.166561) (xy -2.403785 -4.166561) (xy 1.201893 -4.166561)
+				(xy 1.201893 -4.487066) (xy 1.201893 -4.807571) (xy -2.407296 -4.807571) (xy -6.016483 -4.807571)
+				(xy -5.992942 -5.388486) (xy -5.9694 -5.9694) (xy -1.802839 -5.9694) (xy 2.363723 -5.9694)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "4ed6ebf2-ab5e-4193-a1fa-4891ff00730d")
+		)
+		(fp_poly
+			(pts
+				(xy 4.166562 -2.403785) (xy 4.166562 1.201893) (xy 4.487066 1.201893) (xy 4.807571 1.201893) (xy 4.807571 -0.400631)
+				(xy 4.807571 -2.003154) (xy 5.408518 -2.003154) (xy 6.009464 -2.003154) (xy 6.009464 0.200316) (xy 6.009464 2.403786)
+				(xy 4.40694 2.403786) (xy 2.804417 2.403786) (xy 2.804417 1.802839) (xy 2.810713 1.485856) (xy 2.833464 1.299791)
+				(xy 2.878468 1.215662) (xy 2.924606 1.201893) (xy 2.953368 1.186196) (xy 2.977231 1.130266) (xy 2.996637 1.020839)
+				(xy 3.012026 0.844655) (xy 3.023843 0.588453) (xy 3.032528 0.238971) (xy 3.038523 -0.217053) (xy 3.042271 -0.79288)
+				(xy 3.044214 -1.501771) (xy 3.044794 -2.356988) (xy 3.044795 -2.403785) (xy 3.044795 -6.009463)
+				(xy 3.605678 -6.009463) (xy 4.166562 -6.009463)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "28ea5746-7084-4077-a3c8-7dd63a23bfeb")
+		)
+		(fp_poly
+			(pts
+				(xy 1.201893 -2.204295) (xy 1.209287 -2.101989) (xy 1.253975 -2.042021) (xy 1.369715 -2.01309) (xy 1.590265 -2.003897)
+				(xy 1.802839 -2.003154) (xy 2.403786 -2.003154) (xy 2.403786 -0.400631) (xy 2.403786 1.201893) (xy 2.20347 1.201893)
+				(xy 2.101581 1.209382) (xy 2.041857 1.254354) (xy 2.013044 1.370563) (xy 2.003891 1.591767) (xy 2.003155 1.802839)
+				(xy 2.003155 2.403786) (xy 0.400631 2.403786) (xy -1.201893 2.403786) (xy -1.201893 2.684227) (xy -1.201893 2.964669)
+				(xy 0.400631 2.964669) (xy 2.003155 2.964669) (xy 2.003155 3.565615) (xy 2.003155 4.166562) (xy 0.400631 4.166562)
+				(xy -1.201893 4.166562) (xy -1.201893 4.487066) (xy -1.201893 4.807571) (xy 0.400631 4.807571) (xy 2.003155 4.807571)
+				(xy 2.003155 5.356357) (xy 2.003155 5.905144) (xy -0.140082 5.949738) (xy -0.711095 5.960235) (xy -1.229298 5.967114)
+				(xy -1.673175 5.970304) (xy -2.02121 5.969732) (xy -2.251887 5.965327) (xy -2.343552 5.957107) (xy -2.356042 5.871765)
+				(xy -2.367657 5.642477) (xy -2.378123 5.285548) (xy -2.387169 4.817283) (xy -2.394522 4.253988)
+				(xy -2.399909 3.611968) (xy -2.403057 2.907527) (xy -2.403785 2.354157) (xy -2.403785 0) (xy -1.201893 0)
+				(xy -1.201893 1.201893) (xy 0 1.201893) (xy 1.201893 1.201893) (xy 1.201893 0) (xy 1.201893 -1.201893)
+				(xy 0 -1.201893) (xy -1.201893 -1.201893) (xy -1.201893 0) (xy -2.403785 0) (xy -2.403785 -1.211566)
+				(xy -2.704258 -1.186698) (xy -3.004732 -1.161829) (xy -3.026457 0.420663) (xy -3.048182 2.003155)
+				(xy -3.607372 2.003155) (xy -4.166561 2.003155) (xy -4.166561 0.400631) (xy -4.166561 -1.201893)
+				(xy -4.486241 -1.201893) (xy -4.805921 -1.201893) (xy -4.826777 2.383754) (xy -4.847634 5.969401)
+				(xy -5.389586 5.993118) (xy -5.714279 5.996038) (xy -5.902023 5.967867) (xy -5.971311 5.912992)
+				(xy -5.978646 5.814749) (xy -5.98474 5.571792) (xy -5.989522 5.199654) (xy -5.992924 4.71387) (xy -5.994875 4.129973)
+				(xy -5.995304 3.463496) (xy -5.994141 2.729975) (xy -5.991317 1.944942) (xy -5.990243 1.722713)
+				(xy -5.9694 -2.363722) (xy -2.383754 -2.384579) (xy 1.201893 -2.405435)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "4b578716-83de-488c-82f1-de38196137c6")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8185f6ba-9a24-4737-9bf6-055b94d324d8")
@@ -33253,7 +33438,7 @@
 		(descr "ESDALC6V1-1M2-3")
 		(tags "TVS Diode (Uni-directional)")
 		(property "Reference" "D401"
-			(at 0.075 -2.65 0)
+			(at -0.025 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "3137afed-f5c9-4dcb-bd5c-b13169f25095")
 			(effects
@@ -64308,6 +64493,136 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ebc051f5-e090-4cb0-bf1e-19e2fe65c770")
+	)
+	(gr_text "Isolated CNC\nInterface"
+		(at 150.3 45.3 0)
+		(layer "F.SilkS" knockout)
+		(uuid "164cad3b-fa06-4d04-a27b-c96385d58bbc")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Isolated RS485"
+		(at 186.2 123.6 90)
+		(layer "F.SilkS" knockout)
+		(uuid "4a4fe174-3fb8-4156-82a8-0d7731de189b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Current Input"
+		(at 97.5 109.6 0)
+		(layer "F.SilkS" knockout)
+		(uuid "4c96ea86-5f60-40ed-9803-6ab5b3f8af91")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Phase-B"
+		(at 55.9 79.1 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7d006ce1-7c0d-422c-8c5b-68daf0888e3a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Phase-A"
+		(at 56.3 51.1 0)
+		(layer "F.SilkS" knockout)
+		(uuid "8d54c802-ec04-4954-8927-e69e6aba7d7c")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SD Data\nLogging"
+		(at 176.8 139.6 0)
+		(layer "F.SilkS" knockout)
+		(uuid "c8ec3648-26dc-402c-b421-e718c6773608")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "USB FS"
+		(at 73.8 42.2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "cfc4251c-5f98-4cd2-894b-1d93fbb4a43f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Voltage Input"
+		(at 82.5 101.9 90)
+		(layer "F.SilkS" knockout)
+		(uuid "d58ab1f1-0b3f-4312-9b12-9da45f050d9d")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Bluetooth"
+		(at 138.1 124.5 0)
+		(layer "F.SilkS" knockout)
+		(uuid "dd60b237-4c8f-43d2-9a27-8bcf93cda32d")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Phase-C"
+		(at 55.7 107.5 0)
+		(layer "F.SilkS" knockout)
+		(uuid "e4d9ef82-7fbe-40fb-89a9-a5d8a6b6a304")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 109.4125 43.275)

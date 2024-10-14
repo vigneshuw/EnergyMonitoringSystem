@@ -1600,123 +1600,129 @@
 				)
 			)
 		)
-		(symbol "EMS:TSV914AIDR"
+		(symbol "EMS:TSV911ILT"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 6.858 11.176 0)
+				(at 0 12.7 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "TSV914AIDR"
-				(at 0.508 -11.938 0)
+			(property "Value" "TSV911ILT"
+				(at 0 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "EMS:TSV914AIDR-SOIC-14"
-				(at 24.13 -94.92 0)
+			(property "Footprint" "EMS:TSV911ILT_SOT23-5"
+				(at 6.096 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/tsv914"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "8-MHz, Low-Noise, Low Offset, RRIO General Purpose CMOS Operational Amplifier"
-				(at 3.302 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Height" "1.75"
-				(at 24.13 -394.92 0)
+			(property "Datasheet" "TSV911ILT"
+				(at 8.128 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -20.32 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-TSV914AIDR"
-				(at 24.13 -494.92 0)
+			(property "ki_keywords" "TSV911ILT"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TSV914AIDR?qs=j%252B1pi9TdxUbYpr7UiDKnMQ%3D%3D"
-				(at 24.13 -594.92 0)
+			(property "ki_fp_filters" "SOT23-5_STM SOT23-5_STM-M SOT23-5_STM-L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "TSV911ILT_0_1"
+				(polyline
+					(pts
+						(xy -12.7 -7.62) (xy 12.7 -7.62)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TSV914AIDR"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TSV914AIDR_1_1"
-				(rectangle
-					(start -8.89 8.89)
-					(end 8.89 -11.43)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at -13.97 6.35 0)
-					(length 5.08)
-					(name "OUTA"
+				(polyline
+					(pts
+						(xy -12.7 7.62) (xy -12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 12.7 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 7.62) (xy -12.7 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at -20.32 2.54 0)
+					(length 7.62)
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1731,100 +1737,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 13.97 -3.81 180)
-					(length 5.08)
-					(name "+INC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 13.97 -1.27 180)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 1.27 180)
-					(length 5.08)
-					(name "+IND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 3.81 180)
-					(length 5.08)
-					(name "-IND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 6.35 180)
-					(length 5.08)
-					(name "OUTD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 3.81 0)
-					(length 5.08)
-					(name "-INA"
+					(at -20.32 0 0)
+					(length 7.62)
+					(name "VCC-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1840,9 +1756,9 @@
 					)
 				)
 				(pin input line
-					(at -13.97 1.27 0)
-					(length 5.08)
-					(name "+INA"
+					(at 20.32 -2.54 180)
+					(length 7.62)
+					(name "IN+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1857,10 +1773,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -13.97 -1.27 0)
-					(length 5.08)
-					(name "V+"
+				(pin input line
+					(at 20.32 0 180)
+					(length 7.62)
+					(name "IN-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1875,10 +1791,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -13.97 -3.81 0)
-					(length 5.08)
-					(name "+INB"
+				(pin power_in line
+					(at 20.32 2.54 180)
+					(length 7.62)
+					(name "VCC+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1886,812 +1802,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -6.35 0)
-					(length 5.08)
-					(name "-INB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -8.89 0)
-					(length 5.08)
-					(name "OUTB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -8.89 180)
-					(length 5.08)
-					(name "OUTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -6.35 180)
-					(length 5.08)
-					(name "-INC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TSV914AIDR_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.858 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TSV914AIDR"
-				(at 0.508 -11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "EMS:TSV914AIDR-SOIC-14"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/tsv914"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "8-MHz, Low-Noise, Low Offset, RRIO General Purpose CMOS Operational Amplifier"
-				(at 3.302 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.75"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TSV914AIDR"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TSV914AIDR?qs=j%252B1pi9TdxUbYpr7UiDKnMQ%3D%3D"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TSV914AIDR"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TSV914AIDR_1_1_1"
-				(rectangle
-					(start -8.89 8.89)
-					(end 8.89 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -13.97 6.35 0)
-					(length 5.08)
-					(name "OUTA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -3.81 180)
-					(length 5.08)
-					(name "+INC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -1.27 180)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 1.27 180)
-					(length 5.08)
-					(name "+IND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 3.81 180)
-					(length 5.08)
-					(name "-IND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 6.35 180)
-					(length 5.08)
-					(name "OUTD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 3.81 0)
-					(length 5.08)
-					(name "-INA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 1.27 0)
-					(length 5.08)
-					(name "+INA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -13.97 -1.27 0)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -3.81 0)
-					(length 5.08)
-					(name "+INB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -6.35 0)
-					(length 5.08)
-					(name "-INB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -8.89 0)
-					(length 5.08)
-					(name "OUTB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -8.89 180)
-					(length 5.08)
-					(name "OUTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -6.35 180)
-					(length 5.08)
-					(name "-INC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TSV914AIDR_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.858 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TSV914AIDR"
-				(at 0.508 -11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "EMS:TSV914AIDR-SOIC-14"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/tsv914"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "8-MHz, Low-Noise, Low Offset, RRIO General Purpose CMOS Operational Amplifier"
-				(at 3.302 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.75"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-TSV914AIDR"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TSV914AIDR?qs=j%252B1pi9TdxUbYpr7UiDKnMQ%3D%3D"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TSV914AIDR"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TSV914AIDR_2_1_1"
-				(rectangle
-					(start -8.89 8.89)
-					(end 8.89 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -13.97 6.35 0)
-					(length 5.08)
-					(name "OUTA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -3.81 180)
-					(length 5.08)
-					(name "+INC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -1.27 180)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 1.27 180)
-					(length 5.08)
-					(name "+IND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 3.81 180)
-					(length 5.08)
-					(name "-IND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 6.35 180)
-					(length 5.08)
-					(name "OUTD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 3.81 0)
-					(length 5.08)
-					(name "-INA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 1.27 0)
-					(length 5.08)
-					(name "+INA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -13.97 -1.27 0)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -3.81 0)
-					(length 5.08)
-					(name "+INB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -6.35 0)
-					(length 5.08)
-					(name "-INB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -8.89 0)
-					(length 5.08)
-					(name "OUTB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -8.89 180)
-					(length 5.08)
-					(name "OUTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -6.35 180)
-					(length 5.08)
-					(name "-INC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2817,16 +1927,16 @@
 		(uuid "042d22d0-4d6b-490f-8ff6-e6f26ae94b81")
 	)
 	(junction
-		(at 88.9 267.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "082282df-e87a-4688-9d68-20a46016fa83")
-	)
-	(junction
 		(at 127 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08eb150f-d2df-47c5-b898-d2a95675a840")
+	)
+	(junction
+		(at 62.23 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09f559bb-8b7d-4a2f-9976-5674fc5df1f1")
 	)
 	(junction
 		(at 96.52 142.24)
@@ -2839,18 +1949,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e633dfa-7846-4212-bea3-39d0078c59b4")
-	)
-	(junction
-		(at 90.17 337.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fa8d844-d24e-471f-878e-4c9cb8d4e87f")
-	)
-	(junction
-		(at 64.77 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15dd8b0d-eded-45a8-b96f-7ab5838b107e")
 	)
 	(junction
 		(at 146.05 118.11)
@@ -2919,22 +2017,10 @@
 		(uuid "34bb9567-bd89-4573-8a45-eee9017fc494")
 	)
 	(junction
-		(at 87.63 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35dbed10-d1d9-4add-88ec-8ec61c70c534")
-	)
-	(junction
 		(at 127 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38b8277f-1847-4142-aa4e-60e6d2d82a5b")
-	)
-	(junction
-		(at 90.17 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b23a31b-3417-46c8-aa5f-d76fb8927d1f")
 	)
 	(junction
 		(at 96.52 104.14)
@@ -2947,6 +2033,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "434092c9-3bfc-4aa0-849a-479e142e2376")
+	)
+	(junction
+		(at 64.77 372.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43a138d3-c60f-46df-b7f8-a23fa4eda02a")
 	)
 	(junction
 		(at 146.05 142.24)
@@ -2967,10 +2059,10 @@
 		(uuid "4bc2ec61-44a3-4da3-b7ce-08119632f3a8")
 	)
 	(junction
-		(at 66.04 278.13)
+		(at 62.23 300.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f7f0669-f08d-47e2-b7d7-fe77a05076d3")
+		(uuid "4c2b261e-bb8e-4fe3-a287-1c60281ff8ed")
 	)
 	(junction
 		(at 196.85 340.36)
@@ -2979,52 +2071,22 @@
 		(uuid "52dfbb1e-8c23-450e-9c97-67dc4c398e44")
 	)
 	(junction
-		(at 87.63 199.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5555555c-3c44-4408-90fe-c6cc192725db")
-	)
-	(junction
-		(at 91.44 297.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56382d1e-d7ac-4894-a971-99ad47508d78")
-	)
-	(junction
 		(at 127 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59e8ef6f-32f1-44fb-95af-512d84579b49")
 	)
 	(junction
-		(at 74.93 327.66)
+		(at 124.46 353.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e3a878a-36c4-4afc-810a-428103155ad5")
-	)
-	(junction
-		(at 143.51 353.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62ff147f-bc62-492a-a3f8-c226375b6f82")
-	)
-	(junction
-		(at 72.39 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "785b096b-7aac-491a-9252-725f8e48c26d")
+		(uuid "74366424-2d1b-4830-824d-b0c7de6670f6")
 	)
 	(junction
 		(at 347.98 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ec96170-bc20-4e27-a075-e3e5af892ad0")
-	)
-	(junction
-		(at 125.73 283.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e853dcb-076b-43b2-a6c3-db1d56093b90")
 	)
 	(junction
 		(at 43.18 118.11)
@@ -3037,12 +2099,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8faf4fbc-35a3-4d20-998e-702f01b38707")
-	)
-	(junction
-		(at 140.97 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "957cccce-311d-4582-9576-9136da58608c")
 	)
 	(junction
 		(at 316.23 207.01)
@@ -3063,16 +2119,10 @@
 		(uuid "a824279e-6ec5-4f44-988f-69e19eec545e")
 	)
 	(junction
-		(at 142.24 283.21)
+		(at 123.19 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a8f55447-266e-44ae-8e94-ecd26e66ba32")
-	)
-	(junction
-		(at 67.31 347.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b88a716a-ea9f-4af7-ba0e-c86d107e1ce3")
+		(uuid "b4d1dab8-256e-428a-bee3-d4e5005bd33b")
 	)
 	(junction
 		(at 43.18 80.01)
@@ -3099,28 +2149,16 @@
 		(uuid "be0c29dd-b6fa-4d99-8ded-87db0aedb697")
 	)
 	(junction
-		(at 124.46 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c15f8d26-d18f-4c02-8627-d0eaeeb768e9")
-	)
-	(junction
-		(at 127 353.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c802f61c-c5cd-49ef-b6a4-114bcd9b8381")
-	)
-	(junction
 		(at 96.52 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8f299cd-ec52-436f-b1e5-db987b7e69cb")
 	)
 	(junction
-		(at 73.66 257.81)
+		(at 120.65 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "caa4d92c-051c-4897-9588-b916b2f5bd62")
+		(uuid "cb005a75-72ac-4d2c-b5b5-9af74e3af4d6")
 	)
 	(junction
 		(at 415.29 237.49)
@@ -3133,12 +2171,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d91a2a1a-581e-4d2d-990a-3427c0216306")
-	)
-	(junction
-		(at 90.17 350.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da5e3c69-201f-4230-b819-c1ab8e59b9da")
 	)
 	(junction
 		(at 146.05 104.14)
@@ -3159,12 +2191,6 @@
 		(uuid "f3591210-be20-456a-b376-3eaa751818f3")
 	)
 	(junction
-		(at 88.9 280.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3bf2194-dfdf-4af2-b58d-626082951f05")
-	)
-	(junction
 		(at 127 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3175,12 +2201,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f70046fb-5ba4-418b-b7dd-c8acbdc025ba")
-	)
-	(junction
-		(at 92.71 367.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8c8f2c1-6346-49b3-b1f6-3c821625c969")
 	)
 	(junction
 		(at 146.05 41.91)
@@ -3195,10 +2215,6 @@
 		(uuid "fe6ff616-8ad1-4075-a9a6-b0fd953e6656")
 	)
 	(no_connect
-		(at 124.46 340.36)
-		(uuid "01e335e3-442f-4e7e-bdf7-e3b6485a7692")
-	)
-	(no_connect
 		(at 353.06 240.03)
 		(uuid "0529ab76-a9ee-4692-b0b4-767821d329fc")
 	)
@@ -3207,52 +2223,20 @@
 		(uuid "197f9394-2644-4883-9668-72fbeec9b784")
 	)
 	(no_connect
-		(at 123.19 273.05)
-		(uuid "1a2c06a3-0d4a-4411-b104-9d614d31b905")
-	)
-	(no_connect
 		(at 403.86 176.53)
 		(uuid "1adbc99c-c940-430c-874a-17ad8cd98657")
-	)
-	(no_connect
-		(at 123.19 267.97)
-		(uuid "5068ad2c-d584-4ad7-b712-dca3fa886f70")
 	)
 	(no_connect
 		(at 353.06 222.25)
 		(uuid "9cfddda2-7cc7-4000-bf66-bc7d879e172e")
 	)
 	(no_connect
-		(at 121.92 199.39)
-		(uuid "abe7e4d9-1d64-4cb9-a173-091d052308f4")
-	)
-	(no_connect
-		(at 124.46 342.9)
-		(uuid "b4725894-60e2-43c1-886a-1eceeae652fa")
-	)
-	(no_connect
 		(at 353.06 219.71)
 		(uuid "bb2d5586-8f7c-4a76-9aba-52dd4b6eb873")
 	)
 	(no_connect
-		(at 121.92 204.47)
-		(uuid "c06b7ed5-d2a7-40ea-b9af-aaa7cd002b40")
-	)
-	(no_connect
 		(at 353.06 227.33)
 		(uuid "cfcdbe3f-8771-436d-9dea-8e0d55575abc")
-	)
-	(no_connect
-		(at 124.46 337.82)
-		(uuid "d076d5c0-5b19-4483-9d7e-fe8f60d86536")
-	)
-	(no_connect
-		(at 121.92 201.93)
-		(uuid "e3c643f7-d36c-4388-ad2d-acb462377795")
-	)
-	(no_connect
-		(at 123.19 270.51)
-		(uuid "f933f3c1-7f89-4a50-97c6-05062fcb69bd")
 	)
 	(wire
 		(pts
@@ -3266,16 +2250,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 297.18) (xy 76.2 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00630dc9-c03f-438f-8853-ef8884cacfa0")
-	)
-	(wire
-		(pts
 			(xy 213.36 270.51) (xy 232.41 270.51)
 		)
 		(stroke
@@ -3283,16 +2257,6 @@
 			(type default)
 		)
 		(uuid "00b3767e-2f77-4a93-a1a4-1452817b01b0")
-	)
-	(wire
-		(pts
-			(xy 67.31 359.41) (xy 67.31 361.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00d6c9eb-4193-4bcb-8710-7595110c3fdc")
 	)
 	(wire
 		(pts
@@ -3336,13 +2300,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 280.67) (xy 142.24 283.21)
+			(xy 113.03 283.21) (xy 123.19 283.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0616c591-26ac-4334-8486-6572c433228f")
+		(uuid "05efd84d-5640-4c50-bc17-ac089dcf47fc")
 	)
 	(wire
 		(pts
@@ -3353,16 +2317,6 @@
 			(type default)
 		)
 		(uuid "0634eaaa-b77a-4454-8a8d-f8945baeb422")
-	)
-	(wire
-		(pts
-			(xy 95.25 283.21) (xy 91.44 283.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06d955ae-2dd2-4a81-a63b-1fe18cc1a834")
 	)
 	(wire
 		(pts
@@ -3386,6 +2340,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 214.63) (xy 120.65 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07520f51-6cd4-432b-af26-e30d233c283f")
+	)
+	(wire
+		(pts
 			(xy 158.75 41.91) (xy 146.05 41.91)
 		)
 		(stroke
@@ -3393,6 +2357,16 @@
 			(type default)
 		)
 		(uuid "076b74ff-19e9-4e72-9584-d94bb23241a0")
+	)
+	(wire
+		(pts
+			(xy 72.39 353.06) (xy 68.58 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09abb1b5-feb6-46dd-bd3a-611abaf128aa")
 	)
 	(wire
 		(pts
@@ -3446,26 +2420,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 347.98) (xy 139.7 347.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e0fe87e-4845-4f8d-9630-7213cc2fe28c")
-	)
-	(wire
-		(pts
-			(xy 95.25 278.13) (xy 66.04 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "119215d2-0561-437e-896a-09ee951d3b22")
-	)
-	(wire
-		(pts
 			(xy 96.52 118.11) (xy 105.41 118.11)
 		)
 		(stroke
@@ -3506,16 +2460,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 337.82) (xy 90.17 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ab81f2-498d-4eab-b2f6-38eb60fb34ec")
-	)
-	(wire
-		(pts
 			(xy 113.03 66.04) (xy 127 66.04)
 		)
 		(stroke
@@ -3546,16 +2490,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 350.52) (xy 81.28 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15112f48-0f00-43e8-86ba-55ed25835b8a")
-	)
-	(wire
-		(pts
 			(xy 163.83 54.61) (xy 158.75 54.61)
 		)
 		(stroke
@@ -3566,23 +2500,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 353.06) (xy 127 353.06)
+			(xy 116.84 212.09) (xy 116.84 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15dfb109-3c14-4a73-8247-ac48d9a9b356")
-	)
-	(wire
-		(pts
-			(xy 143.51 350.52) (xy 143.51 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17211adb-b666-4bc4-ad44-86786cb2d72d")
+		(uuid "1653bf3f-7180-4497-9bc2-9e91c1a0c25a")
 	)
 	(wire
 		(pts
@@ -3666,16 +2590,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 247.65) (xy 73.66 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212258b0-782d-45f4-b87b-7e2fc25e55c8")
-	)
-	(wire
-		(pts
 			(xy 337.82 173.99) (xy 353.06 173.99)
 		)
 		(stroke
@@ -3686,6 +2600,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 350.52) (xy 116.84 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22636b52-3116-48e4-8b43-ddb6167e417f")
+	)
+	(wire
+		(pts
 			(xy 496.57 187.96) (xy 496.57 193.04)
 		)
 		(stroke
@@ -3693,16 +2617,6 @@
 			(type default)
 		)
 		(uuid "2335b7f8-919a-411e-89ab-46e7eb5947ad")
-	)
-	(wire
-		(pts
-			(xy 87.63 194.31) (xy 87.63 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "238b4c3d-5f2b-418e-98a3-4e06e4802cff")
 	)
 	(wire
 		(pts
@@ -3736,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 347.98) (xy 54.61 347.98)
+			(xy 36.83 347.98) (xy 72.39 347.98)
 		)
 		(stroke
 			(width 0)
@@ -3766,16 +2680,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 337.82) (xy 90.17 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26a32d7d-2a34-4b1b-9fe2-3fe731b6f7dc")
-	)
-	(wire
-		(pts
 			(xy 43.18 95.25) (xy 43.18 104.14)
 		)
 		(stroke
@@ -3786,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 278.13) (xy 53.34 278.13)
+			(xy 35.56 278.13) (xy 72.39 278.13)
 		)
 		(stroke
 			(width 0)
@@ -3806,36 +2710,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 280.67) (xy 95.25 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28e292d0-5496-436b-b97a-0e407e182d60")
-	)
-	(wire
-		(pts
-			(xy 140.97 224.79) (xy 140.97 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29d95195-a0c4-4e0b-8c95-899f9110f578")
-	)
-	(wire
-		(pts
-			(xy 135.89 283.21) (xy 142.24 283.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a6a5e9d-a3c8-448b-ba9e-07866539a4bd")
-	)
-	(wire
-		(pts
 			(xy 516.89 205.74) (xy 516.89 212.09)
 		)
 		(stroke
@@ -3843,16 +2717,6 @@
 			(type default)
 		)
 		(uuid "2af596fe-997f-4689-be52-c2b0c51f1faf")
-	)
-	(wire
-		(pts
-			(xy 93.98 207.01) (xy 58.42 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b64e10f-a739-4ab9-8d3a-ee971b198111")
 	)
 	(wire
 		(pts
@@ -3866,26 +2730,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 350.52) (xy 143.51 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e16d63f-c198-4b78-bb62-21f93999b82f")
-	)
-	(wire
-		(pts
-			(xy 74.93 317.5) (xy 74.93 314.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e247420-cbee-49cb-a16c-dbda59cbf838")
-	)
-	(wire
-		(pts
 			(xy 158.75 118.11) (xy 146.05 118.11)
 		)
 		(stroke
@@ -3893,16 +2737,6 @@
 			(type default)
 		)
 		(uuid "2f051449-95de-486a-822a-35c6c885372f")
-	)
-	(wire
-		(pts
-			(xy 74.93 327.66) (xy 74.93 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fdbfaa3-4097-40da-be60-eebd4cb58d4b")
 	)
 	(wire
 		(pts
@@ -3916,16 +2750,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 273.05) (xy 80.01 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c1aec5-3d8b-4be9-8e1b-7abfce39ecf7")
-	)
-	(wire
-		(pts
 			(xy 403.86 191.77) (xy 424.18 191.77)
 		)
 		(stroke
@@ -3933,16 +2757,6 @@
 			(type default)
 		)
 		(uuid "32d33787-8ae1-4e1f-b992-e3f971323ed8")
-	)
-	(wire
-		(pts
-			(xy 88.9 262.89) (xy 88.9 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a8cdfc-2ce5-45f0-b3e3-927a1191455e")
 	)
 	(wire
 		(pts
@@ -3993,6 +2807,16 @@
 			(type default)
 		)
 		(uuid "3602aee0-5371-4c03-982f-4f4cf4adc63e")
+	)
+	(wire
+		(pts
+			(xy 64.77 384.81) (xy 64.77 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364607be-736b-48d6-aba8-e865deb74bff")
 	)
 	(wire
 		(pts
@@ -4056,16 +2880,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 367.03) (xy 77.47 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b58c053-bec1-47bf-b8e1-b0117330e35b")
-	)
-	(wire
-		(pts
 			(xy 194.31 214.63) (xy 194.31 220.98)
 		)
 		(stroke
@@ -4076,13 +2890,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 189.23) (xy 72.39 193.04)
+			(xy 120.65 231.14) (xy 88.9 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d6c5a01-ba47-4cff-9580-62a1261a431a")
+		(uuid "3dfaad86-418b-408c-bdcd-3250f4c14c45")
 	)
 	(wire
 		(pts
@@ -4096,33 +2910,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 207.01) (xy 140.97 207.01)
+			(xy 72.39 283.21) (xy 68.58 283.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40803c3c-a6fe-45d4-9e2a-ccdab7211cf3")
+		(uuid "3fd7f8d5-2902-4000-84ea-385063b79607")
 	)
 	(wire
 		(pts
-			(xy 157.48 232.41) (xy 124.46 232.41)
+			(xy 116.84 328.93) (xy 116.84 350.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40d3e799-6476-43a6-9c64-663fb461d66a")
-	)
-	(wire
-		(pts
-			(xy 74.93 228.6) (xy 74.93 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42330984-099c-45b2-bf48-b47958150b56")
+		(uuid "41516bbe-4c27-467a-93f8-08bc76ce545b")
 	)
 	(wire
 		(pts
@@ -4146,13 +2950,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 199.39) (xy 87.63 199.39)
+			(xy 120.65 201.93) (xy 176.53 201.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45227601-23fd-40dd-a76d-8e8a380f6eee")
+		(uuid "44976e00-07f8-4ebb-b8f6-4f5c80698976")
 	)
 	(wire
 		(pts
@@ -4186,46 +2990,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 278.13) (xy 66.04 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "477ab2ab-0f29-4a69-b6e6-42c50bff998d")
-	)
-	(wire
-		(pts
-			(xy 87.63 280.67) (xy 88.9 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d296c8-77ef-4266-aa79-24b0ac3736e9")
-	)
-	(wire
-		(pts
-			(xy 87.63 215.9) (xy 87.63 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a802dfc-c576-4bb1-9c91-68fa5d58380e")
-	)
-	(wire
-		(pts
-			(xy 88.9 267.97) (xy 88.9 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b2bb7e6-a551-49d5-9b1e-023f10712773")
-	)
-	(wire
-		(pts
 			(xy 146.05 125.73) (xy 146.05 118.11)
 		)
 		(stroke
@@ -4233,16 +2997,6 @@
 			(type default)
 		)
 		(uuid "4b933c46-49cb-4a0f-ad26-915d84ae750b")
-	)
-	(wire
-		(pts
-			(xy 91.44 297.18) (xy 100.33 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c0b2d12-87e0-4c48-9418-e62adf4508ac")
 	)
 	(wire
 		(pts
@@ -4276,13 +3030,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 228.6) (xy 90.17 228.6)
+			(xy 62.23 280.67) (xy 62.23 300.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d89a068-a7ec-43ab-8785-1f91e4d00c3a")
+		(uuid "4ce8cd0c-4d00-4f97-8cf8-eb7c3fe9e211")
 	)
 	(wire
 		(pts
@@ -4296,26 +3050,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 201.93) (xy 157.48 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fdbf303-2dd3-498c-adbf-eb87fcb20393")
-	)
-	(wire
-		(pts
-			(xy 72.39 186.69) (xy 72.39 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fec5997-b8fa-4c1d-99ab-26eefd62589f")
-	)
-	(wire
-		(pts
 			(xy 347.98 147.32) (xy 347.98 163.83)
 		)
 		(stroke
@@ -4326,13 +3060,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 257.81) (xy 73.66 257.81)
+			(xy 72.39 214.63) (xy 67.31 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50aed89d-764b-4a10-9b7f-6dc893fd5f9d")
+		(uuid "50ccfc3b-a5e3-4cb1-a34f-3cfa8c0370fd")
 	)
 	(wire
 		(pts
@@ -4416,23 +3150,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 280.67) (xy 80.01 280.67)
+			(xy 91.44 372.11) (xy 124.46 372.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58c86a91-a9a6-4f55-8c5e-9f343506bb7a")
+		(uuid "589f906e-a485-4b78-8225-97048b42b946")
 	)
 	(wire
 		(pts
-			(xy 177.8 270.51) (xy 158.75 270.51)
+			(xy 62.23 243.84) (xy 62.23 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "594502c7-1131-4839-b9ea-a8ad1b66954b")
+		(uuid "58e752fd-5eb0-49c3-8c6f-b6e53bbbd697")
 	)
 	(wire
 		(pts
@@ -4443,26 +3177,6 @@
 			(type default)
 		)
 		(uuid "599708a0-98b9-45c2-8039-1f6308e8c5cb")
-	)
-	(wire
-		(pts
-			(xy 66.04 278.13) (xy 66.04 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af20025-4e08-4c9f-a64e-e1b4f7f910d9")
-	)
-	(wire
-		(pts
-			(xy 127 353.06) (xy 129.54 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b21baab-54db-4ede-b292-218c43c94efc")
 	)
 	(wire
 		(pts
@@ -4493,16 +3207,6 @@
 			(type default)
 		)
 		(uuid "5bfdc189-acf7-4199-aa56-d030e563d09d")
-	)
-	(wire
-		(pts
-			(xy 72.39 179.07) (xy 72.39 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bfdec1a-2a94-4c63-bb49-cdaefc8de986")
 	)
 	(wire
 		(pts
@@ -4546,16 +3250,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 353.06) (xy 143.51 355.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe2fbda-bb3b-4e2c-a740-73943217b65d")
-	)
-	(wire
-		(pts
 			(xy 113.03 118.11) (xy 127 118.11)
 		)
 		(stroke
@@ -4566,23 +3260,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 345.44) (xy 143.51 336.55)
+			(xy 62.23 300.99) (xy 81.28 300.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61b65c57-d14f-4a1f-be40-64da5ecb0e59")
+		(uuid "61c23154-3365-4cc3-a1a1-bc87ff90c1e3")
 	)
 	(wire
 		(pts
-			(xy 125.73 283.21) (xy 128.27 283.21)
+			(xy 67.31 214.63) (xy 67.31 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61f2145b-fb64-427e-a280-3353c768dd7b")
+		(uuid "622bc634-d463-4365-b5d1-3f0cce23c118")
 	)
 	(wire
 		(pts
@@ -4596,16 +3290,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 275.59) (xy 59.69 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b44274-f7a2-4b52-9489-eee00011d9e1")
-	)
-	(wire
-		(pts
 			(xy 43.18 41.91) (xy 48.26 41.91)
 		)
 		(stroke
@@ -4613,6 +3297,26 @@
 			(type default)
 		)
 		(uuid "64fb33af-e128-4909-98b5-11e95bc291cf")
+	)
+	(wire
+		(pts
+			(xy 124.46 340.36) (xy 179.07 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663043c7-fb47-4b1e-9330-6cb9e0df2b3e")
+	)
+	(wire
+		(pts
+			(xy 113.03 214.63) (xy 120.65 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d0ec03-c488-4b11-9658-412dec07519d")
 	)
 	(wire
 		(pts
@@ -4636,26 +3340,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 207.01) (xy 140.97 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676ff93e-42bb-4c39-8e14-387a7608a6d4")
-	)
-	(wire
-		(pts
-			(xy 64.77 220.98) (xy 64.77 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67dff923-c1e9-4a8b-8730-52660821eb6a")
-	)
-	(wire
-		(pts
 			(xy 127 104.14) (xy 127 101.6)
 		)
 		(stroke
@@ -4663,26 +3347,6 @@
 			(type default)
 		)
 		(uuid "68411bda-1539-456a-b7bf-0355ab8bd3ea")
-	)
-	(wire
-		(pts
-			(xy 88.9 350.52) (xy 90.17 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "687dda29-d243-4e17-a277-9dcb06b71e4a")
-	)
-	(wire
-		(pts
-			(xy 160.02 340.36) (xy 160.02 370.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69356373-d554-49f8-b662-99e09c9b8a18")
 	)
 	(wire
 		(pts
@@ -4726,16 +3390,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 173.99) (xy 66.04 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7d025f-f82f-4fc5-bbe6-9710edefbfc9")
-	)
-	(wire
-		(pts
 			(xy 36.83 52.07) (xy 36.83 41.91)
 		)
 		(stroke
@@ -4766,16 +3420,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 269.24) (xy 73.66 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70bc1501-ec46-4c2a-8719-657715a3191b")
-	)
-	(wire
-		(pts
 			(xy 337.82 199.39) (xy 353.06 199.39)
 		)
 		(stroke
@@ -4783,26 +3427,6 @@
 			(type default)
 		)
 		(uuid "71452c3b-80c8-42ac-a030-e5f71d31205d")
-	)
-	(wire
-		(pts
-			(xy 90.17 354.33) (xy 90.17 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72bdeb41-4b65-4c90-994e-ac2d8673bae3")
-	)
-	(wire
-		(pts
-			(xy 96.52 345.44) (xy 60.96 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73406ed2-1d3c-4bea-86b6-80ea50f13c8a")
 	)
 	(wire
 		(pts
@@ -4816,6 +3440,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 231.14) (xy 62.23 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744998a2-b648-4d2b-a19c-00b85e229ca8")
+	)
+	(wire
+		(pts
 			(xy 334.01 168.91) (xy 321.31 168.91)
 		)
 		(stroke
@@ -4826,36 +3460,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 232.41) (xy 124.46 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7539cffd-9268-4229-a026-f889bbeb7e59")
-	)
-	(wire
-		(pts
-			(xy 93.98 209.55) (xy 64.77 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75f7fcf2-762b-441a-bcaa-7539370c957a")
-	)
-	(wire
-		(pts
-			(xy 90.17 350.52) (xy 96.52 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76afdf58-b2f2-43d1-aadd-0f05c8ed5d82")
-	)
-	(wire
-		(pts
 			(xy 38.1 345.44) (xy 38.1 332.74)
 		)
 		(stroke
@@ -4863,16 +3467,6 @@
 			(type default)
 		)
 		(uuid "77ffbc99-3a71-4a88-8d42-0bef070b2980")
-	)
-	(wire
-		(pts
-			(xy 90.17 228.6) (xy 99.06 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78b1f7ab-8fbd-4f6b-8baa-83a2c9fbc9bb")
 	)
 	(wire
 		(pts
@@ -4893,16 +3487,6 @@
 			(type default)
 		)
 		(uuid "7a19ac8b-b7a1-49d6-8eb3-f4a421c3264e")
-	)
-	(wire
-		(pts
-			(xy 74.93 212.09) (xy 78.74 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a776281-1853-4401-8c79-ef2316c8b3ef")
 	)
 	(wire
 		(pts
@@ -4936,26 +3520,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 267.97) (xy 88.9 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cc27eb9-8685-4dca-83cc-d3b2dd53f355")
-	)
-	(wire
-		(pts
-			(xy 123.19 280.67) (xy 142.24 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dde1d99-2f4e-4e23-8622-375f7ef57192")
-	)
-	(wire
-		(pts
 			(xy 516.89 212.09) (xy 523.24 212.09)
 		)
 		(stroke
@@ -4976,26 +3540,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 284.48) (xy 88.9 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fafb16b-7e84-4827-a306-8d5052b193c6")
-	)
-	(wire
-		(pts
-			(xy 123.19 275.59) (xy 142.24 275.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80007c1f-618d-4780-8c1e-c5b7b1855f82")
-	)
-	(wire
-		(pts
 			(xy 337.82 176.53) (xy 353.06 176.53)
 		)
 		(stroke
@@ -5003,26 +3547,6 @@
 			(type default)
 		)
 		(uuid "80266551-ab04-4df7-b9e0-368a530abd6d")
-	)
-	(wire
-		(pts
-			(xy 142.24 293.37) (xy 142.24 294.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80c480d4-bfe5-4074-86bc-b02a3e7496a0")
-	)
-	(wire
-		(pts
-			(xy 90.17 214.63) (xy 90.17 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8143fc7a-52c2-4bd5-9c15-b9d584382382")
 	)
 	(wire
 		(pts
@@ -5036,13 +3560,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 353.06) (xy 92.71 353.06)
+			(xy 88.9 300.99) (xy 123.19 300.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8179129e-80d9-41de-93c8-4a7d59c15e47")
+		(uuid "81b2ec05-abef-482b-9e48-dbc5cca2167c")
 	)
 	(wire
 		(pts
@@ -5086,16 +3610,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 339.09) (xy 74.93 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83ae0ed5-25e0-4e30-96ff-c2354b45f158")
-	)
-	(wire
-		(pts
 			(xy 158.75 128.27) (xy 158.75 118.11)
 		)
 		(stroke
@@ -5103,36 +3617,6 @@
 			(type default)
 		)
 		(uuid "83ea654d-e2d5-4541-bf07-c9d5bbbf6de8")
-	)
-	(wire
-		(pts
-			(xy 87.63 199.39) (xy 87.63 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8426f4b6-bdf1-43c0-9b8f-75761edf6b14")
-	)
-	(wire
-		(pts
-			(xy 142.24 283.21) (xy 142.24 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "845f84cf-68cb-4107-9f74-0ec154ab5e71")
-	)
-	(wire
-		(pts
-			(xy 81.28 342.9) (xy 81.28 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84711787-4ff0-4459-aabd-6445fcab68a9")
 	)
 	(wire
 		(pts
@@ -5146,6 +3630,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 340.36) (xy 124.46 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85560dd2-ec29-4995-af62-32944ece5ad1")
+	)
+	(wire
+		(pts
 			(xy 214.63 340.36) (xy 196.85 340.36)
 		)
 		(stroke
@@ -5156,23 +3650,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 200.66) (xy 72.39 203.2)
+			(xy 64.77 372.11) (xy 83.82 372.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "882ea0db-2392-4f18-9893-0f810883dafa")
+		(uuid "88979cc2-e819-4318-bc6d-55a1ba5ba77e")
 	)
 	(wire
 		(pts
-			(xy 125.73 300.99) (xy 125.73 283.21)
+			(xy 64.77 350.52) (xy 64.77 372.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88e8cd57-1322-4701-9fe9-c7791dbfab43")
+		(uuid "8900542d-a927-4036-9a1a-aa239c73b73f")
 	)
 	(wire
 		(pts
@@ -5206,7 +3700,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 300.99) (xy 125.73 300.99)
+			(xy 123.19 270.51) (xy 177.8 270.51)
 		)
 		(stroke
 			(width 0)
@@ -5226,16 +3720,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 207.01) (xy 58.42 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f52b5fa-b12b-4981-83f0-6ade100ac55c")
-	)
-	(wire
-		(pts
 			(xy 96.52 104.14) (xy 96.52 95.25)
 		)
 		(stroke
@@ -5246,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 209.55) (xy 52.07 209.55)
+			(xy 34.29 209.55) (xy 72.39 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5263,16 +3747,6 @@
 			(type default)
 		)
 		(uuid "92b29ada-6dff-4251-b3a2-24ea73fb8fd3")
-	)
-	(wire
-		(pts
-			(xy 78.74 189.23) (xy 72.39 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e26d8e-edf1-424b-ae55-8f8c27489e9f")
 	)
 	(wire
 		(pts
@@ -5293,16 +3767,6 @@
 			(type default)
 		)
 		(uuid "95698842-305d-441b-8b4c-fab37c0c9384")
-	)
-	(wire
-		(pts
-			(xy 158.75 270.51) (xy 158.75 300.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97756ca0-6771-475f-a2a0-8eda42289da6")
 	)
 	(wire
 		(pts
@@ -5336,33 +3800,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 228.6) (xy 74.93 228.6)
+			(xy 72.39 350.52) (xy 64.77 350.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9af360f3-50ca-4ba2-89a9-89ede4eb9030")
+		(uuid "9bd575d8-2d94-4f88-9e1d-701d092112cb")
 	)
 	(wire
 		(pts
-			(xy 93.98 204.47) (xy 78.74 204.47)
+			(xy 123.19 283.21) (xy 123.19 300.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c37d10b-f8c7-4016-ab48-bcc170bc880b")
-	)
-	(wire
-		(pts
-			(xy 96.52 342.9) (xy 81.28 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c48801b-5427-48d6-9087-1106399bbdd8")
+		(uuid "9c35c189-9c69-4bdd-a938-20c8a1c6edcc")
 	)
 	(wire
 		(pts
@@ -5383,46 +3837,6 @@
 			(type default)
 		)
 		(uuid "9cc6c310-5c5b-4962-9e15-624dc22874da")
-	)
-	(wire
-		(pts
-			(xy 72.39 176.53) (xy 66.04 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d460ed1-bc36-4b42-a634-f115309dafa9")
-	)
-	(wire
-		(pts
-			(xy 88.9 367.03) (xy 92.71 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da95f31-5ac8-40bf-9e16-deee8de27d76")
-	)
-	(wire
-		(pts
-			(xy 140.97 212.09) (xy 140.97 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9db9f546-f51f-4e5a-81d8-e4fa1a89d1ae")
-	)
-	(wire
-		(pts
-			(xy 121.92 209.55) (xy 137.16 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ebd65c5-de34-43d1-9c77-379db853f57e")
 	)
 	(wire
 		(pts
@@ -5463,16 +3877,6 @@
 			(type default)
 		)
 		(uuid "9ffc070a-c46f-42de-a606-ac130da0b776")
-	)
-	(wire
-		(pts
-			(xy 134.62 214.63) (xy 140.97 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a11969d7-1a22-4fce-b915-626ac90f07fd")
 	)
 	(wire
 		(pts
@@ -5536,16 +3940,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 347.98) (xy 67.31 351.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e5bd6c-5e5d-4de0-9ec4-15e3f394fc7d")
-	)
-	(wire
-		(pts
 			(xy 41.91 332.74) (xy 41.91 335.28)
 		)
 		(stroke
@@ -5606,16 +4000,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 255.27) (xy 73.66 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9bda1c6-cdec-4779-b27e-87d5debdea0a")
-	)
-	(wire
-		(pts
 			(xy 163.83 92.71) (xy 158.75 92.71)
 		)
 		(stroke
@@ -5636,16 +4020,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 278.13) (xy 138.43 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae287eba-8f20-45af-8263-308a911c7520")
-	)
-	(wire
-		(pts
 			(xy 39.37 194.31) (xy 39.37 196.85)
 		)
 		(stroke
@@ -5656,63 +4030,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 367.03) (xy 77.47 367.03)
+			(xy 113.03 280.67) (xy 116.84 280.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae538255-ecbc-4bbd-bc64-e7c5e599b8da")
-	)
-	(wire
-		(pts
-			(xy 66.04 289.56) (xy 66.04 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b103f346-f106-4237-b826-898935fafc5a")
-	)
-	(wire
-		(pts
-			(xy 78.74 204.47) (xy 78.74 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e6daa5-5571-4e17-b1e3-12d089a3c74b")
-	)
-	(wire
-		(pts
-			(xy 91.44 283.21) (xy 91.44 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b235492d-c850-4ed1-9a8c-01e4312d654c")
-	)
-	(wire
-		(pts
-			(xy 87.63 212.09) (xy 93.98 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f59fa4-220a-49f7-92b8-cd5ead971c82")
-	)
-	(wire
-		(pts
-			(xy 87.63 297.18) (xy 91.44 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5153a59-c45d-4077-a6e5-ab3d4c97209e")
+		(uuid "b5686c9c-dec1-4eac-9e28-e99b6a343da6")
 	)
 	(wire
 		(pts
@@ -5736,33 +4060,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 209.55) (xy 64.77 213.36)
+			(xy 68.58 328.93) (xy 68.58 353.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b70b07ef-ed7d-4fae-8ebc-2f367df0b4df")
+		(uuid "b7e5921e-b17c-4940-8db1-cab9174e8f86")
 	)
 	(wire
 		(pts
-			(xy 121.92 212.09) (xy 140.97 212.09)
+			(xy 124.46 353.06) (xy 124.46 372.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b90e975a-3add-4429-b426-fb4cdbb80042")
-	)
-	(wire
-		(pts
-			(xy 90.17 340.36) (xy 96.52 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba37d20b-9c21-443d-a6c2-d056d9ba78f8")
+		(uuid "b91c8cfe-0468-4ad7-9f76-a0b70217272d")
 	)
 	(wire
 		(pts
@@ -5776,23 +4090,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 370.84) (xy 127 353.06)
+			(xy 116.84 280.67) (xy 116.84 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb2cb345-c46c-46cb-9973-240659c702e8")
-	)
-	(wire
-		(pts
-			(xy 62.23 347.98) (xy 67.31 347.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcb1f9dd-9b5f-4c74-9b5d-e40a3b2f5add")
+		(uuid "bc696a7a-ffa9-4a4d-b112-2737cb185f02")
 	)
 	(wire
 		(pts
@@ -5806,16 +4110,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 332.74) (xy 90.17 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd9b170c-fb33-47ad-b64d-0cbc81298c0d")
-	)
-	(wire
-		(pts
 			(xy 231.14 210.82) (xy 231.14 201.93)
 		)
 		(stroke
@@ -5823,16 +4117,6 @@
 			(type default)
 		)
 		(uuid "bf1adb37-9d5f-4739-bf85-f099891e65c7")
-	)
-	(wire
-		(pts
-			(xy 86.36 212.09) (xy 87.63 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf4c0a43-2f4c-40f1-b09b-9af6a8aa4024")
 	)
 	(wire
 		(pts
@@ -5886,16 +4170,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 345.44) (xy 60.96 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c289462e-347f-4b27-be64-cccfaae759a9")
-	)
-	(wire
-		(pts
 			(xy 96.52 41.91) (xy 105.41 41.91)
 		)
 		(stroke
@@ -5916,33 +4190,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 214.63) (xy 140.97 217.17)
+			(xy 62.23 313.69) (xy 62.23 317.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4bf6a38-b808-4b03-adf5-17d30965699c")
-	)
-	(wire
-		(pts
-			(xy 80.01 297.18) (xy 76.2 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c041e7-b21d-43fb-8c80-7c7c2bfe037b")
-	)
-	(wire
-		(pts
-			(xy 92.71 367.03) (xy 101.6 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e89f1d-e1e2-4098-943c-a276158d2d10")
+		(uuid "c4ee4256-3312-4be4-b64f-b979dcc33ce2")
 	)
 	(wire
 		(pts
@@ -5953,46 +4207,6 @@
 			(type default)
 		)
 		(uuid "c574b00f-159e-4c4e-8a32-2cea204fd445")
-	)
-	(wire
-		(pts
-			(xy 143.51 363.22) (xy 143.51 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5b815a4-9bc4-470b-8802-d4bb68217071")
-	)
-	(wire
-		(pts
-			(xy 124.46 345.44) (xy 143.51 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5b91d00-449f-4637-bae4-d8fd3617a0af")
-	)
-	(wire
-		(pts
-			(xy 95.25 273.05) (xy 80.01 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c648630e-8e4d-459b-a9dd-b00446ea644e")
-	)
-	(wire
-		(pts
-			(xy 73.66 257.81) (xy 73.66 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6fb0577-c36e-4db7-bc91-abf898962434")
 	)
 	(wire
 		(pts
@@ -6046,16 +4260,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 353.06) (xy 92.71 367.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca30ce1a-07fe-4361-9af9-d8c60793551d")
-	)
-	(wire
-		(pts
 			(xy 214.63 353.06) (xy 214.63 359.41)
 		)
 		(stroke
@@ -6086,23 +4290,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 314.96) (xy 68.58 314.96)
+			(xy 62.23 231.14) (xy 81.28 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd1e3c5c-3272-4bd0-af64-6f15f15b999c")
-	)
-	(wire
-		(pts
-			(xy 93.98 214.63) (xy 90.17 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd272ed2-4181-4d06-a6d4-bc6d4ba6529a")
+		(uuid "ccc54f91-4d34-47d4-af03-763712e308bd")
 	)
 	(wire
 		(pts
@@ -6116,16 +4310,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 284.48) (xy 88.9 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd7e8734-df77-48fd-b68c-81572e094f53")
-	)
-	(wire
-		(pts
 			(xy 127 53.34) (xy 127 55.88)
 		)
 		(stroke
@@ -6133,46 +4317,6 @@
 			(type default)
 		)
 		(uuid "cdf7187c-6514-48b5-9a97-34dfbe237c75")
-	)
-	(wire
-		(pts
-			(xy 123.19 283.21) (xy 125.73 283.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a61081-01b7-47f8-94cc-b01d7ec9ea23")
-	)
-	(wire
-		(pts
-			(xy 99.06 332.74) (xy 90.17 332.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2da1d1c-b9f1-4252-a3b8-64d0b0125f7a")
-	)
-	(wire
-		(pts
-			(xy 97.79 262.89) (xy 88.9 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e96dbd-205d-4163-b765-f088ded6d975")
-	)
-	(wire
-		(pts
-			(xy 121.92 214.63) (xy 124.46 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3effc52-28b4-44aa-bbbb-9827a9788352")
 	)
 	(wire
 		(pts
@@ -6196,16 +4340,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 215.9) (xy 87.63 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4dfbab5-d9a3-437d-aa97-dde1c2c7de37")
-	)
-	(wire
-		(pts
 			(xy 96.52 142.24) (xy 105.41 142.24)
 		)
 		(stroke
@@ -6213,16 +4347,6 @@
 			(type default)
 		)
 		(uuid "d53a5910-5e4b-45a3-b12a-82495933d943")
-	)
-	(wire
-		(pts
-			(xy 95.25 275.59) (xy 59.69 275.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d550225a-d28f-48ea-8ec4-8fbc075dc155")
 	)
 	(wire
 		(pts
@@ -6236,16 +4360,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 354.33) (xy 90.17 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d689ffcf-4890-43c4-9cc9-be83b9679317")
-	)
-	(wire
-		(pts
 			(xy 114.3 93.98) (xy 114.3 91.44)
 		)
 		(stroke
@@ -6256,6 +4370,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 283.21) (xy 68.58 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b1b44e-0820-460c-a9e6-9d57442aaa47")
+	)
+	(wire
+		(pts
 			(xy 96.52 80.01) (xy 96.52 87.63)
 		)
 		(stroke
@@ -6263,16 +4387,6 @@
 			(type default)
 		)
 		(uuid "d7c6cfd1-e45e-4982-b40d-4dbb2abaea9f")
-	)
-	(wire
-		(pts
-			(xy 68.58 312.42) (xy 68.58 314.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d85d8eff-5415-4115-bda5-a7d519812d4a")
 	)
 	(wire
 		(pts
@@ -6326,13 +4440,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 242.57) (xy 67.31 245.11)
+			(xy 123.19 270.51) (xy 123.19 283.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddb9af82-3352-45d7-8349-7d37bf2e835f")
+		(uuid "dd4f74ee-8c44-4bda-8990-12a8f2604676")
 	)
 	(wire
 		(pts
@@ -6343,16 +4457,6 @@
 			(type default)
 		)
 		(uuid "ddc2936f-e652-4c02-a66f-8e5125c9e0c1")
-	)
-	(wire
-		(pts
-			(xy 59.69 209.55) (xy 64.77 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddcf8fd6-14f4-4b9c-a34c-3ad1783d321a")
 	)
 	(wire
 		(pts
@@ -6416,26 +4520,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 275.59) (xy 142.24 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0440385-4d70-404f-b32d-ec5d473fed9b")
-	)
-	(wire
-		(pts
-			(xy 81.28 327.66) (xy 74.93 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e22c2ee2-9d1c-4ca4-aeb8-63db3070a602")
-	)
-	(wire
-		(pts
 			(xy 403.86 163.83) (xy 406.4 163.83)
 		)
 		(stroke
@@ -6456,23 +4540,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 201.93) (xy 93.98 201.93)
+			(xy 62.23 212.09) (xy 62.23 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e441cdf6-927b-401a-a7ee-e35ceb5df4ef")
-	)
-	(wire
-		(pts
-			(xy 96.52 347.98) (xy 67.31 347.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e46b1033-458a-43d1-94a2-3d0fa62f8243")
+		(uuid "e45b0e70-0c75-443a-9f80-e06dc955c715")
 	)
 	(wire
 		(pts
@@ -6496,26 +4570,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 353.06) (xy 143.51 353.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e99b8789-9889-4f5f-86c5-2049764b6c0d")
-	)
-	(wire
-		(pts
-			(xy 124.46 214.63) (xy 127 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f1fc1d-4c05-4e06-8feb-f0fbfa934384")
-	)
-	(wire
-		(pts
 			(xy 403.86 232.41) (xy 415.29 232.41)
 		)
 		(stroke
@@ -6536,6 +4590,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 300.99) (xy 62.23 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbe1f9a-db86-4ea4-a1f8-a47368c07376")
+	)
+	(wire
+		(pts
+			(xy 72.39 280.67) (xy 62.23 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede559a1-fd42-4233-b35d-c0f4f8fa02b3")
+	)
+	(wire
+		(pts
 			(xy 163.83 128.27) (xy 158.75 128.27)
 		)
 		(stroke
@@ -6543,16 +4617,6 @@
 			(type default)
 		)
 		(uuid "eea0d957-06a7-48f7-ac48-b028ba5a9f1b")
-	)
-	(wire
-		(pts
-			(xy 157.48 201.93) (xy 157.48 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0126ac9-8a96-450f-adb2-e42b9d5defc6")
 	)
 	(wire
 		(pts
@@ -6573,6 +4637,16 @@
 			(type default)
 		)
 		(uuid "f0b2dacc-bf9a-4749-aec0-98aafac99fbd")
+	)
+	(wire
+		(pts
+			(xy 72.39 212.09) (xy 62.23 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f78b2a-45b8-484e-98af-ec46dea1966c")
 	)
 	(wire
 		(pts
@@ -6606,23 +4680,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 325.12) (xy 74.93 327.66)
+			(xy 113.03 212.09) (xy 116.84 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6d8cb8a-8aae-4ed8-a68e-77b3d38044ee")
-	)
-	(wire
-		(pts
-			(xy 96.52 194.31) (xy 87.63 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7506123-35a9-4311-b54e-a4e03bbf698c")
+		(uuid "f6858a03-bd4e-46dd-ae26-e82f507eb379")
 	)
 	(wire
 		(pts
@@ -6646,13 +4710,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 245.11) (xy 67.31 245.11)
+			(xy 120.65 201.93) (xy 120.65 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8ed9728-5a5e-4dfd-b9da-091c5b94a1a6")
+		(uuid "f920c5f5-992f-40f7-9c07-e05da7657d7d")
 	)
 	(wire
 		(pts
@@ -6686,6 +4750,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 372.11) (xy 64.77 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb473048-d48f-47d4-b317-fd14162d2eb6")
+	)
+	(wire
+		(pts
+			(xy 113.03 353.06) (xy 124.46 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbbdd21b-77aa-48ea-af6b-dfc893bccf0c")
+	)
+	(wire
+		(pts
 			(xy 34.29 130.81) (xy 36.83 130.81)
 		)
 		(stroke
@@ -6716,16 +4800,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 340.36) (xy 160.02 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff6fae69-50ea-4054-afb2-3ad06de96fe0")
-	)
-	(wire
-		(pts
 			(xy 158.75 80.01) (xy 146.05 80.01)
 		)
 		(stroke
@@ -6736,16 +4810,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 370.84) (xy 127 370.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb7251b-40f9-40d7-b317-f75a5aab3dac")
-	)
-	(wire
-		(pts
 			(xy 72.39 41.91) (xy 81.28 41.91)
 		)
 		(stroke
@@ -6753,16 +4817,6 @@
 			(type default)
 		)
 		(uuid "ffd621b5-f980-4639-8ca6-4041067b7118")
-	)
-	(wire
-		(pts
-			(xy 88.9 270.51) (xy 95.25 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe9ce36-d46b-46ab-a9b8-e9c65cede4e8")
 	)
 	(rectangle
 		(start 306.07 135.89)
@@ -6778,7 +4832,7 @@
 	)
 	(rectangle
 		(start 19.05 165.1)
-		(end 260.35 379.73)
+		(end 260.35 398.78)
 		(stroke
 			(width 0.508)
 			(type dash)
@@ -6914,17 +4968,6 @@
 		)
 		(uuid "0cada0ce-0d4f-48b5-8787-b8773b4366ca")
 	)
-	(label "LS_REF_C"
-		(at 139.7 347.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dd532ab-d32d-46e5-b01b-f960bb191c4c")
-	)
 	(label "V_Phase_C_N"
 		(at 163.83 130.81 0)
 		(fields_autoplaced yes)
@@ -6935,17 +4978,6 @@
 			(justify left bottom)
 		)
 		(uuid "0f252922-4215-49e8-9b73-02ed458cc53a")
-	)
-	(label "VB_REF_A"
-		(at 74.93 212.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1400ce94-be62-4bfc-b272-f540ca8ce1ac")
 	)
 	(label "I_Phase_A_P"
 		(at 337.82 199.39 180)
@@ -6991,17 +5023,6 @@
 		)
 		(uuid "1f5b7e53-424a-48d6-a04c-36e1a9de3a96")
 	)
-	(label "VB_REF_A"
-		(at 96.52 194.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2484ddb4-dc76-4adc-9b22-28e170027525")
-	)
 	(label "V_Phase_B_N"
 		(at 337.82 181.61 180)
 		(fields_autoplaced yes)
@@ -7013,8 +5034,8 @@
 		)
 		(uuid "29f6aa14-8667-4997-bc76-6a7d5562e414")
 	)
-	(label "LS_REF_A"
-		(at 137.16 209.55 0)
+	(label "CT_PhaseC_Amp_OUT"
+		(at 137.16 340.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7022,7 +5043,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2b7a5b90-4924-4d83-b741-cc05c1c9670c")
+		(uuid "2d339e2b-7c09-419c-aaea-859d6cc9187f")
 	)
 	(label "CLKIN_ADS_T"
 		(at 405.13 171.45 0)
@@ -7046,8 +5067,8 @@
 		)
 		(uuid "42a1761c-50c7-4160-87a2-79e5a5ba7d27")
 	)
-	(label "LS_REF_A"
-		(at 99.06 228.6 0)
+	(label "CT_PhaseC_IN"
+		(at 44.45 347.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7055,18 +5076,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4c3e4d93-2612-4484-a3b3-a211c85a5753")
-	)
-	(label "LS_REF_B"
-		(at 138.43 278.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4cbaca77-fbc9-4a70-9fc6-56f3ed1c045b")
+		(uuid "43e4b1fc-2c8c-48bb-adb5-d805152c7550")
 	)
 	(label "SYNC_RESET_ADS_T"
 		(at 405.13 212.09 0)
@@ -7089,17 +5099,6 @@
 			(justify left bottom)
 		)
 		(uuid "5c2102c0-a0d1-4a37-bec6-b13e17996614")
-	)
-	(label "VB_REF_B"
-		(at 97.79 262.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60090aaf-c307-43a7-a28a-c5f45d43307a")
 	)
 	(label "I_Phase_C_P"
 		(at 238.76 349.25 0)
@@ -7167,8 +5166,8 @@
 		)
 		(uuid "7c62f9c0-f42a-4864-a2ff-7c23f7dbcd7a")
 	)
-	(label "VB_REF_C"
-		(at 99.06 332.74 0)
+	(label "CT_PhaseB_IN"
+		(at 43.18 278.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7176,10 +5175,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "84b8a25a-5115-4d60-a220-a5269b03eef8")
+		(uuid "856761ca-e236-402b-bbd5-21ec668c1590")
 	)
-	(label "LS_REF_B"
-		(at 100.33 297.18 0)
+	(label "CT_PhaseB_Amp_OUT"
+		(at 134.62 270.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7187,7 +5186,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8ffb8f9f-c2e9-4a63-8bf9-03eafb20b24d")
+		(uuid "85ca0fa5-5b14-4bb9-b862-2da307d64d4c")
+	)
+	(label "CT_PhaseA_Amp_OUT"
+		(at 134.62 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8facd62c-2a3f-4937-a923-08e625442db6")
 	)
 	(label "I_Phase_C_P"
 		(at 337.82 214.63 180)
@@ -7211,17 +5221,6 @@
 		)
 		(uuid "91793770-12df-472a-b843-fd270528c5cb")
 	)
-	(label "VB_REF_B"
-		(at 76.2 280.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4a943c2-ffa9-4c2b-b452-c085d4bd49fd")
-	)
 	(label "V_Phase_A_N"
 		(at 337.82 176.53 180)
 		(fields_autoplaced yes)
@@ -7244,17 +5243,6 @@
 		)
 		(uuid "b1c22e8b-7989-4fb6-9973-65e2bbeef32f")
 	)
-	(label "LS_REF_C"
-		(at 101.6 367.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bde87b4b-914c-49af-9cdf-033003ccbb2b")
-	)
 	(label "DOUT_ADS_T"
 		(at 405.13 191.77 0)
 		(fields_autoplaced yes)
@@ -7266,16 +5254,16 @@
 		)
 		(uuid "d5b9a82c-5b82-4a10-a2fe-5f729fa41d75")
 	)
-	(label "VB_REF_C"
-		(at 77.47 350.52 180)
+	(label "CT_PhaseA_IN"
+		(at 43.18 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "e80b29b3-fc45-42c8-a67c-70679c3d0ad1")
+		(uuid "e3a692fd-ef9d-4490-9d4f-f581edea3ae6")
 	)
 	(label "V_Phase_A_P"
 		(at 337.82 173.99 180)
@@ -7746,6 +5734,72 @@
 		)
 	)
 	(symbol
+		(lib_id "EMS:-DCDC_1")
+		(at 116.84 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07e89178-30a2-4b58-9b17-35a51c660d2a")
+		(property "Reference" "#PWR0514"
+			(at 122.174 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-DCDC_1"
+			(at 116.84 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"-DCDC_1V\""
+			(at 117.094 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3d0f849-8e47-4d0e-90e5-79a98ec41e0f")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "#PWR0514")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 127 97.79 0)
 		(unit 1)
@@ -7984,7 +6038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e5852e1-991e-417c-9100-b18a8b06680f")
-		(property "Reference" "#PWR0527"
+		(property "Reference" "#PWR0525"
 			(at 40.64 271.78 0)
 			(effects
 				(font
@@ -8035,121 +6089,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0527")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 265.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1306ef45-dd86-4bd4-a62b-a8f81d6495d1")
-		(property "Reference" "R541"
-			(at 75.438 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 69.85 265.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 75.438 265.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 73.66 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 73.66 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 73.66 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEE?qs=%252B6g0mu59x7JNM5l%252Bg7fBgQ%3D%3D"
-			(at 73.66 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 73.66 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06031K00FKEE"
-			(at 73.66 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34f58d21-5aab-4abc-bd31-8675323049f0")
-		)
-		(pin "2"
-			(uuid "239cc07b-f676-43d2-8d9e-fc08b049f36b")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R541")
+					(reference "#PWR0525")
 					(unit 1)
 				)
 			)
@@ -8268,120 +6208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 142.24 289.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1394f1d3-d36e-4813-b0e6-cfe7c3b27631")
-		(property "Reference" "R547"
-			(at 144.018 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 137.16 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 144.018 289.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 142.24 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 142.24 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 142.24 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 142.24 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 142.24 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
-			(at 142.24 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d04c2391-8868-41b8-9bd0-3932e17296be")
-		)
-		(pin "2"
-			(uuid "a0adbcad-6f2d-4da4-b340-a3bbad7e3de9")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R547")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 213.36 289.56 0)
 		(unit 1)
@@ -8391,7 +6217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13983ba6-177f-4f2d-b893-bf1d525d592f")
-		(property "Reference" "#PWR0532"
+		(property "Reference" "#PWR0527"
 			(at 213.36 295.91 0)
 			(effects
 				(font
@@ -8442,7 +6268,179 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0532")
+					(reference "#PWR0527")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "165ee2a4-73fb-4261-85ae-af1c12a20a35")
+		(property "Reference" "#PWR0522"
+			(at 62.23 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feba93db-e1a9-44d6-b463-b71829ddd965")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "#PWR0522")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:TSV911ILT")
+		(at 92.71 280.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17648463-6e95-4d88-9992-6d6e7344aac7")
+		(property "Reference" "U503"
+			(at 102.616 271.526 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TSV911ILT"
+			(at 100.33 289.814 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "EMS:TSV911ILT_SOT23-5"
+			(at 86.614 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/tsv911-1852613.pdf"
+			(at 84.582 269.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/STMicroelectronics/TSV911ILT?qs=RJLCOMRfwh0RYaQNK47UtQ%3D%3D"
+			(at 92.71 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 92.71 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSV911ILT"
+			(at 92.71 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0f3dc69-834b-4b7f-9574-9f1cbde03906")
+		)
+		(pin "1"
+			(uuid "967cdd29-3988-4d10-8dc5-7406a0e16e05")
+		)
+		(pin "4"
+			(uuid "34e4055f-0e06-48bf-b578-c3795ad5847b")
+		)
+		(pin "5"
+			(uuid "33099f34-ec20-4bf4-a1da-e8e38281ab83")
+		)
+		(pin "3"
+			(uuid "e5c66ed2-4516-4bf7-b07c-fa251befb293")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "U503")
 					(unit 1)
 				)
 			)
@@ -8510,72 +6508,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
 					(reference "#PWR0505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+1V2")
-		(at 68.58 312.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bf8308e-ff74-4c10-a43a-6acc47cee622")
-		(property "Reference" "#PWR0535"
-			(at 74.93 318.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V2"
-			(at 68.58 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+1V2\""
-			(at 69.342 317.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "597f5e98-9712-4990-9428-5e55e2467d7e")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0535")
 					(unit 1)
 				)
 			)
@@ -8806,232 +6738,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 67.31 355.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21cf81eb-f1b0-40dd-8a79-a25e37c51afe")
-		(property "Reference" "R555"
-			(at 65.532 360.426 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 65.024 355.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 65.532 355.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 67.31 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 67.31 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 67.31 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 67.31 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 67.31 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 67.31 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "993e2a73-75fb-409c-ab16-b349e9df9c38")
-		)
-		(pin "2"
-			(uuid "677907c7-7c1e-4a6b-88b8-153d587aa3dd")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R555")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23c9a38a-1ce7-4bb7-bf03-c0deb4c9a849")
-		(property "Reference" "R523"
-			(at 74.168 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7k15"
-			(at 65.278 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.168 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KOA-Speer/RK73H1JTTDD7151F?qs=fy%252BXOzISeIJ0zwM%252B3kdQkg%3D%3D"
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KOA Speer"
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RK73H1JTTDD7151F"
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e9b7c17-4e51-4097-b2e0-e791e69b6439")
-		)
-		(pin "2"
-			(uuid "220eb98a-aec5-4bc2-a9e4-4be7a419094b")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R523")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EMS:+DCDC_1")
 		(at 516.89 194.31 0)
 		(unit 1)
@@ -9041,7 +6747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "254a80c0-b385-44f5-9a29-8808648cb847")
-		(property "Reference" "#PWR0514"
+		(property "Reference" "#PWR0515"
 			(at 522.224 191.77 0)
 			(effects
 				(font
@@ -9091,7 +6797,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0514")
+					(reference "#PWR0515")
 					(unit 1)
 				)
 			)
@@ -9106,7 +6812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25e0984a-dd3e-4fee-8e8c-6355aaaccc9e")
-		(property "Reference" "R551"
+		(property "Reference" "R537"
 			(at 182.626 337.82 90)
 			(effects
 				(font
@@ -9203,7 +6909,73 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R551")
+					(reference "R537")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:-DCDC_1")
+		(at 116.84 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a974082-e712-4029-a386-e753474f5243")
+		(property "Reference" "#PWR0524"
+			(at 122.174 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-DCDC_1"
+			(at 116.84 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"-DCDC_1V\""
+			(at 117.094 272.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "149a484a-6296-462c-af3e-29114407f7cf")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "#PWR0524")
 					(unit 1)
 				)
 			)
@@ -9439,72 +7211,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EMS:-DCDC_1")
-		(at 143.51 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34da42b5-f3d0-4ea3-b976-e5fa4b23ec3d")
-		(property "Reference" "#PWR0538"
-			(at 148.844 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-DCDC_1"
-			(at 143.51 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power supply \"-DCDC_1V\""
-			(at 143.764 346.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5beb71c3-c818-4ba9-8c3d-ee0d8cebb9a7")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0538")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 109.22 0)
 		(unit 1)
@@ -9686,33 +7392,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 220.98 180)
+		(at 85.09 300.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3fc36305-3749-4910-af1b-43cde9bc0414")
-		(property "Reference" "R538"
-			(at 142.748 220.98 0)
+		(uuid "3769925d-ba3d-4d54-92f3-eebcf8f6608e")
+		(property "Reference" "R535"
+			(at 78.232 298.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 135.89 220.98 0)
+		(property "Value" "15k"
+			(at 90.424 299.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.748 220.98 90)
+			(at 85.09 302.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,8 +7424,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 140.97 220.98 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+			(at 85.09 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,7 +7434,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 220.98 0)
+			(at 85.09 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,8 +7442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 140.97 220.98 0)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F1502V?qs=Zyl8A9hlmJqFaE%2FSdjcX1A%3D%3D"
+			(at 85.09 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9747,8 +7451,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 140.97 220.98 0)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 85.09 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,243 +7460,42 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 140.97 220.98 0)
+		(property "Manufacturer_Part_Number" "ERJ-S03F1502V "
+			(at 85.09 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 140.97 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
-			(at 140.97 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86cb5369-bbb7-46ec-8282-ffa99a425a3c")
 		)
 		(pin "2"
-			(uuid "9151725c-7682-44c7-8107-1ac80d329b7e")
+			(uuid "f5c198db-7945-426f-8d28-f0d538c9d448")
+		)
+		(pin "1"
+			(uuid "42c47133-55c3-42d3-b571-fa921f9cc696")
 		)
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R538")
+					(reference "R535")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "TSV914AIDR_2")
-		(lib_id "EMS:TSV914AIDR")
-		(at 109.22 274.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40a23ee2-34c0-41dd-a7e0-bf21222c6179")
-		(property "Reference" "U503"
-			(at 117.348 263.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSV914AIDR"
-			(at 114.046 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EMS:TSV914AIDR-SOIC-14"
-			(at 133.35 369.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tsv914"
-			(at 133.35 469.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-MHz, Low-Noise, Low Offset, RRIO General Purpose CMOS Operational Amplifier"
-			(at 112.522 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 133.35 669.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TSV914AIDR"
-			(at 133.35 769.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TSV914AIDR?qs=j%252B1pi9TdxUbYpr7UiDKnMQ%3D%3D"
-			(at 133.35 869.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 133.35 969.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TSV914AIDR"
-			(at 133.35 1069.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 109.22 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 109.22 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TSV914AIDR?qs=j%252B1pi9TdxUbYpr7UiDKnMQ%3D%3D"
-			(at 109.22 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0e4b8f2-8a7b-4b07-b71b-f56fda2bcc84")
-		)
-		(pin "12"
-			(uuid "ed9ca9a8-64e8-4957-8798-d8dd21ee3aa0")
-		)
-		(pin "4"
-			(uuid "2b7942bf-d292-4008-a145-9d2d25f76594")
-		)
-		(pin "2"
-			(uuid "c674e886-c6a7-410b-b4a6-fa969299f0e7")
-		)
-		(pin "14"
-			(uuid "cd7b68a6-c95a-4a81-8584-8978b83d87ca")
-		)
-		(pin "13"
-			(uuid "e62b2dc2-604f-435a-a285-21589d5d5e45")
-		)
-		(pin "11"
-			(uuid "5348cd8f-6ccf-4167-9d78-951763ab43d2")
-		)
-		(pin "5"
-			(uuid "1ce717cb-c6cf-48f9-bba9-eed3364209dc")
-		)
-		(pin "10"
-			(uuid "ae601da2-2ef1-4b79-94f5-94eb1c39d6eb")
-		)
-		(pin "7"
-			(uuid "48c5d8db-43e0-4e8d-82bd-8a2564dfb06f")
-		)
-		(pin "6"
-			(uuid "673facc1-edfd-4b8f-93d3-3f22f84a3960")
-		)
-		(pin "8"
-			(uuid "3e425889-7c1c-48f5-bcdd-29f251bac4ea")
-		)
-		(pin "3"
-			(uuid "d6b44f43-c01d-4761-bd80-977c2b597f13")
-		)
-		(pin "9"
-			(uuid "181f67d3-4755-4d8e-a155-76c83f05d7fd")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "U503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+1V2")
-		(at 67.31 242.57 0)
+		(lib_id "EMS:-DCDC_1")
+		(at 116.84 328.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "429e903c-4e75-462a-8cc1-f07724edc6cb")
-		(property "Reference" "#PWR0525"
-			(at 73.66 248.158 0)
+		(uuid "42d96a4a-cadd-411d-ac4e-f1c2ceedfa98")
+		(property "Reference" "#PWR0530"
+			(at 122.174 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,8 +7503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V2"
-			(at 67.31 237.49 0)
+		(property "Value" "-DCDC_1"
+			(at 116.84 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +7512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 242.57 0)
+			(at 116.84 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +7521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 242.57 0)
+			(at 116.84 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10026,8 +7529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol for \"+1V2\""
-			(at 68.072 247.396 0)
+		(property "Description" "Power supply \"-DCDC_1V\""
+			(at 117.094 339.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,12 +7539,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb5b40b0-29e2-499f-af86-2cf0ecef18c3")
+			(uuid "b574d2bd-ead8-4fdd-a5c5-79f6141dc11e")
 		)
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0525")
+					(reference "#PWR0530")
 					(unit 1)
 				)
 			)
@@ -10057,7 +7560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4506877b-bea0-42d9-ba52-9a729b106b13")
-		(property "Reference" "#PWR0521"
+		(property "Reference" "#PWR0519"
 			(at 212.09 227.33 0)
 			(effects
 				(font
@@ -10108,7 +7611,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0521")
+					(reference "#PWR0519")
 					(unit 1)
 				)
 			)
@@ -10231,230 +7734,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 214.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45e05eb5-6950-4316-bcea-258167084586")
-		(property "Reference" "R536"
-			(at 125.222 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "62k"
-			(at 135.89 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.81 212.852 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/Panasonic_01052021_Resistor_Thick_FIlm_HI_Temp_ERJ-1950704.pdf"
-			(at 130.81 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 130.81 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 130.81 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-H3EF6202V?qs=eP2BKZSCXI5gtwgzMR2k3w%3D%3D"
-			(at 130.81 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 130.81 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-H3EF6202V"
-			(at 130.81 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7208f3b7-d6e6-4bd7-afa5-61b940ab4d34")
-		)
-		(pin "2"
-			(uuid "7c19c07e-5993-466e-9bfc-c32c4f865641")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R536")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 57.15 278.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "467a9e56-f746-49a7-ba4b-aafd9d9037e0")
-		(property "Reference" "R543"
-			(at 56.896 275.844 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 62.23 276.606 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 57.15 276.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 57.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 57.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 57.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 57.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 57.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 57.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 57.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a126e5d1-1691-4077-bf12-ab564fc087a9")
-		)
-		(pin "2"
-			(uuid "f0cda1ff-4b66-48cb-bb00-5adef7ecb6ae")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R543")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Variable")
 		(at 43.18 53.34 0)
 		(unit 1)
@@ -10571,17 +7850,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 143.51 364.49 0)
+		(lib_id "Device:R")
+		(at 85.09 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4831f723-8013-4cbf-8063-fa2a7f06713e")
-		(property "Reference" "#PWR0543"
-			(at 143.51 370.84 0)
+		(uuid "491bb515-71dd-440f-8213-505bfb802cab")
+		(property "Reference" "R532"
+			(at 85.09 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15k"
+			(at 85.09 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.09 232.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,8 +7884,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 143.51 369.57 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+			(at 85.09 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10598,8 +7893,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.51 364.49 0)
+		(property "Description" "Resistor"
+			(at 85.09 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,8 +7902,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 143.51 364.49 0)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F1502V?qs=Zyl8A9hlmJqFaE%2FSdjcX1A%3D%3D"
+			(at 85.09 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,22 +7911,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 364.49 0)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 85.09 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-S03F1502V "
+			(at 85.09 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a34b97e-0c6e-4a4d-a3ce-fd07b86135ce")
 		)
 		(pin "1"
-			(uuid "52f3a0f6-b102-4a28-acc1-b39fab5513fa")
+			(uuid "362c450d-d951-4529-944f-f302e91582f7")
 		)
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0543")
+					(reference "R532")
 					(unit 1)
 				)
 			)
@@ -10747,6 +8054,168 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
 					(reference "C509")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 309.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cc80f21-0d0f-4ea2-84c4-6599efb78390")
+		(property "Reference" "R536"
+			(at 63.246 305.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 64.008 310.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.452 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
+			(at 62.23 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 62.23 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 62.23 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+			(at 62.23 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3879997b-c60e-4eb1-80b4-d1e1e63a510d")
+		)
+		(pin "1"
+			(uuid "4fbb34bb-fd6b-4e91-80c3-a69ff477e857")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "R536")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:+DCDC_1")
+		(at 67.31 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d349567-186c-4cb3-a8ef-58afb2780b85")
+		(property "Reference" "#PWR0513"
+			(at 72.644 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+DCDC_1"
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 67.564 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8eda6f0-2233-449b-ad1a-492d3aed3470")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -11000,17 +8469,17 @@
 		)
 	)
 	(symbol
-		(lib_id "EMS:-DCDC_1")
-		(at 140.97 198.12 0)
+		(lib_id "power:GND")
+		(at 64.77 391.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5347c6f7-12b8-4d1c-a3e1-31952c64ceef")
-		(property "Reference" "#PWR0517"
-			(at 146.304 195.58 0)
+		(uuid "5407cc08-ef0d-4876-8da4-dcafaafd02ed")
+		(property "Reference" "#PWR0534"
+			(at 64.77 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11018,16 +8487,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-DCDC_1"
-			(at 140.97 193.04 0)
+		(property "Value" "GND"
+			(at 64.77 396.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 198.12 0)
+			(at 64.77 391.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11036,7 +8506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 198.12 0)
+			(at 64.77 391.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,8 +8514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power supply \"-DCDC_1V\""
-			(at 141.224 208.534 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 391.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,12 +8524,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ded1a4c-5279-4758-89fd-f24203133757")
+			(uuid "2a0186ab-cfc7-48eb-b01d-ac7a5776d85b")
 		)
 		(instances
-			(project ""
+			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0517")
+					(reference "#PWR0534")
 					(unit 1)
 				)
 			)
@@ -11075,7 +8545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550f3fd5-5d27-4b49-8c5c-53f4ccabea06")
-		(property "Reference" "#PWR0541"
+		(property "Reference" "#PWR0533"
 			(at 214.63 365.76 0)
 			(effects
 				(font
@@ -11126,185 +8596,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0541")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+1V2")
-		(at 66.04 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55403d6c-7a22-4e47-8dcd-dfa8298c7e93")
-		(property "Reference" "#PWR0510"
-			(at 72.39 179.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V2"
-			(at 66.04 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+1V2\""
-			(at 66.802 178.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10356b46-f600-4f3e-80a4-b3cab8f51825")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0510")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 209.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55696439-0ec0-4814-968e-cbe51746e815")
-		(property "Reference" "R533"
-			(at 55.626 207.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 60.96 208.026 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 207.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 55.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 55.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 55.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 55.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 55.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 55.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "065bb252-0eba-4910-b062-ae75ddbea1d9")
-		)
-		(pin "2"
-			(uuid "ec37da2e-e79b-4473-87ef-454af3d14573")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R533")
+					(reference "#PWR0533")
 					(unit 1)
 				)
 			)
@@ -11320,7 +8612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56927e7b-71a3-4eb9-9942-9057de41de31")
-		(property "Reference" "#PWR0536"
+		(property "Reference" "#PWR0531"
 			(at 41.91 341.63 0)
 			(effects
 				(font
@@ -11371,7 +8663,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0536")
+					(reference "#PWR0531")
 					(unit 1)
 				)
 			)
@@ -11487,6 +8779,111 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
 					(reference "C505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:TSV911ILT")
+		(at 92.71 350.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58c3c024-9564-45de-bb71-e2497a0c8450")
+		(property "Reference" "U504"
+			(at 102.616 341.376 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TSV911ILT"
+			(at 100.33 359.664 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "EMS:TSV911ILT_SOT23-5"
+			(at 86.614 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/tsv911-1852613.pdf"
+			(at 84.582 339.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/STMicroelectronics/TSV911ILT?qs=RJLCOMRfwh0RYaQNK47UtQ%3D%3D"
+			(at 92.71 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 92.71 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSV911ILT"
+			(at 92.71 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0d64c66-4925-4e3d-8ffd-6915f0b99285")
+		)
+		(pin "1"
+			(uuid "3dbc3ccd-565f-4b83-98fc-622408e8eecb")
+		)
+		(pin "4"
+			(uuid "4930ce7c-a15a-4d4e-9d76-800090a82f73")
+		)
+		(pin "5"
+			(uuid "0896bad1-c5e4-483f-b63f-a190fb598144")
+		)
+		(pin "3"
+			(uuid "0d230e7a-4851-466d-806d-235365bdd43c")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "U504")
 					(unit 1)
 				)
 			)
@@ -11721,73 +9118,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 292.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5aec61d2-0bc4-4eda-86c7-49d7ad13b0ba")
-		(property "Reference" "#PWR0533"
-			(at 66.04 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cbd9ec8-433b-4ad3-bb60-8eba02c05147")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0533")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 415.29 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11796,7 +9126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69afe256-ba64-490d-983d-d2f8c9df1429")
-		(property "Reference" "#PWR0526"
+		(property "Reference" "#PWR0521"
 			(at 415.29 248.92 0)
 			(effects
 				(font
@@ -11847,7 +9177,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0526")
+					(reference "#PWR0521")
 					(unit 1)
 				)
 			)
@@ -12037,17 +9367,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 73.66 271.78 0)
+		(lib_id "EMS:+DCDC_1")
+		(at 68.58 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b643372-1439-40fc-ae16-612902f4f38f")
-		(property "Reference" "#PWR0530"
-			(at 73.66 278.13 0)
+		(uuid "6df7399a-784e-454f-a315-2e64328af354")
+		(property "Reference" "#PWR0523"
+			(at 73.914 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,17 +9385,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 73.66 276.86 0)
+		(property "Value" "+DCDC_1"
+			(at 68.58 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 271.78 0)
+			(at 68.58 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12074,7 +9403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 271.78 0)
+			(at 68.58 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12082,8 +9411,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 271.78 0)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 68.834 272.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12092,12 +9421,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee900774-607c-4549-93df-b2ccc8ff8c67")
+			(uuid "cf903778-c662-4656-a665-8dc9866de005")
 		)
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0530")
+					(reference "#PWR0523")
 					(unit 1)
 				)
 			)
@@ -12112,7 +9441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eb30d45-ec99-47f3-b2c4-8d73a5f3bc54")
-		(property "Reference" "R542"
+		(property "Reference" "R534"
 			(at 181.356 267.97 90)
 			(effects
 				(font
@@ -12209,7 +9538,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R542")
+					(reference "R534")
 					(unit 1)
 				)
 			)
@@ -12322,118 +9651,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
 					(reference "R514")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 83.82 297.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "785b5775-41c7-4d14-b5e8-a166c517a1bd")
-		(property "Reference" "R548"
-			(at 78.486 296.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 84.074 294.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 83.82 295.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 83.82 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 83.82 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 83.82 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 83.82 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 83.82 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 83.82 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 83.82 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b1e94fa-707d-4147-a5de-f9a0b7b8d15e")
-		)
-		(pin "2"
-			(uuid "31840050-ed96-400c-852c-88332ad55fa4")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R548")
 					(unit 1)
 				)
 			)
@@ -12895,33 +10112,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 321.31 180)
+		(at 87.63 372.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7e6262c6-4fe0-4533-9287-9c1fa7b961bd")
-		(property "Reference" "R549"
-			(at 76.708 321.31 0)
+		(uuid "7dd5d56d-2520-48bb-83f8-1c1b3f4134ab")
+		(property "Reference" "R538"
+			(at 80.772 370.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "7k15"
-			(at 68.834 321.31 0)
+		(property "Value" "15k"
+			(at 92.964 370.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.708 321.31 90)
+			(at 87.63 373.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12929,8 +10144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 74.93 321.31 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+			(at 87.63 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12939,7 +10154,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 321.31 0)
+			(at 87.63 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12947,8 +10162,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 74.93 321.31 0)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F1502V?qs=Zyl8A9hlmJqFaE%2FSdjcX1A%3D%3D"
+			(at 87.63 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,8 +10171,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 74.93 321.31 0)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 87.63 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12965,292 +10180,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KOA-Speer/RK73H1JTTDD7151F?qs=fy%252BXOzISeIJ0zwM%252B3kdQkg%3D%3D"
-			(at 74.93 321.31 0)
+		(property "Manufacturer_Part_Number" "ERJ-S03F1502V "
+			(at 87.63 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Name" "KOA Speer"
-			(at 74.93 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RK73H1JTTDD7151F"
-			(at 74.93 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdc3d4c5-49f3-4903-9ca9-91625682d848")
 		)
 		(pin "2"
-			(uuid "2b0fdd0b-9015-454f-9b0c-24a44364f14a")
+			(uuid "b847b320-f95f-4d08-bf37-68fc71924d59")
+		)
+		(pin "1"
+			(uuid "bdb4a48d-ca28-4f3d-96a3-504f9bbf2d29")
 		)
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R549")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+DCDC_1")
-		(at 58.42 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e94f308-f878-4802-92e3-5c9371268da5")
-		(property "Reference" "#PWR0516"
-			(at 63.754 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_1"
-			(at 58.42 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power supply \"+DCDC_1V\""
-			(at 58.674 208.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8fb97f1-7167-4e6b-b256-9561c008d296")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0516")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TSV914AIDR_1")
-		(lib_id "EMS:TSV914AIDR")
-		(at 107.95 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7fbac2f5-3bae-49fc-a79a-0fcc93392af4")
-		(property "Reference" "U502"
-			(at 116.078 195.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSV914AIDR"
-			(at 112.776 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EMS:TSV914AIDR-SOIC-14"
-			(at 132.08 300.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tsv914"
-			(at 132.08 400.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-MHz, Low-Noise, Low Offset, RRIO General Purpose CMOS Operational Amplifier"
-			(at 111.252 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 132.08 600.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TSV914AIDR"
-			(at 132.08 700.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TSV914AIDR?qs=j%252B1pi9TdxUbYpr7UiDKnMQ%3D%3D"
-			(at 132.08 800.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 132.08 900.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TSV914AIDR"
-			(at 132.08 1000.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 107.95 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 107.95 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TSV914AIDR?qs=j%252B1pi9TdxUbYpr7UiDKnMQ%3D%3D"
-			(at 107.95 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb6d0a0b-c0d3-4963-bf83-eb9600e553fe")
-		)
-		(pin "12"
-			(uuid "e496af82-8323-4e9f-858b-8b6a65d0e876")
-		)
-		(pin "4"
-			(uuid "db1e713a-a975-4cea-8f69-19e4663c3d88")
-		)
-		(pin "2"
-			(uuid "2070f4d7-52b6-4c3b-b8d1-ad8ca78594b9")
-		)
-		(pin "14"
-			(uuid "72f867e2-5971-4586-a614-707b993c52ac")
-		)
-		(pin "13"
-			(uuid "d71ebc32-7317-4db0-bc71-eff8d564a269")
-		)
-		(pin "11"
-			(uuid "f9823d78-d1f5-48e7-93fd-43b845856b8e")
-		)
-		(pin "5"
-			(uuid "8695cb06-a77d-4045-947e-cf79ff4fa4ac")
-		)
-		(pin "10"
-			(uuid "c6702978-5ec2-4488-9ce6-e13285a3e5d7")
-		)
-		(pin "7"
-			(uuid "6b927250-8be3-4aa0-b559-b635af18bbaf")
-		)
-		(pin "6"
-			(uuid "7611b1ff-362d-42e7-b4a2-379ea6246440")
-		)
-		(pin "8"
-			(uuid "fc24f759-ba8a-4168-ae30-8dabb2f39dc0")
-		)
-		(pin "3"
-			(uuid "d6e224df-d5ea-4be3-a0e6-ed0011621414")
-		)
-		(pin "9"
-			(uuid "d073b7a8-7e18-4b02-bb83-6fb4879dc711")
-		)
-		(instances
-			(project ""
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "U502")
+					(reference "R538")
 					(unit 1)
 				)
 			)
@@ -13372,6 +10320,72 @@
 		)
 	)
 	(symbol
+		(lib_id "EMS:+DCDC_1")
+		(at 68.58 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80739447-f307-4e75-ae6e-1e9a6393bcd8")
+		(property "Reference" "#PWR0529"
+			(at 73.914 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+DCDC_1"
+			(at 68.58 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 68.834 339.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31a7c62e-72d7-43da-bea8-00141a9609da")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "#PWR0529")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 85.09 41.91 270)
 		(unit 1)
@@ -13478,188 +10492,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
 					(reference "R503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:TSV914AIDR")
-		(at 110.49 344.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84d216e9-8568-4e8c-985e-add6030a6444")
-		(property "Reference" "U504"
-			(at 118.618 333.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSV914AIDR"
-			(at 115.316 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EMS:TSV914AIDR-SOIC-14"
-			(at 134.62 439.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tsv914"
-			(at 134.62 539.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-MHz, Low-Noise, Low Offset, RRIO General Purpose CMOS Operational Amplifier"
-			(at 113.792 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.75"
-			(at 134.62 739.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TSV914AIDR"
-			(at 134.62 839.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TSV914AIDR?qs=j%252B1pi9TdxUbYpr7UiDKnMQ%3D%3D"
-			(at 134.62 939.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 134.62 1039.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TSV914AIDR"
-			(at 134.62 1139.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 110.49 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 110.49 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TSV914AIDR?qs=j%252B1pi9TdxUbYpr7UiDKnMQ%3D%3D"
-			(at 110.49 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c9cf3da-76da-4fc2-afb3-5421e4d3b63c")
-		)
-		(pin "12"
-			(uuid "32d4b7ab-df72-4b6b-b250-801a5d94f137")
-		)
-		(pin "4"
-			(uuid "dd9641b8-e47a-41a2-bce0-6a401f448911")
-		)
-		(pin "2"
-			(uuid "0bc8544b-b89e-431b-834a-acca4e497e32")
-		)
-		(pin "14"
-			(uuid "f3a6b741-97c2-42b9-b746-519a57542eec")
-		)
-		(pin "13"
-			(uuid "5f711133-cd09-4ef1-bdd1-30df8251a2ff")
-		)
-		(pin "11"
-			(uuid "ece5e326-b11e-485c-b0e0-5c694650d6ed")
-		)
-		(pin "5"
-			(uuid "41d1425d-09f7-4719-8db9-6ac49e193bc5")
-		)
-		(pin "10"
-			(uuid "75e7e8e5-916e-483c-b813-50e17e339fe9")
-		)
-		(pin "7"
-			(uuid "ba51acaa-93ef-404c-8fe1-7f2691218ae7")
-		)
-		(pin "6"
-			(uuid "06badfa4-852a-4a4a-92d4-24ec1fb7e1e5")
-		)
-		(pin "8"
-			(uuid "25821513-ac23-4c57-a18f-1e4940848a89")
-		)
-		(pin "3"
-			(uuid "af6a9447-2785-4217-9135-2db24bf23c67")
-		)
-		(pin "9"
-			(uuid "7dff96d7-7c61-4dc1-beb7-5c4789ab4c93")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "U504")
 					(unit 1)
 				)
 			)
@@ -13774,118 +10606,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
 					(reference "R513")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 85.09 350.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85066af0-e3d7-461b-bf8f-9fce0aced3c9")
-		(property "Reference" "R553"
-			(at 79.756 349.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 79.502 351.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 348.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 85.09 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 85.09 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 85.09 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 85.09 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 85.09 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 85.09 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3905462-8088-4647-9df8-d7e8b61bfc10")
-		)
-		(pin "2"
-			(uuid "0dc528a0-1164-4fdc-9582-9cdb56c74408")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R553")
 					(unit 1)
 				)
 			)
@@ -14008,118 +10728,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 212.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85cfe681-2386-4426-bc8f-1963887dd037")
-		(property "Reference" "R534"
-			(at 77.216 211.074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 76.962 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 82.55 210.312 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 82.55 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 82.55 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 82.55 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 82.55 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 82.55 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 82.55 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 82.55 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75629d48-2795-4871-b220-3ca51ca3509a")
-		)
-		(pin "2"
-			(uuid "577319bb-2ad9-42c0-aac1-de8f7e4994f4")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R534")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 427.99 186.69 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14127,7 +10735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85dcc3ef-6904-4963-8902-0e5cb16fbdb8")
-		(property "Reference" "R524"
+		(property "Reference" "R523"
 			(at 422.656 185.166 90)
 			(effects
 				(font
@@ -14224,7 +10832,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R524")
+					(reference "R523")
 					(unit 1)
 				)
 			)
@@ -14240,7 +10848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86833f0e-e98c-463b-95da-5ae9f38e31a2")
-		(property "Reference" "#PWR0515"
+		(property "Reference" "#PWR0516"
 			(at 39.37 203.2 0)
 			(effects
 				(font
@@ -14291,252 +10899,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0515")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 347.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87f8dcab-4e84-44b3-ae70-49694d976871")
-		(property "Reference" "R552"
-			(at 58.166 345.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 63.5 346.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 58.42 346.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 58.42 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 58.42 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 58.42 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 58.42 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 58.42 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 58.42 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "660e2f23-2775-4fc2-b203-05a1a2d15a52")
-		)
-		(pin "2"
-			(uuid "6bd80422-d42d-49f8-a792-15852bcc8e7c")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R552")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:-DCDC_1")
-		(at 142.24 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "881bbcdf-01e6-468c-833e-be4d21cae8a5")
-		(property "Reference" "#PWR0529"
-			(at 147.574 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-DCDC_1"
-			(at 142.24 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power supply \"-DCDC_1V\""
-			(at 142.494 277.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52b026d1-8ccc-44c0-be7b-1e2c8ee3036d")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0529")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "889cd5ae-e740-4c7d-8b47-bb6b06afa240")
-		(property "Reference" "#PWR0522"
-			(at 64.77 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20931d6e-1986-4f19-8bbb-b69f41a7be60")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0522")
+					(reference "#PWR0516")
 					(unit 1)
 				)
 			)
@@ -14551,7 +10914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88fc85fc-edfe-451e-b1ce-5150547bda1c")
-		(property "Reference" "R525"
+		(property "Reference" "R524"
 			(at 422.656 190.246 90)
 			(effects
 				(font
@@ -14648,121 +11011,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R525")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 335.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b15a9c0-2cd4-442b-9314-57f55ee4f83e")
-		(property "Reference" "R550"
-			(at 76.708 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 71.12 335.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.708 335.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 74.93 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 74.93 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 74.93 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEE?qs=%252B6g0mu59x7JNM5l%252Bg7fBgQ%3D%3D"
-			(at 74.93 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 74.93 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06031K00FKEE"
-			(at 74.93 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9f266c3-c3ad-4390-892b-ff8361392491")
-		)
-		(pin "2"
-			(uuid "5d4d380f-b8fb-46cc-9157-6ec1bf61afdd")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R550")
+					(reference "R524")
 					(unit 1)
 				)
 			)
@@ -14778,7 +11027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c331b77-c383-4243-9bd6-2a8479de2e73")
-		(property "Reference" "#PWR0531"
+		(property "Reference" "#PWR0526"
 			(at 195.58 295.91 0)
 			(effects
 				(font
@@ -14829,7 +11078,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0531")
+					(reference "#PWR0526")
 					(unit 1)
 				)
 			)
@@ -15022,7 +11271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "923bf71b-29dc-4671-82e7-ed80c8ad7cf5")
-		(property "Reference" "R529"
+		(property "Reference" "R527"
 			(at 498.348 196.85 0)
 			(effects
 				(font
@@ -15121,7 +11370,112 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R529")
+					(reference "R527")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:TSV911ILT")
+		(at 92.71 212.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98a5d20c-daf2-44ad-8cfc-f538a0efc84b")
+		(property "Reference" "U502"
+			(at 102.616 202.946 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TSV911ILT"
+			(at 100.33 221.234 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "EMS:TSV911ILT_SOT23-5"
+			(at 86.614 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/389/tsv911-1852613.pdf"
+			(at 84.582 201.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/STMicroelectronics/TSV911ILT?qs=RJLCOMRfwh0RYaQNK47UtQ%3D%3D"
+			(at 92.71 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 92.71 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TSV911ILT"
+			(at 92.71 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9325fd10-0cdf-40a7-9356-73ce63f0c844")
+		)
+		(pin "1"
+			(uuid "12b1a3fe-37a9-46fd-ad94-4e73b1a037c9")
+		)
+		(pin "4"
+			(uuid "ef799e88-76ab-4acb-a945-2e111af3884a")
+		)
+		(pin "5"
+			(uuid "a6e6dd32-ecdf-4c65-a319-0f913868e21e")
+		)
+		(pin "3"
+			(uuid "9ca3b46a-eecd-4fe6-a565-a8c9da740317")
+		)
+		(instances
+			(project ""
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "U502")
 					(unit 1)
 				)
 			)
@@ -15243,31 +11597,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 353.06 270)
+		(at 64.77 381 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c23da8f-bcb7-47f3-8102-624008b49490")
-		(property "Reference" "R554"
-			(at 127.762 351.79 90)
+		(uuid "9ada4c23-0604-445a-a71e-ce20058a2720")
+		(property "Reference" "R539"
+			(at 65.786 376.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "62k"
-			(at 138.43 351.79 90)
+		(property "Value" "10k"
+			(at 66.548 381.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.35 351.282 90)
+			(at 62.992 381 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15275,8 +11631,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/Panasonic_01052021_Resistor_Thick_FIlm_HI_Temp_ERJ-1950704.pdf"
-			(at 133.35 353.06 0)
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
+			(at 64.77 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15285,7 +11641,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 353.06 0)
+			(at 64.77 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15293,8 +11649,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 133.35 353.06 0)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 64.77 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15302,8 +11658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 133.35 353.06 0)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 64.77 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15311,43 +11667,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-H3EF6202V?qs=eP2BKZSCXI5gtwgzMR2k3w%3D%3D"
-			(at 133.35 353.06 0)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+			(at 64.77 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 133.35 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-H3EF6202V"
-			(at 133.35 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22377cc8-dc2a-4319-9e85-2478d731ca6d")
 		)
 		(pin "2"
-			(uuid "2c562599-7e28-4e19-9adb-1dfb7325a1a6")
+			(uuid "869e123b-467b-49eb-b24e-cf302bc266dd")
+		)
+		(pin "1"
+			(uuid "e02eee87-98c2-4893-aeeb-7e1d7ae059f1")
 		)
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R554")
+					(reference "R539")
 					(unit 1)
 				)
 			)
@@ -15363,7 +11701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e8e6310-13c4-4d36-83fa-b2cb03ad70ea")
-		(property "Reference" "#PWR0519"
+		(property "Reference" "#PWR0517"
 			(at 316.23 226.06 0)
 			(effects
 				(font
@@ -15414,119 +11752,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0519")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 83.82 280.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a065c80c-1ba8-4b75-b605-bf350d1ccbce")
-		(property "Reference" "R544"
-			(at 78.486 279.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 78.232 281.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 83.82 278.892 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 83.82 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 83.82 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 83.82 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 83.82 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 83.82 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 83.82 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 83.82 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5278ce9-377a-4e3c-becb-c1f392a53058")
-		)
-		(pin "2"
-			(uuid "57b58f20-b9bf-44c8-8bce-63daf7c907a3")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R544")
+					(reference "#PWR0517")
 					(unit 1)
 				)
 			)
@@ -15541,7 +11767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1fe2281-f4fb-47c0-9d50-516690c96322")
-		(property "Reference" "R535"
+		(property "Reference" "R531"
 			(at 428.498 209.042 90)
 			(effects
 				(font
@@ -15638,7 +11864,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R535")
+					(reference "R531")
 					(unit 1)
 				)
 			)
@@ -16107,7 +12333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad2d3a70-b4ee-4aaf-92f3-44afee6338fb")
-		(property "Reference" "#PWR0540"
+		(property "Reference" "#PWR0532"
 			(at 196.85 365.76 0)
 			(effects
 				(font
@@ -16158,187 +12384,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0540")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 359.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b03f08e1-3790-41a3-9526-31a6273868a1")
-		(property "Reference" "R556"
-			(at 145.288 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 138.43 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 145.288 359.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 143.51 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 143.51 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 143.51 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 143.51 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 143.51 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
-			(at 143.51 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdd525c0-ca95-4e3b-bdc8-477f282478b7")
-		)
-		(pin "2"
-			(uuid "63f1266d-3ff2-4a09-ad87-d1df4fac6f01")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R556")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+DCDC_1")
-		(at 59.69 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b231a170-69c3-4ea6-986f-4253f77265b9")
-		(property "Reference" "#PWR0528"
-			(at 65.024 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_1"
-			(at 59.69 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power supply \"+DCDC_1V\""
-			(at 59.944 277.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af1c7afd-5457-449f-ae7b-e1afa34a3a26")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0528")
+					(reference "#PWR0532")
 					(unit 1)
 				)
 			)
@@ -16633,120 +12679,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
 					(reference "#PWR0509")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 251.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc25fe11-d8b8-4164-8490-9cfb9a47ff48")
-		(property "Reference" "R540"
-			(at 75.438 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "7k15"
-			(at 67.818 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 75.438 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
-			(at 73.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 73.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 73.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KOA-Speer/RK73H1JTTDD7151F?qs=fy%252BXOzISeIJ0zwM%252B3kdQkg%3D%3D"
-			(at 73.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KOA Speer"
-			(at 73.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RK73H1JTTDD7151F"
-			(at 73.66 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4c83432-5863-4aa0-a028-9bd448dfdb3d")
-		)
-		(pin "2"
-			(uuid "b0dac101-105b-4ebd-81ca-1980a7b0176f")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R540")
 					(unit 1)
 				)
 			)
@@ -17092,118 +13024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 82.55 228.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4b090c2-0cdb-4c68-a812-b10fd918f255")
-		(property "Reference" "R539"
-			(at 77.216 227.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 82.804 226.314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 82.55 226.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 82.55 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 82.55 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 82.55 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 82.55 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 82.55 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 82.55 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 82.55 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "189c79bf-2bcf-488d-ab31-39c040e7240f")
-		)
-		(pin "2"
-			(uuid "ed9ba55e-98cc-4b76-a26b-510e4e12638d")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R539")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 71.12 0)
 		(unit 1)
@@ -17271,118 +13091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 85.09 367.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5c8af31-208a-4198-8d8e-aa4b9bd46336")
-		(property "Reference" "R557"
-			(at 79.756 366.014 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 85.344 364.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 365.252 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 85.09 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 85.09 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 85.09 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 85.09 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 85.09 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 85.09 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79e2b1ca-6ac5-44d3-85d3-41f594bf00b6")
-		)
-		(pin "2"
-			(uuid "6183bd1c-8da4-40d1-ac4d-af35c7831bf8")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R557")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 459.74 182.88 0)
 		(unit 1)
@@ -17392,7 +13100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ac3b6e-bb54-4c00-b316-ee9439ea4a10")
-		(property "Reference" "#PWR0511"
+		(property "Reference" "#PWR0510"
 			(at 459.74 189.23 0)
 			(effects
 				(font
@@ -17443,7 +13151,74 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0511")
+					(reference "#PWR0510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 317.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c80f2ba6-02a3-4649-a9f1-30bf98d18eee")
+		(property "Reference" "#PWR0528"
+			(at 62.23 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9fbc16f-85f0-4cb3-aa73-205f689facb8")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
+					(reference "#PWR0528")
 					(unit 1)
 				)
 			)
@@ -17562,17 +13337,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 203.2 0)
+		(lib_id "Device:R")
+		(at 62.23 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf0d6ab8-0de2-4341-b676-94b5205ed7c4")
-		(property "Reference" "#PWR0518"
-			(at 72.39 209.55 0)
+		(uuid "d12d5833-ffac-4d2d-a3f1-55497e3755d7")
+		(property "Reference" "R533"
+			(at 64.77 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 64.77 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.452 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17580,8 +13373,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 72.39 208.28 0)
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
+			(at 62.23 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17589,8 +13382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 72.39 203.2 0)
+		(property "Description" "Resistor"
+			(at 62.23 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17598,8 +13391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 72.39 203.2 0)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 62.23 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17607,22 +13400,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 203.2 0)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 62.23 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+			(at 62.23 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48488c27-fc62-40d4-91bc-938c2384d13f")
 		)
 		(pin "1"
-			(uuid "78aa34ea-2f8c-4cb9-ac14-a126bb977023")
+			(uuid "1273d656-5146-4640-ae78-40677c833abd")
 		)
 		(instances
-			(project "EnergyMonitoringSystem"
+			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0518")
+					(reference "R533")
 					(unit 1)
 				)
 			)
@@ -17637,7 +13442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d466ed60-5c43-4c49-b4a3-44685b673e46")
-		(property "Reference" "R530"
+		(property "Reference" "R528"
 			(at 180.086 199.39 90)
 			(effects
 				(font
@@ -17734,7 +13539,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R530")
+					(reference "R528")
 					(unit 1)
 				)
 			)
@@ -17847,185 +13652,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
 					(reference "R521")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da1f36b2-34a9-416f-b52b-12a799a69065")
-		(property "Reference" "#PWR0523"
-			(at 140.97 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b66a9ce-65b2-44bb-980c-d6932004063e")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0523")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 283.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dba75c31-8e95-416b-925d-82c6925edc39")
-		(property "Reference" "R545"
-			(at 126.492 281.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "62k"
-			(at 137.16 281.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 281.432 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/Panasonic_01052021_Resistor_Thick_FIlm_HI_Temp_ERJ-1950704.pdf"
-			(at 132.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 132.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 132.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-H3EF6202V?qs=eP2BKZSCXI5gtwgzMR2k3w%3D%3D"
-			(at 132.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 132.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-H3EF6202V"
-			(at 132.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23dfff2a-2477-40bb-b5de-9e7a70f29588")
-		)
-		(pin "2"
-			(uuid "3cfa5380-d235-44a6-b59d-0acdd837efde")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R545")
 					(unit 1)
 				)
 			)
@@ -18153,7 +13779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf4aa20-173d-4bd3-984d-47ee977fa4dc")
-		(property "Reference" "#PWR0512"
+		(property "Reference" "#PWR0511"
 			(at 477.774 184.15 0)
 			(effects
 				(font
@@ -18203,7 +13829,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0512")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -18449,7 +14075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfc5cb43-2f02-4812-9dd1-de6e8ada1e7a")
-		(property "Reference" "#PWR0520"
+		(property "Reference" "#PWR0518"
 			(at 194.31 227.33 0)
 			(effects
 				(font
@@ -18500,119 +14126,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0520")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 64.77 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0c55cd6-3b96-43c3-b19b-c9439b92fd04")
-		(property "Reference" "R537"
-			(at 62.992 221.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 62.484 217.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 62.992 217.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 64.77 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 64.77 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 64.77 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 64.77 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 64.77 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 64.77 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 64.77 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf8d7eed-c71f-459f-9205-840e226f72ca")
-		)
-		(pin "2"
-			(uuid "8b9a0c1b-77e4-4cdc-a6a7-6956abac3a4a")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R537")
+					(reference "#PWR0518")
 					(unit 1)
 				)
 			)
@@ -18627,7 +14141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9a58054-1e02-4214-9a61-35e3f1021217")
-		(property "Reference" "R528"
+		(property "Reference" "R526"
 			(at 422.656 195.326 90)
 			(effects
 				(font
@@ -18724,7 +14238,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R528")
+					(reference "R526")
 					(unit 1)
 				)
 			)
@@ -18740,7 +14254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec4bd997-845f-4505-8246-5261dec88bde")
-		(property "Reference" "#PWR0513"
+		(property "Reference" "#PWR0512"
 			(at 501.904 185.42 0)
 			(effects
 				(font
@@ -18790,186 +14304,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0513")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 67.31 361.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eed4d4ad-8fc0-43c1-9673-875aeac7437f")
-		(property "Reference" "#PWR0542"
-			(at 67.31 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef16ad71-629e-4a45-adcf-0ee1cd3cd6ca")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0542")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 285.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef29bd2c-df76-408f-9b15-7f456608b176")
-		(property "Reference" "R546"
-			(at 64.262 290.576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 63.754 285.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 64.262 285.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 66.04 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 66.04 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 66.04 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEE?qs=%252B6g0mu59x7I1D%252BO0qMg%252Bjg%3D%3D"
-			(at 66.04 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 66.04 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW0603100KFKEE"
-			(at 66.04 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf9ce03c-7c1d-4c11-86e0-7e1787e9aabc")
-		)
-		(pin "2"
-			(uuid "c2a70662-3996-4177-b157-cf63d1042eda")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R546")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -19091,120 +14426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 72.39 196.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0c353d6-5168-41d8-a0ca-9f8891f160be")
-		(property "Reference" "R527"
-			(at 74.168 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 68.58 196.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.168 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
-			(at 72.39 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 72.39 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 72.39 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEE?qs=%252B6g0mu59x7JNM5l%252Bg7fBgQ%3D%3D"
-			(at 72.39 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay/Dale"
-			(at 72.39 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06031K00FKEE"
-			(at 72.39 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82f16d83-8a2d-4deb-8651-26c2e1d1d392")
-		)
-		(pin "2"
-			(uuid "d4385a7d-3e54-4706-97b8-18845d054e5a")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R527")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EMS:+1V2")
 		(at 345.44 227.33 0)
 		(unit 1)
@@ -19214,7 +14435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f141c488-e1c6-43c1-923a-0911762bfa83")
-		(property "Reference" "#PWR0524"
+		(property "Reference" "#PWR0520"
 			(at 351.79 232.918 0)
 			(effects
 				(font
@@ -19264,7 +14485,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0524")
+					(reference "#PWR0520")
 					(unit 1)
 				)
 			)
@@ -19487,7 +14708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f27fef1b-67a2-4f12-984e-a67c5ddd9651")
-		(property "Reference" "R526"
+		(property "Reference" "R525"
 			(at 474.218 194.31 0)
 			(effects
 				(font
@@ -19586,7 +14807,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R526")
+					(reference "R525")
 					(unit 1)
 				)
 			)
@@ -19716,7 +14937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f45bb870-14bf-464f-87c3-abb0ca97598e")
-		(property "Reference" "R531"
+		(property "Reference" "R529"
 			(at 422.656 200.406 90)
 			(effects
 				(font
@@ -19813,74 +15034,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R531")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 294.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9f0df80-bab2-4a31-9169-08b685ec175b")
-		(property "Reference" "#PWR0534"
-			(at 142.24 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 299.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a73da0da-0a4c-43d3-a7e4-bb666835ec85")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0534")
+					(reference "R529")
 					(unit 1)
 				)
 			)
@@ -20007,7 +15161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcac3c59-ba90-4cce-a440-4d98285de417")
-		(property "Reference" "R532"
+		(property "Reference" "R530"
 			(at 518.668 201.93 0)
 			(effects
 				(font
@@ -20106,7 +15260,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "R532")
+					(reference "R530")
 					(unit 1)
 				)
 			)
@@ -20222,139 +15376,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
 					(reference "C513")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+DCDC_1")
-		(at 60.96 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "febab68e-f107-4c5e-8b47-8109896a300a")
-		(property "Reference" "#PWR0537"
-			(at 66.294 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_1"
-			(at 60.96 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power supply \"+DCDC_1V\""
-			(at 61.214 346.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ce05f86-b796-4abe-9cda-6b9bd7af650c")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0537")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 341.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff5c57a7-5064-41ed-a176-f57304726b47")
-		(property "Reference" "#PWR0539"
-			(at 74.93 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45eabb78-6d8a-40e6-a71d-67f8a14aea06")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/817d89b0-4ccf-433f-9d8b-ff122ae0551e"
-					(reference "#PWR0539")
 					(unit 1)
 				)
 			)

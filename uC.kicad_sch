@@ -10312,7 +10312,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "4k7"
 			(at 141.986 151.892 0)
 			(effects
 				(font
@@ -10330,7 +10330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_SR_20105_RoHS_L_12-3461462.pdf"
 			(at 140.97 147.32 0)
 			(effects
 				(font
@@ -10366,7 +10366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/SR0603FR-7T4K7L?qs=1mbolxNpo8e2BYIAXFrBnQ%3D%3D"
 			(at 140.97 147.32 0)
 			(effects
 				(font
@@ -10375,7 +10375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 140.97 147.32 0)
 			(effects
 				(font
@@ -10384,7 +10384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "SR0603FR-7T4K7L"
 			(at 140.97 147.32 0)
 			(effects
 				(font

@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "fadfeb7f-f40f-4801-bc59-bd2822922cea")
 	(paper "A4")
+	(title_block
+		(title "Energy Monitoring System")
+		(rev "v1.0.0")
+		(company "Manufacturing Innovation Network Laboratory (MINLab)")
+		(comment 1 "Developed by Vignesh Selvaraj")
+	)
 	(lib_symbols
 		(symbol "AMS-CM:+5V_EXT"
 			(power)
@@ -5863,7 +5869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1548128/pdf"
+		(property "Datasheet" "https://www.mouser.com/manufacturer/phoenix-contact/"
 			(at 238.76 157.48 0)
 			(effects
 				(font
@@ -7680,7 +7686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Hirose-Connector/CX90B-16P?qs=vmHwEFxEFR%2Fiaz3BzOVsSQ%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/GCT/USB4105-GF-A?qs=KUoIvG%2F9IlY%2FMLlBMpStpA%3D%3D"
 			(at 33.02 74.93 0)
 			(effects
 				(font
@@ -7689,7 +7695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Hirose Connector"
+		(property "Manufacturer_Name" "GCT"
 			(at 33.02 74.93 0)
 			(effects
 				(font
@@ -7698,7 +7704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CX90B-16P"
+		(property "Manufacturer_Part_Number" "USB4105-GF-A "
 			(at 33.02 74.93 0)
 			(effects
 				(font

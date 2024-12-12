@@ -708,8 +708,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Manufacturing/EnergyMonitoringSystem-Gerber/",
+      "pos_files": "Manufacturing/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -832,7 +832,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": false,
+      "group_symbols": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Distributor_Link"

@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "0900d34b-6244-4675-bef5-43abf1f4581a")
 	(paper "A4")
+	(title_block
+		(title "Energy Monitoring System")
+		(rev "v1.0.0")
+		(company "Manufacturing Innovation Network Laboratory (MINLab)")
+		(comment 1 "Developed by Vignesh Selvaraj")
+	)
 	(lib_symbols
 		(symbol "AMS-CM:EMIF06-MSD02N16"
 			(exclude_from_sim no)
@@ -4573,6 +4579,18 @@
 			)
 		)
 		(uuid "824f8e50-ab83-4246-8e31-1edc0199c7df")
+	)
+	(text "[4] Interfacing"
+		(exclude_from_sim no)
+		(at 36.576 19.558 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "a1b2e0a6-ecdc-4619-b7e7-83e86bcea1ab")
 	)
 	(text "Test Points"
 		(exclude_from_sim no)

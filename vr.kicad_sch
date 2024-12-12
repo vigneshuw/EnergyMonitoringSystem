@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "065982d2-20fd-4fdc-9187-b75a54f44256")
 	(paper "A4")
+	(title_block
+		(title "Energy Monitoring System")
+		(rev "v1.0.0")
+		(company "Manufacturing Innovation Network Laboratory (MINLab)")
+		(comment 1 "Developed by Vignesh Selvaraj")
+	)
 	(lib_symbols
 		(symbol "AMS-CM:ST1PS02CQTR"
 			(exclude_from_sim no)
@@ -5475,7 +5481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4437bf2d-0c6a-4267-ac17-d5d6d2c759fd")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0313"
 			(at 201.93 80.01 0)
 			(effects
 				(font
@@ -5526,7 +5532,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0312")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -5905,7 +5911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56d7a0eb-8e9a-420f-a18d-9ca83e8e011c")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0303"
 			(at 208.28 56.388 0)
 			(effects
 				(font
@@ -5955,7 +5961,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0302")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -6237,7 +6243,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0309")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -6556,7 +6562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70b3b29c-9c99-474b-a4f8-a31e88542224")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0301"
 			(at 241.554 44.45 0)
 			(effects
 				(font
@@ -6606,7 +6612,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0303")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -6853,7 +6859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c2b2455-ba70-449a-9f0e-4d3545bd51ac")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0312"
 			(at 193.04 80.01 0)
 			(effects
 				(font
@@ -6904,7 +6910,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0311")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -7361,7 +7367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8779137d-55a0-4bc6-813b-51c67dc8fadc")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0307"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -7411,7 +7417,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0313")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "958467be-3dbd-4323-a486-d93019398f7a")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0302"
 			(at 27.94 52.07 0)
 			(effects
 				(font
@@ -7659,7 +7665,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0301")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -8835,7 +8841,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0308")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -9459,7 +9465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb6c67aa-22f5-413e-a920-72f275ea4530")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0311"
 			(at 146.05 80.01 0)
 			(effects
 				(font
@@ -9510,7 +9516,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0310")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -9898,7 +9904,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/609e23bd-fab9-4064-b1ef-0a1cfc73d358"
-					(reference "#PWR0307")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)

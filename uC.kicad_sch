@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "811ab0ea-b556-4d65-ae50-3431c9d3dfc8")
 	(paper "A3")
+	(title_block
+		(title "Energy Monitoring System")
+		(rev "v1.0.0")
+		(company "Manufacturing Innovation Network Laboratory (MINLab)")
+		(comment 1 "Developed by Vignesh Selvaraj")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
@@ -8545,6 +8551,18 @@
 			)
 		)
 		(uuid "31ac3c5b-d074-4237-abae-406416e5528a")
+	)
+	(text "[2] MCU\n"
+		(exclude_from_sim no)
+		(at 359.918 27.178 0)
+		(effects
+			(font
+				(size 11.43 11.43)
+				(thickness 2.286)
+				(bold yes)
+			)
+		)
+		(uuid "398c0188-a55b-4dc4-bc2e-c0fa7acbb1a4")
 	)
 	(text "Bulk Decoupling\nCapacitor\n"
 		(exclude_from_sim no)

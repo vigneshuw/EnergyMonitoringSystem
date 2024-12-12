@@ -9,6 +9,7 @@
 		(date "2024-08-22")
 		(rev "v1.0.0")
 		(company "Manufacturing Innovation Network Laboratory (MINLab)")
+		(comment 1 "Developed by Vignesh Selvaraj")
 	)
 	(lib_symbols)
 	(text "[1] Power Management\n"

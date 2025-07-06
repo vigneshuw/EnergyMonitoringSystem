@@ -8,12 +8,13 @@ Advantages
 
 Something that we might potentially use for our case
 
-1. Dual Core
+1. Dual Core - Cortex M7 (~400MHz) and Cortex M4 (~200MHz)
+	a. One for data collection / purely sampling the sensors (M0)
+	b. One for external interface (Ethernet/Wi-Fi/RS 485)
 2. Ethernet port is present
 3. eMMC interface
 4. USB present - Can be used as a mass storage as well
-5. 
-
+5. Pinouts for add on Wi-Fi board for scalability
 
 
 1. PCB design notes for H7 Chip

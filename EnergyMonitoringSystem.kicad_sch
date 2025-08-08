@@ -93,7 +93,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
@@ -197,6 +197,44 @@
 		)
 		(property "Sheetfile" "adc.kicad_sch"
 			(at 74.93 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 96.52)
+		(size 38.1 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cbc904b9-333e-4714-b631-f1a18fb6652e")
+		(property "Sheetname" "uCMain"
+			(at 127 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uCMain.kicad_sch"
+			(at 127 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

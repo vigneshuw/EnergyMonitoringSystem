@@ -1,4 +1,4 @@
-24473384950942677
+24485676623966633
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57050,6 +57050,20 @@ Integrated Circuit
 23
 23
 EMS
+CLP-110-02-XXX-D
+CLP-110-02-XXX-D
+Connector
+0
+20
+20
+EMS
+Connector-SI60062F
+SI-60062-F
+Connector
+0
+14
+14
+EMS
 DM3ATSFPEJM540
 DM3AT-SF-PEJM5(40)-3
 Connector
@@ -57078,6 +57092,20 @@ TVS Diode (Uni-directional)
 2
 2
 EMS
+LAN8740AI-EN-TR_QFN50P
+32-Lead Very Thin Plastic Quad Flat, No Lead Package
+Integrated Circuit
+0
+33
+33
+EMS
+LAN8742A-CZ-TR_QFN50
+24-Pin SQFN
+Integrated Circuit
+0
+25
+25
+EMS
 LDLN025M12R-SOT-23-5
 SOT23-5L-
 Integrated Circuit
@@ -57091,6 +57119,20 @@ Integrated Circuit
 0
 6
 6
+EMS
+MX52LM04A11XSI_BGA153
+153BGA.
+Integrated Circuit
+0
+153
+153
+EMS
+NX3225SA25000MSTDCSR6
+NX3225SA-25.000M-STD-CSR-6-2
+Crystal or Oscillator
+0
+4
+4
 EMS
 PESD3V3L1BA_115-SOD-323-2
 SOD323
@@ -57168,6 +57210,13 @@ Integrated Circuit
 0
 14
 14
+EMS
+USBLC6-4SC6_SOT95-6N
+SOT23-6L
+Integrated Circuit
+0
+6
+6
 EMS
 USBLC62P6-SOT666-6
 USBLC6-2P6-3

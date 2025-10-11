@@ -5344,6 +5344,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "8176c98e-5459-4c81-989f-4b921e158af5")
@@ -5366,6 +5368,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "908e573e-948d-4663-a871-9f76a5a3da4f")
@@ -5384,10 +5388,13 @@
 	)
 	(text "Only connect +5V_EXT or +V_USB"
 		(exclude_from_sim no)
-		(at 207.518 132.842 0)
+		(at 205.994 132.842 0)
 		(effects
 			(font
 				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 215 14 0 1)
 			)
 			(justify left)
 		)

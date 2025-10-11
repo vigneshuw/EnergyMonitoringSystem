@@ -452,7 +452,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -503,7 +503,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ADC",
-        "pcb_color": "rgb(7, 83, 21)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -520,7 +520,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(124, 127, 129)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -537,7 +537,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
-        "pcb_color": "rgb(255, 40, 49)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -554,7 +554,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SD",
-        "pcb_color": "rgb(103, 242, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -571,7 +571,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SPI",
-        "pcb_color": "rgb(176, 177, 16)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.21,
         "via_diameter": 0.7,
@@ -588,7 +588,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SWD",
-        "pcb_color": "rgb(28, 23, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -605,7 +605,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgb(10, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -622,7 +622,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "VR",
-        "pcb_color": "rgb(255, 163, 37)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -639,7 +639,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "uC",
-        "pcb_color": "rgb(248, 27, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -890,12 +890,12 @@
       "VR"
     ],
     [
-      "f7438c3d-eabe-4528-b0fe-8c919241641f",
-      "uC"
-    ],
-    [
       "cbc904b9-333e-4714-b631-f1a18fb6652e",
       "uCMain"
+    ],
+    [
+      "f7438c3d-eabe-4528-b0fe-8c919241641f",
+      "BLE"
     ],
     [
       "817d89b0-4ccf-433f-9d8b-ff122ae0551e",
@@ -904,6 +904,14 @@
     [
       "107b47ad-de26-4dce-b636-52b3b123a40b",
       "SDCARD"
+    ],
+    [
+      "226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03",
+      "ETHERNET"
+    ],
+    [
+      "abbcaca0-0b45-4de8-86ef-a8249be36b44",
+      "eMMC"
     ]
   ],
   "text_variables": {}

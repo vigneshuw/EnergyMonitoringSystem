@@ -5090,7 +5090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13e940f4-ee8f-4739-8501-9fb109a5ccb2")
-		(property "Reference" "C707"
+		(property "Reference" "C702"
 			(at 32.004 119.634 0)
 			(effects
 				(font
@@ -5189,7 +5189,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "C707")
+					(reference "C702")
 					(unit 1)
 				)
 			)
@@ -5205,7 +5205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a27ee5-3023-4db5-b1ad-e32f228f7fc9")
-		(property "Reference" "#PWR0707"
+		(property "Reference" "#PWR0711"
 			(at 266.7 124.46 0)
 			(effects
 				(font
@@ -5256,7 +5256,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0707")
+					(reference "#PWR0711")
 					(unit 1)
 				)
 			)
@@ -5272,7 +5272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1973a266-5902-4bdb-a2f8-26b2731aa35a")
-		(property "Reference" "U702"
+		(property "Reference" "U701"
 			(at 80.01 104.14 0)
 			(effects
 				(font
@@ -5449,7 +5449,7 @@
 		(instances
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "U702")
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -5758,7 +5758,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "U701")
+					(reference "U702")
 					(unit 1)
 				)
 			)
@@ -5773,7 +5773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "264685a5-c8ea-4081-ab9a-8ba8b0bde5ff")
-		(property "Reference" "C704"
+		(property "Reference" "C703"
 			(at 38.354 105.664 0)
 			(effects
 				(font
@@ -5872,7 +5872,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "C704")
+					(reference "C703")
 					(unit 1)
 				)
 			)
@@ -5888,7 +5888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2846ea47-2ca1-42a3-a9f3-b189d62300bf")
-		(property "Reference" "#FLG0703"
+		(property "Reference" "#FLG0701"
 			(at 115.57 112.395 0)
 			(effects
 				(font
@@ -5940,7 +5940,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#FLG0703")
+					(reference "#FLG0701")
 					(unit 1)
 				)
 			)
@@ -5972,7 +5972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EMS:5000"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 46.99 184.15 0)
 			(effects
 				(font
@@ -6170,7 +6170,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "C702")
+					(reference "C709")
 					(unit 1)
 				)
 			)
@@ -6186,7 +6186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d6c434-1243-47d8-82c3-5079dfd71456")
-		(property "Reference" "#PWR0711"
+		(property "Reference" "#PWR0704"
 			(at 52.07 158.75 0)
 			(effects
 				(font
@@ -6237,7 +6237,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0711")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -6253,7 +6253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bbd259f-4d61-42ed-a1b0-68b72a30714d")
-		(property "Reference" "#PWR0710"
+		(property "Reference" "#PWR0706"
 			(at 110.49 157.48 0)
 			(effects
 				(font
@@ -6303,7 +6303,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0710")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -6319,7 +6319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51d007b7-35b8-4b98-863d-8e20286ad6a5")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0708"
 			(at 158.75 111.76 0)
 			(effects
 				(font
@@ -6369,7 +6369,7 @@
 		(instances
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0706")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
@@ -6384,7 +6384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "559ed067-b049-4821-996a-963a9e725470")
-		(property "Reference" "C708"
+		(property "Reference" "C704"
 			(at 36.576 121.158 0)
 			(effects
 				(font
@@ -6483,7 +6483,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "C708")
+					(reference "C704")
 					(unit 1)
 				)
 			)
@@ -6498,7 +6498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62e15c6a-9253-430d-93b1-9187ea2e329c")
-		(property "Reference" "C706"
+		(property "Reference" "C707"
 			(at 149.606 108.458 0)
 			(effects
 				(font
@@ -6597,7 +6597,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "C706")
+					(reference "C707")
 					(unit 1)
 				)
 			)
@@ -6612,7 +6612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eca7d1f-b27e-4c5c-8794-fd58c17db21f")
-		(property "Reference" "C703"
+		(property "Reference" "C701"
 			(at 28.194 105.664 0)
 			(effects
 				(font
@@ -6711,7 +6711,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "C703")
+					(reference "C701")
 					(unit 1)
 				)
 			)
@@ -6727,7 +6727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73bb871f-a997-4804-a12a-9aae532b1ad3")
-		(property "Reference" "#PWR0713"
+		(property "Reference" "#PWR0705"
 			(at 54.61 189.23 0)
 			(effects
 				(font
@@ -6777,7 +6777,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0713")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -6850,7 +6850,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0702")
+					(reference "#PWR0713")
 					(unit 1)
 				)
 			)
@@ -6866,7 +6866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7951d5db-5a20-46c2-8c61-6f71042e674a")
-		(property "Reference" "#FLG0704"
+		(property "Reference" "#FLG0702"
 			(at 118.11 117.475 0)
 			(effects
 				(font
@@ -6918,7 +6918,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#FLG0704")
+					(reference "#FLG0702")
 					(unit 1)
 				)
 			)
@@ -7047,7 +7047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89c2a82e-029e-4489-a621-648d5848e433")
-		(property "Reference" "#PWR0712"
+		(property "Reference" "#PWR0703"
 			(at 37.592 180.848 0)
 			(effects
 				(font
@@ -7097,7 +7097,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0712")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91999d8d-3ad4-48b0-8e74-535c97d4230a")
-		(property "Reference" "#FLG0702"
+		(property "Reference" "#FLG0703"
 			(at 160.655 104.14 0)
 			(effects
 				(font
@@ -7165,7 +7165,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#FLG0702")
+					(reference "#FLG0703")
 					(unit 1)
 				)
 			)
@@ -7180,7 +7180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5472f83-9797-4759-a265-6134a2e0bfb9")
-		(property "Reference" "J701"
+		(property "Reference" "J702"
 			(at 257.048 86.614 0)
 			(effects
 				(font
@@ -7349,7 +7349,7 @@
 		(instances
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "J701")
+					(reference "J702")
 					(unit 1)
 				)
 			)
@@ -7381,7 +7381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EMS:5000"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 25.4 184.15 0)
 			(effects
 				(font
@@ -7475,7 +7475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1c8a9f5-fffe-49f7-a82f-5ed13dedbc9e")
-		(property "Reference" "#PWR0701"
+		(property "Reference" "#PWR0712"
 			(at 276.86 21.59 0)
 			(effects
 				(font
@@ -7525,7 +7525,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0701")
+					(reference "#PWR0712")
 					(unit 1)
 				)
 			)
@@ -7540,7 +7540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b579bf8b-ce38-42be-a757-dd7d44928f1a")
-		(property "Reference" "C709"
+		(property "Reference" "C705"
 			(at 119.634 125.984 0)
 			(effects
 				(font
@@ -7639,7 +7639,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "C709")
+					(reference "C705")
 					(unit 1)
 				)
 			)
@@ -7671,7 +7671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EMS:5000"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 69.85 184.15 0)
 			(effects
 				(font
@@ -7765,7 +7765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc953f3d-bd24-4e38-bce1-4f475d091127")
-		(property "Reference" "#PWR0708"
+		(property "Reference" "#PWR0701"
 			(at 16.51 127 0)
 			(effects
 				(font
@@ -7816,7 +7816,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0708")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -7832,7 +7832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be1a50e7-ba0a-4ebd-a5fb-5f350820566d")
-		(property "Reference" "#PWR0709"
+		(property "Reference" "#PWR0707"
 			(at 152.4 156.21 0)
 			(effects
 				(font
@@ -7882,7 +7882,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0709")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -7897,7 +7897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1bb8f65-4753-401e-9fe7-254ffc3bbc2b")
-		(property "Reference" "C705"
+		(property "Reference" "C706"
 			(at 122.936 108.458 0)
 			(effects
 				(font
@@ -7996,7 +7996,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "C705")
+					(reference "C706")
 					(unit 1)
 				)
 			)
@@ -8012,7 +8012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e44163bf-1c6f-4c1e-9ca0-3765b556a7ac")
-		(property "Reference" "#PWR0705"
+		(property "Reference" "#PWR0702"
 			(at 21.59 100.33 0)
 			(effects
 				(font
@@ -8062,7 +8062,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0705")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -8135,7 +8135,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0703")
+					(reference "#PWR0710")
 					(unit 1)
 				)
 			)
@@ -8255,7 +8255,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "C701")
+					(reference "C708")
 					(unit 1)
 				)
 			)
@@ -8271,7 +8271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f323fe42-3f14-467e-a369-24bb1fd7375d")
-		(property "Reference" "#FLG0701"
+		(property "Reference" "#FLG0704"
 			(at 164.465 99.06 0)
 			(effects
 				(font
@@ -8323,7 +8323,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#FLG0701")
+					(reference "#FLG0704")
 					(unit 1)
 				)
 			)
@@ -8448,7 +8448,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "J702")
+					(reference "J701")
 					(unit 1)
 				)
 			)
@@ -8464,7 +8464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffade852-093c-464c-ae44-afac1ff5e3d9")
-		(property "Reference" "#PWR0704"
+		(property "Reference" "#PWR0709"
 			(at 167.132 97.028 0)
 			(effects
 				(font
@@ -8514,7 +8514,7 @@
 		(instances
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0704")
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)

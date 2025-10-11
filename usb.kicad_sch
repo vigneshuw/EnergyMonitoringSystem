@@ -5832,7 +5832,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0209")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -6003,7 +6003,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0210")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -6076,7 +6076,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0213")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -6149,7 +6149,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0212")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -6221,7 +6221,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0207")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -6439,7 +6439,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "D202")
+					(reference "D201")
 					(unit 1)
 				)
 			)
@@ -6511,7 +6511,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0220")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -6730,7 +6730,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "D201")
+					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -6802,7 +6802,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0208")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -6874,7 +6874,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0219")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -6948,7 +6948,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#FLG0203")
+					(reference "#FLG0204")
 					(unit 1)
 				)
 			)
@@ -7020,7 +7020,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0206")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -7093,7 +7093,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0211")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -7232,7 +7232,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0201")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6263f226-cc3c-40e1-be55-0c3004cc5067")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0203"
 			(at 41.91 167.64 0)
 			(effects
 				(font
@@ -7299,7 +7299,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0217")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -7634,7 +7634,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "U201")
+					(reference "U203")
 					(unit 1)
 				)
 			)
@@ -7880,7 +7880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EMS:5000"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 52.07 185.42 0)
 			(effects
 				(font
@@ -7980,7 +7980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "819892c1-b0d7-4171-bc7b-64f289e5537c")
-		(property "Reference" "#FLG0204"
+		(property "Reference" "#FLG0201"
 			(at 34.925 104.14 0)
 			(effects
 				(font
@@ -8032,7 +8032,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#FLG0204")
+					(reference "#FLG0201")
 					(unit 1)
 				)
 			)
@@ -8290,7 +8290,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "R202")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -8443,7 +8443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EMS:5000"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 24.13 185.42 0)
 			(effects
 				(font
@@ -8771,7 +8771,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0204")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -8956,7 +8956,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "U203")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -9029,7 +9029,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0218")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -9101,7 +9101,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0202")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -9238,7 +9238,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0205")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -9311,7 +9311,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0215")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -9432,7 +9432,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "R203")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -9553,7 +9553,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "C201")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -9746,7 +9746,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0203")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -9930,7 +9930,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "C202")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -10003,7 +10003,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#PWR0214")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -10077,7 +10077,7 @@
 			)
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/7dd15615-8075-471d-b8bf-599b8660331d"
-					(reference "#FLG0201")
+					(reference "#FLG0203")
 					(unit 1)
 				)
 			)

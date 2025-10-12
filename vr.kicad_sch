@@ -11,337 +11,6 @@
 		(comment 1 "Developed by Vignesh Selvaraj")
 	)
 	(lib_symbols
-		(symbol "AMS-CM:ST1PS02CQTR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 8.89 16.256 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ST1PS02CQTR"
-				(at 3.81 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "AMS-CM:ST1PS02CQTR"
-				(at -13.716 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/en/power-management/st1ps02.html"
-				(at -23.622 -28.448 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switching Voltage Regulators 400mA Nano-Quiescent Synchronous step-down converter digital volt Power Good AUX"
-				(at 8.636 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.55"
-				(at 26.67 -389.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "511-ST1PS02CQTR"
-				(at 26.67 -489.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1PS02CQTR?qs=sPbYRqrBIVkrGj42PMRzhg%3D%3D"
-				(at 26.67 -589.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "STMicroelectronics"
-				(at 26.67 -689.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ST1PS02CQTR"
-				(at 26.67 -789.84 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ST1PS02CQTR_1_1"
-				(rectangle
-					(start -10.16 13.97)
-					(end 10.16 -16.51)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 15.24 -11.43 180)
-					(length 5.08)
-					(name "AUX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -7.62 0)
-					(length 5.08)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -10.16 0)
-					(length 5.08)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 8.89 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 3.81 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 3.81 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -3.81 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 1.27 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -8.89 180)
-					(length 5.08)
-					(name "VOUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 8.89 180)
-					(length 5.08)
-					(name "PGOOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -13.97 180)
-					(length 5.08)
-					(name "CL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -2001,6 +1670,337 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EMS:ST1PS02CQTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 24.13 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ST1PS02CQTR"
+				(at 19.05 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "QFN40P170X200X55-12N-D"
+				(at 1.524 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/en/power-management/st1ps02.html"
+				(at -8.382 -34.798 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching Voltage Regulators 400mA Nano-Quiescent Synchronous step-down converter digital volt Power Good AUX"
+				(at 23.876 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.55"
+				(at 26.67 -389.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-ST1PS02CQTR"
+				(at 26.67 -489.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1PS02CQTR?qs=sPbYRqrBIVkrGj42PMRzhg%3D%3D"
+				(at 26.67 -589.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 26.67 -689.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ST1PS02CQTR"
+				(at 26.67 -789.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ST1PS02CQTR_1_1"
+				(rectangle
+					(start 5.08 7.62)
+					(end 25.4 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 30.48 -17.78 180)
+					(length 5.08)
+					(name "AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -13.97 0)
+					(length 5.08)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -16.51 0)
+					(length 5.08)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -15.24 180)
+					(length 5.08)
+					(name "VOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 2.54 180)
+					(length 5.08)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -20.32 180)
+					(length 5.08)
+					(name "CL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 0)
+					(length 5.08)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4261,7 +4261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/000-5004-741320.pdf"
+		(property "Datasheet" "~"
 			(at 80.01 189.23 0)
 			(effects
 				(font
@@ -4297,7 +4297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/5000?qs=q0tsjPZWdm%252B9SiiTAbEwUw%3D%3D"
+		(property "Distributor_Link" "~"
 			(at 80.01 194.31 0)
 			(effects
 				(font
@@ -4306,7 +4306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Keystone Electronics"
+		(property "Manufacturer_Name" "~"
 			(at 80.01 194.31 0)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "5000"
+		(property "Manufacturer_Part_Number" "~"
 			(at 80.01 194.31 0)
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/000-5004-741320.pdf"
+		(property "Datasheet" "~"
 			(at 43.18 189.23 0)
 			(effects
 				(font
@@ -4802,7 +4802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/5000?qs=q0tsjPZWdm%252B9SiiTAbEwUw%3D%3D"
+		(property "Distributor_Link" "~"
 			(at 43.18 194.31 0)
 			(effects
 				(font
@@ -4811,7 +4811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Keystone Electronics"
+		(property "Manufacturer_Name" "~"
 			(at 43.18 194.31 0)
 			(effects
 				(font
@@ -4820,7 +4820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "5000"
+		(property "Manufacturer_Part_Number" "~"
 			(at 43.18 194.31 0)
 			(effects
 				(font
@@ -7524,7 +7524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/000-5004-741320.pdf"
+		(property "Datasheet" "~"
 			(at 62.23 189.23 0)
 			(effects
 				(font
@@ -7560,7 +7560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/5000?qs=q0tsjPZWdm%252B9SiiTAbEwUw%3D%3D"
+		(property "Distributor_Link" "~"
 			(at 62.23 194.31 0)
 			(effects
 				(font
@@ -7569,7 +7569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Keystone Electronics"
+		(property "Manufacturer_Name" "~"
 			(at 62.23 194.31 0)
 			(effects
 				(font
@@ -7578,7 +7578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "5000"
+		(property "Manufacturer_Part_Number" "~"
 			(at 62.23 194.31 0)
 			(effects
 				(font
@@ -7706,7 +7706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/000-5004-741320.pdf"
+		(property "Datasheet" "~"
 			(at 24.13 189.23 0)
 			(effects
 				(font
@@ -7742,7 +7742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/5000?qs=q0tsjPZWdm%252B9SiiTAbEwUw%3D%3D"
+		(property "Distributor_Link" "~"
 			(at 24.13 194.31 0)
 			(effects
 				(font
@@ -7751,7 +7751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Keystone Electronics"
+		(property "Manufacturer_Name" "~"
 			(at 24.13 194.31 0)
 			(effects
 				(font
@@ -7760,7 +7760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "5000"
+		(property "Manufacturer_Part_Number" "~"
 			(at 24.13 194.31 0)
 			(effects
 				(font
@@ -8186,8 +8186,8 @@
 		)
 	)
 	(symbol
-		(lib_id "AMS-CM:ST1PS02CQTR")
-		(at 57.15 123.19 0)
+		(lib_id "EMS:ST1PS02CQTR")
+		(at 41.91 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8195,7 +8195,7 @@
 		(dnp no)
 		(uuid "aadecb74-b126-4fcd-9a3d-add3c458f561")
 		(property "Reference" "U3"
-			(at 66.04 107.95 0)
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,14 +8203,14 @@
 			)
 		)
 		(property "Value" "ST1PS02CQTR"
-			(at 61.468 141.478 0)
+			(at 46.228 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "EMS:ST1PS02CQTR"
+		(property "Footprint" "QFN40P170X200X55-12N-D"
 			(at 43.434 148.59 0)
 			(effects
 				(font
@@ -8240,7 +8240,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 83.82 513.03 0)
+			(at 68.58 506.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,7 +8250,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-ST1PS02CQTR"
-			(at 83.82 613.03 0)
+			(at 68.58 606.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8260,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1PS02CQTR?qs=sPbYRqrBIVkrGj42PMRzhg%3D%3D"
-			(at 83.82 713.03 0)
+			(at 68.58 706.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8270,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 83.82 813.03 0)
+			(at 68.58 806.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8280,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ST1PS02CQTR"
-			(at 83.82 913.03 0)
+			(at 68.58 906.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8290,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 57.15 123.19 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8299,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 57.15 123.19 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8308,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1PS02CQTR?qs=sPbYRqrBIVkrGj42PMRzhg%3D%3D"
-			(at 57.15 123.19 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,8 +9523,8 @@
 		)
 	)
 	(symbol
-		(lib_id "AMS-CM:ST1PS02CQTR")
-		(at 57.15 60.96 0)
+		(lib_id "EMS:ST1PS02CQTR")
+		(at 41.91 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9532,7 +9532,7 @@
 		(dnp no)
 		(uuid "ec828a3b-689a-4083-9eda-80407346fa6e")
 		(property "Reference" "U2"
-			(at 65.532 45.72 0)
+			(at 48.768 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,14 +9540,14 @@
 			)
 		)
 		(property "Value" "ST1PS02CQTR"
-			(at 61.468 78.994 0)
+			(at 62.738 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "EMS:ST1PS02CQTR"
+		(property "Footprint" "QFN40P170X200X55-12N-D"
 			(at 43.434 86.36 0)
 			(effects
 				(font
@@ -9577,7 +9577,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 83.82 450.8 0)
+			(at 68.58 444.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,7 +9587,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-ST1PS02CQTR"
-			(at 83.82 550.8 0)
+			(at 68.58 544.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9597,7 +9597,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1PS02CQTR?qs=sPbYRqrBIVkrGj42PMRzhg%3D%3D"
-			(at 83.82 650.8 0)
+			(at 68.58 644.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9607,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 83.82 750.8 0)
+			(at 68.58 744.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +9617,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ST1PS02CQTR"
-			(at 83.82 850.8 0)
+			(at 68.58 844.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,7 +9627,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 57.15 60.96 0)
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9636,7 +9636,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 57.15 60.96 0)
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,7 +9645,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ST1PS02CQTR?qs=sPbYRqrBIVkrGj42PMRzhg%3D%3D"
-			(at 57.15 60.96 0)
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

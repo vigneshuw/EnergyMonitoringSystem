@@ -399,23 +399,24 @@
 				)
 			)
 		)
-		(symbol "Device:L"
+		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "L"
-				(at 1.905 0 90)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -423,7 +424,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -440,7 +441,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor"
+			(property "Description" "Ferrite bead"
 				(at 0 0 0)
 				(effects
 					(font
@@ -449,7 +450,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(property "ki_keywords" "L ferrite bead inductor filter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -458,7 +459,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -467,11 +468,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -480,10 +481,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -492,22 +493,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -517,11 +506,11 @@
 					)
 				)
 			)
-			(symbol "L_1_1"
+			(symbol "FerriteBead_1_1"
 				(pin passive line
 					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -538,8 +527,8 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1931,6 +1920,198 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2315,6 +2496,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7068026-671b-4379-8c70-9da81dc83ed4")
+	)
+	(no_connect
+		(at 213.36 72.39)
+		(uuid "c3d27016-4682-49f3-adb7-3faa07680cd3")
 	)
 	(wire
 		(pts
@@ -4499,7 +4684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02cdc660-7f1c-43ed-820e-d1d342a70f57")
-		(property "Reference" "R816"
+		(property "Reference" "R815"
 			(at 139.7 56.388 90)
 			(effects
 				(font
@@ -4507,7 +4692,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49R9"
 			(at 139.7 45.72 90)
 			(effects
 				(font
@@ -4515,7 +4700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 142.748 50.8 90)
 			(effects
 				(font
@@ -4524,7 +4709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?31010"
 			(at 140.97 50.8 0)
 			(effects
 				(font
@@ -4542,6 +4727,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay/M55342K11B49D9RS2?qs=DRnBzpJSeP4mXvhGAQSKpg%3D%3D"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M55342K11B49D9RS2"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "615bf9d5-3f35-464d-a2cc-ea5148dcd190")
 		)
@@ -4551,7 +4763,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R816")
+					(reference "R815")
 					(unit 1)
 				)
 			)
@@ -4584,7 +4796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 257.5052 55.88 0)
 			(effects
 				(font
@@ -4593,7 +4805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/1/GCM1555C2A102JE02-01A.pdf"
 			(at 256.54 52.07 0)
 			(effects
 				(font
@@ -4603,6 +4815,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Murata-Electronics/GCM1555C2A102JE02D?qs=ZcfC38r4PotRVMCtISugCA%3D%3D"
+			(at 256.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 256.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM1555C2A102JE02D"
 			(at 256.54 52.07 0)
 			(effects
 				(font
@@ -4702,7 +4941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c03da03-96d8-489e-aaf6-c772d28c061f")
-		(property "Reference" "R814"
+		(property "Reference" "R813"
 			(at 137.16 56.388 90)
 			(effects
 				(font
@@ -4710,7 +4949,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49R9"
 			(at 137.16 45.72 90)
 			(effects
 				(font
@@ -4718,7 +4957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.208 50.8 90)
 			(effects
 				(font
@@ -4727,7 +4966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?31010"
 			(at 138.43 50.8 0)
 			(effects
 				(font
@@ -4745,6 +4984,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay/M55342K11B49D9RS2?qs=DRnBzpJSeP4mXvhGAQSKpg%3D%3D"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M55342K11B49D9RS2"
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30f339ee-aaf1-454b-bb47-9788e8135d7a")
 		)
@@ -4754,7 +5020,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R814")
+					(reference "R813")
 					(unit 1)
 				)
 			)
@@ -4828,73 +5094,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1aef71d3-c774-465f-b2f7-b33ddbe19e2e")
-		(property "Reference" "R809"
-			(at 54.102 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 64.77 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4586c438-d120-4c73-b5c4-7be0523cfd50")
-		)
-		(pin "1"
-			(uuid "5b13a5da-ec59-4d1c-ad1a-5acb585190db")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R809")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 154.94 119.38 0)
 		(unit 1)
@@ -4921,7 +5120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 155.9052 123.19 0)
 			(effects
 				(font
@@ -4930,7 +5129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 154.94 119.38 0)
 			(effects
 				(font
@@ -4940,6 +5139,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 154.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04023C104KAT2A?qs=nNezP%252BoerbAsgsxxIAjFOw%3D%3D"
+			(at 154.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 154.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "04023C104KAT2A"
 			(at 154.94 119.38 0)
 			(effects
 				(font
@@ -4988,7 +5214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.64 90.678 90)
 			(effects
 				(font
@@ -4997,7 +5223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 40.64 88.9 0)
 			(effects
 				(font
@@ -5007,6 +5233,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
 			(at 40.64 88.9 0)
 			(effects
 				(font
@@ -5172,7 +5425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d74b18d-199f-416c-9ac0-992977ece5cd")
-		(property "Reference" "R811"
+		(property "Reference" "R810"
 			(at 62.23 66.548 90)
 			(effects
 				(font
@@ -5188,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65.278 60.96 90)
 			(effects
 				(font
@@ -5197,7 +5450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -5215,6 +5468,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4dca0c9c-d70e-47fb-b0e0-d74a23873901")
 		)
@@ -5224,7 +5504,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R811")
+					(reference "R810")
 					(unit 1)
 				)
 			)
@@ -5257,7 +5537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.3952 123.19 0)
 			(effects
 				(font
@@ -5266,7 +5546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/1/GCM1555C2A471JE02-01A.pdf"
 			(at 138.43 119.38 0)
 			(effects
 				(font
@@ -5276,6 +5556,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Murata-Electronics/GCM1555C2A471JE02D?qs=ZcfC38r4PovohJEnU3KwxA%3D%3D"
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 138.43 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GCM1555C2A471JE02D"
 			(at 138.43 119.38 0)
 			(effects
 				(font
@@ -5324,7 +5631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.64 99.568 90)
 			(effects
 				(font
@@ -5333,7 +5640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 40.64 97.79 0)
 			(effects
 				(font
@@ -5343,6 +5650,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
 			(at 40.64 97.79 0)
 			(effects
 				(font
@@ -5367,6 +5701,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 59.69 120.65 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "34779868-0baf-464e-ade8-d869976cf63d")
+		(property "Reference" "JP801"
+			(at 59.436 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 59.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 59.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 59.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c47c8597-ee5e-4b92-8613-f5ab34bb6f5d")
+		)
+		(pin "2"
+			(uuid "57982222-aae0-4ad7-a73b-f452ee9519d3")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
+					(reference "JP801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 36.83 120.65 90)
 		(unit 1)
@@ -5384,7 +5786,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6pF"
+		(property "Value" "5p6"
 			(at 43.18 122.936 90)
 			(effects
 				(font
@@ -5393,7 +5795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.64 119.6848 0)
 			(effects
 				(font
@@ -5402,7 +5804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H5R6FB01-01A.pdf"
 			(at 36.83 120.65 0)
 			(effects
 				(font
@@ -5412,6 +5814,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Murata-Electronics/GJM1555C1H5R6FB01D?qs=ui%252B2d9lVEI7IxjS9Vv%252BuoQ%3D%3D"
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GJM1555C1H5R6FB01D"
 			(at 36.83 120.65 0)
 			(effects
 				(font
@@ -5527,7 +5956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.64 93.218 90)
 			(effects
 				(font
@@ -5536,7 +5965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -5546,6 +5975,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -5663,7 +6119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.6152 41.91 0)
 			(effects
 				(font
@@ -5672,7 +6128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf"
 			(at 120.65 38.1 0)
 			(effects
 				(font
@@ -5682,6 +6138,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM15CR51A106KT?qs=Jm2GQyTW%2FbjXWeIrE371aQ%3D%3D"
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KGM15CR51A106KT"
 			(at 120.65 38.1 0)
 			(effects
 				(font
@@ -5824,6 +6307,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/NDK/NX3225SA-25.000M-STD-CSR-6?qs=w%2Fv1CP2dgqpEjeC0SO%2Fwdg%3D%3D&srsltid=AfmBOoqMayKfvssrSMw0eMciklLpvidbJR8NC71GVUGgFj_iP4KHKekp"
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "NDK"
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NX3225SA-25.000M-STD-CSR-6"
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "16b34383-f62a-4d70-915f-47e3429b47eb")
 		)
@@ -5872,7 +6382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 112.7252 41.91 0)
 			(effects
 				(font
@@ -5881,7 +6391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -5891,6 +6401,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04023C104KAT2A?qs=nNezP%252BoerbAsgsxxIAjFOw%3D%3D"
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "04023C104KAT2A"
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -6019,6 +6556,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-4SC6?qs=k9dH%2Fx4GHJCNdehb8zInZg%3D%3D"
+			(at 166.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "daa388ed-13be-4802-a7a8-dab942168279")
 		)
@@ -6122,7 +6668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e00183d-842c-49cc-9d66-db6015260e98")
-		(property "Reference" "R815"
+		(property "Reference" "R814"
 			(at 134.112 95.25 90)
 			(effects
 				(font
@@ -6138,7 +6684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.7 98.298 90)
 			(effects
 				(font
@@ -6147,7 +6693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -6165,6 +6711,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-P03F1212V?qs=18kBAoNi3c8cWfKXlKmFJQ%3D%3D"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-P03F1212V"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96c503cf-37e7-4090-81d5-bcefaba2ea34")
 		)
@@ -6174,7 +6747,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R815")
+					(reference "R814")
 					(unit 1)
 				)
 			)
@@ -6205,7 +6778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.118 60.96 90)
 			(effects
 				(font
@@ -6214,7 +6787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -6224,6 +6797,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -6405,7 +7005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.198 60.96 90)
 			(effects
 				(font
@@ -6414,7 +7014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -6424,6 +7024,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -6618,6 +7245,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Microchip-Technology/LAN8742A-CZ-TR?qs=6qKXPk0vzx0Y6uPCt7MXWw%3D%3D"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fd0510d7-f935-43d6-ab9a-7fdd0bb48f30")
 		)
@@ -6729,7 +7365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.2852 123.19 0)
 			(effects
 				(font
@@ -6738,7 +7374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 147.32 119.38 0)
 			(effects
 				(font
@@ -6748,6 +7384,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM05AR70J105KH?qs=Jm2GQyTW%2FbhjbEFVB5FesQ%3D%3D"
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KGM05AR70J105KH"
 			(at 147.32 119.38 0)
 			(effects
 				(font
@@ -6766,6 +7429,104 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
 					(reference "C807")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 120.65 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88caad81-7819-4b53-9aa2-7b885a43b674")
+		(property "Reference" "FB801"
+			(at 124.46 26.6191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 124.46 29.1591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 118.872 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/203/1/BBGK_Series.pdf"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Pulse-Electronics/BBGK00160808601Y00?qs=DRkmTr78QASbvvb5JKCdog%3D%3D"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Pulse Electronics"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BBGK00160808601Y00"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc9d254e-146f-435a-8178-f068eaabf81f")
+		)
+		(pin "2"
+			(uuid "5202fb7b-3391-4e66-965c-204c885f1202")
+		)
+		(instances
+			(project ""
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
+					(reference "FB801")
 					(unit 1)
 				)
 			)
@@ -6798,7 +7559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 204.1652 90.17 0)
 			(effects
 				(font
@@ -6807,7 +7568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 203.2 86.36 0)
 			(effects
 				(font
@@ -6817,6 +7578,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04023C104KAT2A?qs=nNezP%252BoerbAsgsxxIAjFOw%3D%3D"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "04023C104KAT2A"
 			(at 203.2 86.36 0)
 			(effects
 				(font
@@ -6865,7 +7653,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.658 60.96 90)
 			(effects
 				(font
@@ -6874,7 +7662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -6884,6 +7672,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -7050,7 +7865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0f6f107-d126-4d6e-8791-e20c187caba7")
-		(property "Reference" "R818"
+		(property "Reference" "R817"
 			(at 256.54 91.948 90)
 			(effects
 				(font
@@ -7066,7 +7881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.588 86.36 90)
 			(effects
 				(font
@@ -7075,7 +7890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 257.81 86.36 0)
 			(effects
 				(font
@@ -7085,6 +7900,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 257.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 257.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 257.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
 			(at 257.81 86.36 0)
 			(effects
 				(font
@@ -7102,7 +7944,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R818")
+					(reference "R817")
 					(unit 1)
 				)
 			)
@@ -7117,7 +7959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a38abf4b-8a76-40d6-a0a9-19ec8cc62b31")
-		(property "Reference" "R813"
+		(property "Reference" "R812"
 			(at 134.62 56.388 90)
 			(effects
 				(font
@@ -7125,7 +7967,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49R9"
 			(at 134.62 45.72 90)
 			(effects
 				(font
@@ -7133,7 +7975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.668 50.8 90)
 			(effects
 				(font
@@ -7142,7 +7984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?31010"
 			(at 135.89 50.8 0)
 			(effects
 				(font
@@ -7160,6 +8002,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay/M55342K11B49D9RS2?qs=DRnBzpJSeP4mXvhGAQSKpg%3D%3D"
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M55342K11B49D9RS2"
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac92ad69-a44e-40bf-a1cd-38edf134c848")
 		)
@@ -7169,7 +8038,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R813")
+					(reference "R812")
 					(unit 1)
 				)
 			)
@@ -7202,7 +8071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 41.91 0)
 			(effects
 				(font
@@ -7211,7 +8080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -7221,6 +8090,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04023C104KAT2A?qs=nNezP%252BoerbAsgsxxIAjFOw%3D%3D"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "04023C104KAT2A"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -7239,76 +8135,6 @@
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
 					(reference "C803")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 120.65 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa479dcc-4a8f-4a1c-85f5-9f59c5cd61a0")
-		(property "Reference" "L801"
-			(at 121.92 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "600R@100MHz"
-			(at 121.92 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 120.65 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd901fba-6e23-4753-aa34-68ee30be4199")
-		)
-		(pin "2"
-			(uuid "07eee06e-55d8-4960-9183-2842f330c59c")
-		)
-		(instances
-			(project ""
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "L801")
 					(unit 1)
 				)
 			)
@@ -7341,7 +8167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 211.7852 90.17 0)
 			(effects
 				(font
@@ -7350,7 +8176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 210.82 86.36 0)
 			(effects
 				(font
@@ -7360,6 +8186,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04023C104KAT2A?qs=nNezP%252BoerbAsgsxxIAjFOw%3D%3D"
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "04023C104KAT2A"
 			(at 210.82 86.36 0)
 			(effects
 				(font
@@ -7392,7 +8245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaf569c9-74da-497a-a9c1-c856b2379774")
-		(property "Reference" "R812"
+		(property "Reference" "R811"
 			(at 132.08 56.388 90)
 			(effects
 				(font
@@ -7400,7 +8253,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49R9"
 			(at 132.08 45.72 90)
 			(effects
 				(font
@@ -7408,7 +8261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 135.128 50.8 90)
 			(effects
 				(font
@@ -7417,7 +8270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?31010"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -7435,6 +8288,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay/M55342K11B49D9RS2?qs=DRnBzpJSeP4mXvhGAQSKpg%3D%3D"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M55342K11B49D9RS2"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cbcde552-d33c-4519-9f66-ae92504e637e")
 		)
@@ -7444,7 +8324,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R812")
+					(reference "R811")
 					(unit 1)
 				)
 			)
@@ -7633,7 +8513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 215.9 48.5648 0)
 			(effects
 				(font
@@ -7642,7 +8522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 212.09 49.53 0)
 			(effects
 				(font
@@ -7652,6 +8532,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04023C104KAT2A?qs=nNezP%252BoerbAsgsxxIAjFOw%3D%3D"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 212.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "04023C104KAT2A"
 			(at 212.09 49.53 0)
 			(effects
 				(font
@@ -7693,7 +8600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6pF"
+		(property "Value" "5p6"
 			(at 43.18 154.686 90)
 			(effects
 				(font
@@ -7702,7 +8609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.64 151.4348 0)
 			(effects
 				(font
@@ -7711,7 +8618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H5R6FB01-01A.pdf"
 			(at 36.83 152.4 0)
 			(effects
 				(font
@@ -7721,6 +8628,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Murata-Electronics/GJM1555C1H5R6FB01D?qs=ui%252B2d9lVEI7IxjS9Vv%252BuoQ%3D%3D"
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GJM1555C1H5R6FB01D"
 			(at 36.83 152.4 0)
 			(effects
 				(font
@@ -7819,7 +8753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cec40f18-f9b7-465a-8455-5f81b7fb4c45")
-		(property "Reference" "R819"
+		(property "Reference" "R818"
 			(at 261.62 91.948 90)
 			(effects
 				(font
@@ -7835,7 +8769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 264.668 86.36 90)
 			(effects
 				(font
@@ -7844,7 +8778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-TR_0-30_RoHS_L_1.pdf"
 			(at 262.89 86.36 0)
 			(effects
 				(font
@@ -7862,6 +8796,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/TR0603NR-07270RL?qs=k2KEx2DUIRRrefrp4eQOhw%3D%3D"
+			(at 262.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 262.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TR0603NR-07270RL"
+			(at 262.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "35f86ee1-98a1-4c6e-957a-4a2c8c549903")
 		)
@@ -7871,7 +8832,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R819")
+					(reference "R818")
 					(unit 1)
 				)
 			)
@@ -7902,7 +8863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.64 88.138 90)
 			(effects
 				(font
@@ -7911,7 +8872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 40.64 86.36 0)
 			(effects
 				(font
@@ -7921,6 +8882,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
 			(at 40.64 86.36 0)
 			(effects
 				(font
@@ -8020,7 +9008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e65917c1-6096-4f02-8668-dddcea17b278")
-		(property "Reference" "R810"
+		(property "Reference" "R809"
 			(at 59.69 66.548 90)
 			(effects
 				(font
@@ -8036,7 +9024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.738 60.96 90)
 			(effects
 				(font
@@ -8045,7 +9033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F1773450%7FA1%7Fpdf%7FEnglish%7FENG_DS_1773450_A1.pdf%7FCAT-F52-R"
 			(at 60.96 60.96 0)
 			(effects
 				(font
@@ -8063,6 +9051,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/RT73F1J1K5BTD?qs=%252BXxaIXUDbq3XRhBUfkDcKQ%3D%3D"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT73F1J1K5BTD"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58cff9ea-4c1d-444b-a918-fd5436561575")
 		)
@@ -8072,7 +9087,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R810")
+					(reference "R809")
 					(unit 1)
 				)
 			)
@@ -8154,7 +9169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed5607bc-fc36-4229-b1f1-4e6d10c4b487")
-		(property "Reference" "R817"
+		(property "Reference" "R816"
 			(at 252.73 91.948 90)
 			(effects
 				(font
@@ -8170,7 +9185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.778 86.36 90)
 			(effects
 				(font
@@ -8179,7 +9194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -8197,6 +9212,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 254 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay/Dale"
+			(at 254 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+			(at 254 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d58c1f41-0136-4a94-afd9-ad8212f0133d")
 		)
@@ -8206,7 +9248,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R817")
+					(reference "R816")
 					(unit 1)
 				)
 			)
@@ -8237,7 +9279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.64 117.348 90)
 			(effects
 				(font
@@ -8246,7 +9288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
 			(at 40.64 115.57 0)
 			(effects
 				(font
@@ -8256,6 +9298,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+			(at 40.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 40.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
 			(at 40.64 115.57 0)
 			(effects
 				(font
@@ -8355,7 +9424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f63f1b8a-6339-467b-af2d-719a8a70c00d")
-		(property "Reference" "R820"
+		(property "Reference" "R819"
 			(at 266.7 91.948 90)
 			(effects
 				(font
@@ -8371,7 +9440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 269.748 86.36 90)
 			(effects
 				(font
@@ -8380,7 +9449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-TR_0-30_RoHS_L_1.pdf"
 			(at 267.97 86.36 0)
 			(effects
 				(font
@@ -8398,6 +9467,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/TR0603NR-07270RL?qs=k2KEx2DUIRRrefrp4eQOhw%3D%3D"
+			(at 267.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 267.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TR0603NR-07270RL"
+			(at 267.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b082f0d-56ff-45be-b5d3-9625aa9cff63")
 		)
@@ -8407,7 +9503,7 @@
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "R820")
+					(reference "R819")
 					(unit 1)
 				)
 			)

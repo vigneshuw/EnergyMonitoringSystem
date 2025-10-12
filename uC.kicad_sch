@@ -4065,6 +4065,28 @@
 			)
 		)
 	)
+	(global_label "ADS_SPI_SCK"
+		(shape input)
+		(at 222.25 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "655c6e45-3e51-4a35-824b-c031004eeb14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.5723 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C1_SCL"
 		(shape input)
 		(at 205.74 193.04 180)
@@ -4342,28 +4364,6 @@
 		(uuid "ac8a8f7b-1d55-45ac-aa73-806b0b01eda6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 149.1561 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADS_SPI1_SCK"
-		(shape input)
-		(at 222.25 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b132380e-32a1-480c-9d46-c1410cd54a17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.7818 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +6919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 45.72 96.52 0)
 			(effects
 				(font
@@ -6973,7 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "KGM05AR51A225KH"
+		(property "Manufacturer_Part_Number" "04023C104KAT2A"
 			(at 45.72 96.52 0)
 			(effects
 				(font
@@ -7370,6 +7370,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Samtec/CLP-110-02-G-D?qs=0lQeLiL1qyaw0wV0yc599g%3D%3D"
+			(at 205.74 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

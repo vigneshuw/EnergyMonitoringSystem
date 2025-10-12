@@ -3678,7 +3678,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CLP-110-02-XXX-D"
+		(property "Footprint" "EMS:CLP-110-02-XXX-D"
 			(at 19.05 -94.92 0)
 			(effects
 				(font
@@ -14756,7 +14756,7 @@
 						)
 					)
 				)
-				(number "67"
+				(number "72"
 					(effects
 						(font
 							(size 1.27 1.27)

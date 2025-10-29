@@ -384,9 +384,9 @@
 		(remove_unused_layers no)
 		(uuid "83aa2635-5b87-493e-b739-2d8dbd9e894f")
 	)
-	(model "SI-60062-F.stp"
+	(model "${KIPRJMOD}/CustomLibs/Downloaded/ETHERNET/SI-60062-F/SI-60062-F.stp"
 		(offset
-			(xyz 0.04999999999 0 6.459999941)
+			(xyz 4.55 -17 6.46)
 		)
 		(scale
 			(xyz 1 1 1)

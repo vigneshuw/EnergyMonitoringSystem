@@ -2693,6 +2693,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1810d2c5-5e9d-49fe-83b6-02d5c5c8cf84")
+	)
+	(wire
+		(pts
 			(xy 128.27 74.93) (xy 140.97 74.93)
 		)
 		(stroke
@@ -3513,16 +3523,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 120.65) (xy 72.39 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80fc3abd-937b-447d-bd57-0a17dc0845a0")
-	)
-	(wire
-		(pts
 			(xy 60.96 106.68) (xy 72.39 106.68)
 		)
 		(stroke
@@ -3843,6 +3843,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 120.65) (xy 72.39 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8975d0b-d725-4355-9d3c-e9d2695c87f4")
+	)
+	(wire
+		(pts
 			(xy 140.97 34.29) (xy 140.97 46.99)
 		)
 		(stroke
@@ -4153,7 +4163,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 55.88 120.65)
+			(xy 50.8 120.65) (xy 53.34 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4180,16 +4190,6 @@
 			(type default)
 		)
 		(uuid "de8d7726-019c-49f8-8d3d-d581b8423849")
-	)
-	(wire
-		(pts
-			(xy 53.34 86.36) (xy 72.39 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12f02c7-7023-4c35-8a21-f2ad1a3b5594")
 	)
 	(wire
 		(pts
@@ -4454,6 +4454,138 @@
 			)
 		)
 		(uuid "ad12aca9-6f7a-428d-aec1-5738638a5944")
+	)
+	(label "RMII_RXP"
+		(at 149.86 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01f47ede-d653-4f70-8aa9-27d9b7f1b668")
+	)
+	(label "RMII_RXD1_R"
+		(at 49.53 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25cd0868-3f07-4d2c-af51-5cd49d453365")
+	)
+	(label "RMII_RXD0_R"
+		(at 49.53 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f65bfb3-ea6b-467a-bbec-b44f72cab110")
+	)
+	(label "RMII_TXP"
+		(at 157.48 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40e491e1-3c9d-4519-a543-4cf97982e4de")
+	)
+	(label "RMII_REF_CLK_R"
+		(at 53.34 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "648f765a-aa9f-4f4a-b77a-cf8d7ef901b2")
+	)
+	(label "RMII_CRS_DV_R"
+		(at 49.53 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c7bb4c2-ffa4-4dc1-9688-27b826d2f419")
+	)
+	(label "RMII_XTAL1"
+		(at 69.85 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72532a06-2a5d-45cb-93b9-206c4863cab1")
+	)
+	(label "RMII_RXN"
+		(at 146.05 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "849fc92e-99bb-4cfd-9688-588968e85d9b")
+	)
+	(label "RMII_XTAL2"
+		(at 60.96 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86356f6b-b835-4f08-b19d-18afe9b1f4ce")
+	)
+	(label "RMII_TXN"
+		(at 153.67 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7780ed1-22a2-4d6d-bce1-02c688a4daf3")
+	)
+	(label "RMII_PHYAD0"
+		(at 49.53 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6a8ff9b-35fa-4909-b8fd-d1c2c8d4056a")
+	)
+	(label "ETH_DCDC2_FR"
+		(at 148.59 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8199a7b-3d0b-4d0b-ae30-e4200452c249")
 	)
 	(global_label "RMII_MDC"
 		(shape input)
@@ -5702,7 +5834,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 59.69 120.65 0)
+		(at 57.15 120.65 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5710,7 +5842,7 @@
 		(dnp no)
 		(uuid "34779868-0baf-464e-ade8-d869976cf63d")
 		(property "Reference" "JP801"
-			(at 59.436 118.11 0)
+			(at 56.896 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5850,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 59.69 116.84 0)
+			(at 57.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5859,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 59.69 120.65 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 120.65 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5877,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 59.69 120.65 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6445,6 +6445,12 @@
 		(uuid "6406c45e-fc4e-4b54-bdad-6d580846fd34")
 	)
 	(junction
+		(at 278.13 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66071267-3d7f-41d4-95cd-a7f59fd4d365")
+	)
+	(junction
 		(at 276.86 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6739,6 +6745,12 @@
 		(uuid "d549e396-d056-4a76-9ebc-258d178774e0")
 	)
 	(junction
+		(at 41.91 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8b2c9c6-10d2-4f7d-965e-29269a8c4a33")
+	)
+	(junction
 		(at 375.92 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6773,6 +6785,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e57daab7-3a16-4943-b1ab-e6ca7170c39f")
+	)
+	(junction
+		(at 278.13 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e851dcde-8e9f-4adc-96c8-3b739f819296")
+	)
+	(junction
+		(at 40.64 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8a65867-a0a2-4499-9491-4b8200e094c7")
 	)
 	(junction
 		(at 276.86 78.74)
@@ -7186,6 +7210,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 198.12) (xy 285.75 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1941bd1d-9e5d-4592-bd93-435a1567db16")
+	)
+	(wire
+		(pts
 			(xy 207.01 139.7) (xy 208.28 139.7)
 		)
 		(stroke
@@ -7193,6 +7227,16 @@
 			(type default)
 		)
 		(uuid "19b4933a-f85f-40ef-a5ef-8a2d94f42761")
+	)
+	(wire
+		(pts
+			(xy 41.91 107.95) (xy 41.91 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a213482-cbef-4b4c-93c5-f552b21ee335")
 	)
 	(wire
 		(pts
@@ -7756,6 +7800,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 199.39) (xy 285.75 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2f1270-5f0c-44d7-bc3e-6b8a889cf715")
+	)
+	(wire
+		(pts
 			(xy 356.87 81.28) (xy 360.68 81.28)
 		)
 		(stroke
@@ -7943,6 +7997,16 @@
 			(type default)
 		)
 		(uuid "4ae06ee4-a64d-4b02-be35-b9c3158555cf")
+	)
+	(wire
+		(pts
+			(xy 40.64 110.49) (xy 40.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0b21be-3bef-4f94-be7d-74b3502e639b")
 	)
 	(wire
 		(pts
@@ -8143,6 +8207,16 @@
 			(type default)
 		)
 		(uuid "5e9184c7-b7cf-4e1e-912e-2527a5679221")
+	)
+	(wire
+		(pts
+			(xy 285.75 207.01) (xy 285.75 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6029e9ae-3c1d-4029-8c8f-380e4144ebc0")
 	)
 	(wire
 		(pts
@@ -8353,6 +8427,16 @@
 			(type default)
 		)
 		(uuid "71b23c48-4a7f-4c78-aeb6-7ddb52452ea7")
+	)
+	(wire
+		(pts
+			(xy 40.64 120.65) (xy 43.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b2c745-9718-4197-a9f0-cc763a520702")
 	)
 	(wire
 		(pts
@@ -8733,6 +8817,16 @@
 			(type default)
 		)
 		(uuid "8fe0686b-63cc-4765-8d6b-d23b9b57e533")
+	)
+	(wire
+		(pts
+			(xy 41.91 125.73) (xy 43.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91de0bb3-a354-4a38-8a5e-3ad7c3ca5151")
 	)
 	(wire
 		(pts
@@ -9606,6 +9700,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 209.55) (xy 278.13 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefc3c3b-d306-433f-b254-ddd7a67fc990")
+	)
+	(wire
+		(pts
 			(xy 314.96 210.82) (xy 314.96 212.09)
 		)
 		(stroke
@@ -9886,7 +9990,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 120.65) (xy 43.18 120.65)
+			(xy 39.37 120.65) (xy 40.64 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10246,7 +10350,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 125.73) (xy 43.18 125.73)
+			(xy 39.37 125.73) (xy 41.91 125.73)
 		)
 		(stroke
 			(width 0)
@@ -10592,6 +10696,17 @@
 		)
 		(uuid "56410af4-2814-4121-92d9-4d5502462019")
 	)
+	(label "SPI5_SCK_R"
+		(at 40.64 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "591b4a60-64e3-4997-88b1-5e5704c9df1d")
+	)
 	(label "DEBUG_JTCK-SWCLK"
 		(at 151.13 72.39 0)
 		(fields_autoplaced yes)
@@ -10636,6 +10751,28 @@
 		)
 		(uuid "761dfea3-490d-4caa-bc7a-c63da28606c8")
 	)
+	(label "DEBUG_JTDO-SWO-H"
+		(at 332.74 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7985ea8d-92a1-4493-acd5-87a6a8b7fd2c")
+	)
+	(label "NRST-H"
+		(at 332.74 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ffab483-5b40-424b-a71e-7eb1fceeb710")
+	)
 	(label "OSC_OUT"
 		(at 163.83 238.76 180)
 		(fields_autoplaced yes)
@@ -10657,6 +10794,17 @@
 			(justify right bottom)
 		)
 		(uuid "978910d7-9219-4c28-b70a-5ea0b3d79802")
+	)
+	(label "DEBUG_JTMS-SWDIO-H"
+		(at 332.74 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e961c48-85b2-4bf4-963d-7fb39951ae8f")
 	)
 	(label "TIM1_CH3"
 		(at 116.84 198.12 270)
@@ -10723,6 +10871,28 @@
 			(justify left bottom)
 		)
 		(uuid "d4a16553-45e9-4715-9f13-6437a666e9dc")
+	)
+	(label "DEBUG_JTCK-SWCLK-H"
+		(at 332.74 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6fecc15-3e85-4237-82c4-f9afbe0c0811")
+	)
+	(label "SPI5_MOSI_R"
+		(at 41.91 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8d6db51-a17c-4c27-810e-43bde5a45679")
 	)
 	(label "BOOT0"
 		(at 88.9 247.65 180)
@@ -13409,120 +13579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 278.13 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2407ef81-958b-4711-93b2-4556285a40aa")
-		(property "Reference" "C428"
-			(at 279.908 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 280.162 205.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 279.0952 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
-			(at 278.13 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 278.13 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 278.13 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 278.13 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04023C104KAT2A?qs=nNezP%252BoerbAsgsxxIAjFOw%3D%3D"
-			(at 278.13 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
-			(at 278.13 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "04023C104KAT2A"
-			(at 278.13 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81a15e9f-c92a-4b2b-be21-0c27bc309198")
-		)
-		(pin "2"
-			(uuid "25d8a984-cb24-4ddf-acd7-65b71d6ae399")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
-					(reference "C428")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 314.96 212.09 0)
 		(unit 1)
@@ -14963,6 +15019,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 285.75 203.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c1ced12-e8c2-44b1-9393-2e659df754e0")
+		(property "Reference" "C428"
+			(at 291.084 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 289.56 205.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 284.7848 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
+			(at 285.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 285.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 285.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 285.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM05AR51A225KH?qs=Jm2GQyTW%2FbiyjPO%2FbUk4tw%3D%3D"
+			(at 285.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 285.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "04023C104KAT2A"
+			(at 285.75 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36921b98-3e06-43f2-a1b1-63a7b28a1ca4")
+		)
+		(pin "2"
+			(uuid "60f97e41-8013-42dc-8393-3a80b1d99f0f")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
+					(reference "C428")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 212.09 166.37 0)
 		(unit 1)
@@ -15091,6 +15261,120 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
 					(reference "#PWR0404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 278.13 203.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "436eee74-c12e-47e0-b9da-6606c2b14b3b")
+		(property "Reference" "C435"
+			(at 283.464 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 281.94 205.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 277.1648 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
+			(at 278.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 278.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 278.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 278.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM05AR51A225KH?qs=Jm2GQyTW%2FbiyjPO%2FbUk4tw%3D%3D"
+			(at 278.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KYOCERA AVX"
+			(at 278.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "04023C104KAT2A"
+			(at 278.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c876a89-5f34-4d0d-be3a-161e60435a7b")
+		)
+		(pin "2"
+			(uuid "cc491785-705e-493e-b226-901379563f1c")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
+					(reference "C435")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,2 @@
+Controlled Layers - L1 (F.Cu), L8(B.Cu) and L6
+Trace width - 0.23, 0.23, 0.14 (Single 50ohm)

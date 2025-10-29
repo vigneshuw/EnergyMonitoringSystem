@@ -1145,7 +1145,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c931dbaf-b36d-4a27-a5f5-fe10ba94f083")
 	)
-	(model "MX52LM04A11XSI.stp"
+	(model "${KIPRJMOD}/CustomLibs/Downloaded/eMMC/MX52LM04A11XSI/MX52LM04A11XSI.stp"
 		(offset
 			(xyz 0 0 0)
 		)

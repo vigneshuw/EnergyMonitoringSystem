@@ -2654,6 +2654,12 @@
 		(uuid "c109ba62-5fa9-4c39-9bb5-69a9b4cd08d1")
 	)
 	(junction
+		(at 132.08 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c799fd20-9adc-4e3d-be9e-667034d8aac8")
+	)
+	(junction
 		(at 257.81 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3187,6 +3193,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 110.49) (xy 132.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d43fc2-8cb3-4c6e-822b-c4ecc13d1685")
+	)
+	(wire
+		(pts
 			(xy 104.14 161.29) (xy 104.14 153.67)
 		)
 		(stroke
@@ -3367,7 +3383,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 123.19) (xy 146.05 123.19)
+			(xy 144.78 123.19) (xy 146.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3434,6 +3450,26 @@
 			(type default)
 		)
 		(uuid "c96ec0dc-9150-4192-a6e3-f853e0d074f4")
+	)
+	(wire
+		(pts
+			(xy 135.89 110.49) (xy 132.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1faef9-98fb-47d3-91ba-06df30308500")
+	)
+	(wire
+		(pts
+			(xy 132.08 123.19) (xy 137.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bcf031-01d3-4262-8fa5-878ef92c269a")
 	)
 	(wire
 		(pts
@@ -3712,6 +3748,17 @@
 			)
 		)
 		(uuid "c1c3196f-54a2-45f2-ace0-8020b693436b")
+	)
+	(label "SPI5_MISO_R"
+		(at 135.89 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21bde23f-2ed4-4b67-a134-10804acbcd0b")
 	)
 	(label "BLE_SWDCLK"
 		(at 120.65 158.75 0)
@@ -5270,7 +5317,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 123.19 270)
+		(at 140.97 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5278,7 +5325,7 @@
 		(dnp no)
 		(uuid "4974ca02-0a9e-4f94-8578-6e184f93ae1f")
 		(property "Reference" "R502"
-			(at 138.176 121.666 90)
+			(at 143.256 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5334,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 137.668 123.19 90)
+			(at 142.748 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5343,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 135.89 121.412 90)
+			(at 140.97 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5352,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 135.89 123.19 0)
+			(at 140.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +5361,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 123.19 0)
+			(at 140.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +5370,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 135.89 123.19 0)
+			(at 140.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5379,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 135.89 123.19 0)
+			(at 140.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5388,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 135.89 123.19 0)
+			(at 140.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5397,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 135.89 123.19 0)
+			(at 140.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5406,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 135.89 123.19 0)
+			(at 140.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

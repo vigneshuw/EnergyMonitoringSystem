@@ -369,7 +369,7 @@
 				)
 			)
 		)
-		(symbol "EMS:+DCDC_2"
+		(symbol "EMS:+DCDC_1"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -378,7 +378,7 @@
 			(in_bom no)
 			(on_board no)
 			(property "Reference" "#PWR"
-				(at 4.572 0.762 0)
+				(at 5.334 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -386,8 +386,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+DCDC_2"
-				(at 0 3.302 0)
+			(property "Value" "+DCDC_1"
+				(at -0.254 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -412,8 +412,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol for \"+DCDC_2V\""
-				(at 0.762 -8.89 0)
+			(property "Description" "Power supply \"+DCDC_1V\""
+				(at 0.254 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -421,7 +421,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+DCDC_2_0_1"
+			(symbol "+DCDC_1_0_1"
 				(polyline
 					(pts
 						(xy 0 2.54) (xy 0.762 1.27)
@@ -447,7 +447,7 @@
 					)
 				)
 			)
-			(symbol "+DCDC_2_1_1"
+			(symbol "+DCDC_1_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3783,6 +3783,12 @@
 		(uuid "87dbafe7-10fb-4859-b4c8-89f95f144941")
 	)
 	(junction
+		(at 120.65 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88bcd644-3050-4fd5-9500-999b1e33282f")
+	)
+	(junction
 		(at 237.49 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3867,6 +3873,12 @@
 		(uuid "e58eee56-7fb0-4bac-b0f6-715ad3092df4")
 	)
 	(junction
+		(at 120.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e747b95c-565d-4ec4-bfde-86b3a8b0df27")
+	)
+	(junction
 		(at 184.15 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3906,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 87.63) (xy 107.95 87.63)
+			(xy 72.39 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3926,7 +3938,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 90.17) (xy 129.54 90.17)
+			(xy 102.87 90.17) (xy 129.54 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4006,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 113.03) (xy 129.54 113.03)
+			(xy 115.57 113.03) (xy 120.65 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4026,7 +4038,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 74.93) (xy 107.95 74.93)
+			(xy 59.69 74.93) (xy 95.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4056,7 +4068,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 129.54 77.47)
+			(xy 120.65 113.03) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e58b095-e526-4d70-be8d-7529a8998a19")
+	)
+	(wire
+		(pts
+			(xy 102.87 77.47) (xy 129.54 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4076,13 +4098,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 106.68) (xy 114.3 106.68)
+			(xy 106.68 106.68) (xy 107.95 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20bda5db-41c2-4763-acb7-fd4ff66c78c3")
+	)
+	(wire
+		(pts
+			(xy 118.11 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2107e036-af54-4aee-8f9f-283730ec0532")
 	)
 	(wire
 		(pts
@@ -4116,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 77.47) (xy 107.95 77.47)
+			(xy 62.23 77.47) (xy 95.25 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +4208,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 74.93) (xy 129.54 74.93)
+			(xy 102.87 74.93) (xy 129.54 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4246,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 82.55) (xy 107.95 82.55)
+			(xy 67.31 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4306,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 85.09) (xy 107.95 85.09)
+			(xy 69.85 85.09) (xy 95.25 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4396,7 +4428,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 107.95 90.17)
+			(xy 74.93 90.17) (xy 95.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4426,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 72.39) (xy 107.95 72.39)
+			(xy 57.15 72.39) (xy 95.25 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4436,7 +4468,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 80.01) (xy 129.54 80.01)
+			(xy 102.87 80.01) (xy 129.54 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4586,7 +4618,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 72.39) (xy 129.54 72.39)
+			(xy 102.87 72.39) (xy 129.54 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4666,6 +4698,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 106.68) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958767f5-5a85-4e3b-8c9e-732cbd967d7e")
+	)
+	(wire
+		(pts
 			(xy 64.77 52.07) (xy 62.23 52.07)
 		)
 		(stroke
@@ -4706,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 129.54 82.55)
+			(xy 102.87 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4746,7 +4788,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 113.03) (xy 114.3 113.03)
+			(xy 104.14 113.03) (xy 107.95 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4756,7 +4798,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 129.54 87.63)
+			(xy 102.87 87.63) (xy 129.54 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4786,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 106.68) (xy 129.54 106.68)
+			(xy 115.57 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4866,7 +4908,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 129.54 85.09)
+			(xy 102.87 85.09) (xy 129.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4946,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 134.62) (xy 110.49 134.62)
+			(xy 97.79 134.62) (xy 104.14 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4963,6 +5005,16 @@
 			(type default)
 		)
 		(uuid "ca67e14d-2717-4fa2-8d3a-5da01d314cce")
+	)
+	(wire
+		(pts
+			(xy 118.11 104.14) (xy 120.65 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecd8c50-4cd7-4e59-b859-734270eb8180")
 	)
 	(wire
 		(pts
@@ -5086,13 +5138,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 80.01) (xy 107.95 80.01)
+			(xy 64.77 80.01) (xy 95.25 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7e7ebe2-0cdb-40ff-9f0f-56d67f5135f5")
+	)
+	(wire
+		(pts
+			(xy 120.65 104.14) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84c0c4a-26ea-4be7-bfe5-b509adfb7bd1")
 	)
 	(wire
 		(pts
@@ -5156,7 +5218,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 113.03) (xy 110.49 134.62)
+			(xy 104.14 113.03) (xy 104.14 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5183,6 +5245,16 @@
 			(type default)
 		)
 		(uuid "f9fc6ba4-2624-4d1c-b664-04bf06d6ee7e")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 120.65 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9f1388-b750-4573-839e-9d6804b20b0c")
 	)
 	(wire
 		(pts
@@ -5234,6 +5306,138 @@
 			)
 		)
 		(uuid "def13e36-acc7-403d-ad68-580a9b0b3ffb")
+	)
+	(label "SDMMC1_D5_R"
+		(at 111.76 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17338a1c-e828-465b-aca5-21013038f9c7")
+	)
+	(label "SDMMC1_D7_R"
+		(at 111.76 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f752d87-a13e-4063-96d7-6dd82d7b56e1")
+	)
+	(label "VDDI"
+		(at 175.26 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f85b8df-647a-4353-ade3-299984707730")
+	)
+	(label "SDMMC1_D3_R"
+		(at 111.76 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45d4c2f7-8693-46c1-9af9-cc09395a5dd0")
+	)
+	(label "SDMMC1_CMD_R"
+		(at 118.11 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60cf6113-f4fd-4479-a6c0-d69c9d5e684e")
+	)
+	(label "SDMMC1_D4_R"
+		(at 111.76 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fcc3c57-45ef-4074-9447-6aee264f78d2")
+	)
+	(label "SDMMC1_CK_R"
+		(at 118.11 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "875c887b-cc7f-4e03-9152-3d20f75b102c")
+	)
+	(label "SDMMC1_eMMC_RSTn_JP"
+		(at 101.6 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a69ba5e1-1592-4c61-b007-02662afc170b")
+	)
+	(label "SDMMC1_D1_R"
+		(at 111.76 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd4f3744-b5be-4a81-b941-fefc5cf5a900")
+	)
+	(label "SDMMC1_D0_R"
+		(at 111.76 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4f91943-b341-468f-9337-0b5727002143")
+	)
+	(label "SDMMC1_D6_R"
+		(at 111.76 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcb88e48-f9c9-4187-ade5-b53cb20c30f3")
+	)
+	(label "SDMMC1_D2_R"
+		(at 111.76 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffe75b26-28e5-451b-8730-a6f6cfc26394")
 	)
 	(global_label "SDMMC1_D1"
 		(shape input)
@@ -5545,6 +5749,72 @@
 		)
 	)
 	(symbol
+		(lib_id "EMS:+DCDC_1")
+		(at 77.47 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16abe9fa-df0f-4905-8f69-d80929905eb6")
+		(property "Reference" "#PWR0902"
+			(at 82.804 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+DCDC_1"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 77.724 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d591b87b-c578-4b65-a945-73bb8fdd2e05")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
+					(reference "#PWR0902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 57.15 59.69 180)
 		(unit 1)
@@ -5727,72 +5997,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
 					(reference "R906")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+DCDC_2")
-		(at 237.49 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "234f952e-13c7-4d49-a2a2-ec2c7c0877fc")
-		(property "Reference" "#PWR0909"
-			(at 237.49 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_2"
-			(at 237.49 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+DCDC_2V\""
-			(at 238.252 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6dcdc38-fd6c-4610-be8c-e15ad11819cf")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
-					(reference "#PWR0909")
 					(unit 1)
 				)
 			)
@@ -6086,7 +6290,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 85.09 90)
+		(at 99.06 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6094,7 +6298,7 @@
 		(dnp no)
 		(uuid "31f07c05-218f-4896-a73d-305c1cebff45")
 		(property "Reference" "R916"
-			(at 106.172 83.82 90)
+			(at 93.472 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6306,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 117.094 84.074 90)
+			(at 104.394 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +6314,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 86.868 90)
+			(at 99.06 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +6323,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 111.76 85.09 0)
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +6332,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 85.09 0)
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6137,7 +6341,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 111.76 85.09 0)
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6350,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 111.76 85.09 0)
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +6359,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 111.76 85.09 0)
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +6829,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 74.93 90)
+		(at 99.06 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6633,7 +6837,7 @@
 		(dnp no)
 		(uuid "5712e536-5b86-4ecb-a82c-5eee6a72f4ea")
 		(property "Reference" "R912"
-			(at 106.172 73.66 90)
+			(at 93.472 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6845,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 117.094 73.914 90)
+			(at 104.394 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +6853,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 76.708 90)
+			(at 99.06 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,7 +6862,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 111.76 74.93 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +6871,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 74.93 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +6880,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 111.76 74.93 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6889,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 111.76 74.93 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6898,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 111.76 74.93 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +7113,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 80.01 90)
+		(at 99.06 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6917,7 +7121,7 @@
 		(dnp no)
 		(uuid "75dd9eae-6313-4935-802d-08b610da4ad8")
 		(property "Reference" "R914"
-			(at 106.172 78.74 90)
+			(at 93.472 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6925,7 +7129,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 117.094 78.994 90)
+			(at 104.394 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +7137,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 81.788 90)
+			(at 99.06 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +7146,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 111.76 80.01 0)
+			(at 99.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +7155,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 80.01 0)
+			(at 99.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +7164,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 111.76 80.01 0)
+			(at 99.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +7173,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 111.76 80.01 0)
+			(at 99.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7182,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 111.76 80.01 0)
+			(at 99.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,8 +7206,74 @@
 		)
 	)
 	(symbol
+		(lib_id "EMS:+DCDC_1")
+		(at 97.79 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e74a187-5694-4643-8fa5-8b2aff48980d")
+		(property "Reference" "#PWR0903"
+			(at 103.124 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+DCDC_1"
+			(at 97.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 98.044 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9512a7be-bc92-4e9e-b6e0-d02b99930839")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
+					(reference "#PWR0903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 111.76 77.47 90)
+		(at 99.06 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7011,7 +7281,7 @@
 		(dnp no)
 		(uuid "7fa42467-899a-42bb-9072-a8cb7cdd56e7")
 		(property "Reference" "R913"
-			(at 106.172 76.2 90)
+			(at 93.472 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +7289,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 117.094 76.454 90)
+			(at 104.394 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,7 +7297,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 79.248 90)
+			(at 99.06 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7306,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 111.76 77.47 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7315,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 77.47 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7324,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 111.76 77.47 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7333,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 111.76 77.47 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7342,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 111.76 77.47 0)
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +7461,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 90.17 90)
+		(at 99.06 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7199,7 +7469,7 @@
 		(dnp no)
 		(uuid "82d40dcc-d97f-4bc6-ad16-45bf5ed39662")
 		(property "Reference" "R918"
-			(at 106.172 88.9 90)
+			(at 93.472 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7477,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 117.094 89.154 90)
+			(at 104.394 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7485,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 91.948 90)
+			(at 99.06 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7494,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 111.76 90.17 0)
+			(at 99.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7503,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 90.17 0)
+			(at 99.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7512,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 111.76 90.17 0)
+			(at 99.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7521,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 111.76 90.17 0)
+			(at 99.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7530,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 111.76 90.17 0)
+			(at 99.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,7 +7622,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 72.39 90)
+		(at 99.06 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7360,7 +7630,7 @@
 		(dnp no)
 		(uuid "90dd9c12-69ef-404e-bf41-2a4f304b1c26")
 		(property "Reference" "R911"
-			(at 106.68 70.612 90)
+			(at 93.98 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7638,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 116.078 70.866 90)
+			(at 103.378 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7646,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 74.168 90)
+			(at 99.06 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7655,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 111.76 72.39 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7664,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 72.39 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7673,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 111.76 72.39 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7682,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 111.76 72.39 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7691,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 111.76 72.39 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,7 +7716,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 106.68 90)
+		(at 111.76 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7454,7 +7724,7 @@
 		(dnp no)
 		(uuid "99248eec-f68d-4402-bacf-b4e97147cc90")
 		(property "Reference" "R919"
-			(at 112.522 105.41 90)
+			(at 106.172 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,7 +7732,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 123.444 105.664 90)
+			(at 117.094 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +7740,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.11 108.458 90)
+			(at 111.76 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7749,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 118.11 106.68 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +7758,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 106.68 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7767,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 118.11 106.68 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +7776,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 118.11 106.68 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +7785,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 118.11 106.68 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,72 +7803,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
 					(reference "R919")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+DCDC_2")
-		(at 57.15 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9af891e4-844d-483a-9d10-05d8ac496fdb")
-		(property "Reference" "#PWR0901"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_2"
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+DCDC_2V\""
-			(at 57.912 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a19c6bd-71b1-4794-ac88-fee623c50024")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
-					(reference "#PWR0901")
 					(unit 1)
 				)
 			)
@@ -7793,72 +7997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EMS:+DCDC_2")
-		(at 219.71 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac4ba690-ebe2-4cc6-963c-4c7905f1c98d")
-		(property "Reference" "#PWR0907"
-			(at 219.71 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_2"
-			(at 219.71 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+DCDC_2V\""
-			(at 220.472 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5a6d667-6338-476e-a36e-c4eef89d35c9")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
-					(reference "#PWR0907")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 123.19 119.38 90)
 		(unit 1)
@@ -7868,7 +8006,7 @@
 		(dnp no)
 		(uuid "aef1c1ad-3bd2-4123-861b-efe85f45f204")
 		(property "Reference" "TP901"
-			(at 120.396 123.952 0)
+			(at 117.348 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,140 +8158,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EMS:+DCDC_2")
-		(at 97.79 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4274781-68b7-41ae-92b8-fb7dbc6bd6af")
-		(property "Reference" "#PWR0903"
-			(at 97.79 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_2"
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+DCDC_2V\""
-			(at 98.552 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d49db9a-7685-49ef-99a2-a66e63ef3e4a")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
-					(reference "#PWR0903")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+DCDC_2")
-		(at 77.47 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0fe5540-d47f-48fa-a37b-337e8f0f1eef")
-		(property "Reference" "#PWR0902"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_2"
-			(at 77.47 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+DCDC_2V\""
-			(at 78.232 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0f3dcb4-c3de-488b-9f68-b5ff97370a13")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
-					(reference "#PWR0902")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 111.76 82.55 90)
+		(at 99.06 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8161,7 +8167,7 @@
 		(dnp no)
 		(uuid "c9da22e1-5d0d-4c49-a73d-5a12315ce993")
 		(property "Reference" "R915"
-			(at 106.172 81.28 90)
+			(at 93.472 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8175,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 117.094 81.534 90)
+			(at 104.394 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8183,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 84.328 90)
+			(at 99.06 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8192,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 111.76 82.55 0)
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,7 +8201,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 82.55 0)
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,7 +8210,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 111.76 82.55 0)
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,7 +8219,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 111.76 82.55 0)
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +8228,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 111.76 82.55 0)
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8253,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 87.63 90)
+		(at 99.06 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8255,7 +8261,7 @@
 		(dnp no)
 		(uuid "ce0bb58d-4803-4427-b0c6-8ca5006e0e35")
 		(property "Reference" "R917"
-			(at 106.172 86.36 90)
+			(at 93.472 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +8269,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 117.094 86.614 90)
+			(at 104.394 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8277,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 89.408 90)
+			(at 99.06 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8286,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 111.76 87.63 0)
+			(at 99.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +8295,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 87.63 0)
+			(at 99.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8304,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 111.76 87.63 0)
+			(at 99.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8313,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 111.76 87.63 0)
+			(at 99.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8322,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 111.76 87.63 0)
+			(at 99.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,6 +8340,72 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
 					(reference "R917")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:+DCDC_1")
+		(at 237.49 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfba09aa-a23c-4a9e-b160-50a7b90bcfae")
+		(property "Reference" "#PWR0909"
+			(at 242.824 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+DCDC_1"
+			(at 237.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 237.744 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48933792-4755-4695-83d3-1a6941b54bf3")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
+					(reference "#PWR0909")
 					(unit 1)
 				)
 			)
@@ -8601,7 +8673,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 113.03 90)
+		(at 111.76 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8609,7 +8681,7 @@
 		(dnp no)
 		(uuid "e44d95a8-880f-4240-8d45-2dae9fa7d522")
 		(property "Reference" "R920"
-			(at 112.522 111.76 90)
+			(at 106.172 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8689,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 123.444 112.014 90)
+			(at 117.094 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +8697,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.11 114.808 90)
+			(at 111.76 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8706,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
-			(at 118.11 113.03 0)
+			(at 111.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,7 +8715,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 113.03 0)
+			(at 111.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +8724,7 @@
 			)
 		)
 		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
-			(at 118.11 113.03 0)
+			(at 111.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,7 +8733,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 118.11 113.03 0)
+			(at 111.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,7 +8742,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
-			(at 118.11 113.03 0)
+			(at 111.76 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8688,6 +8760,72 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
 					(reference "R920")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:+DCDC_1")
+		(at 219.71 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6b2bd4e-090a-407e-ba45-05bc7f232817")
+		(property "Reference" "#PWR0907"
+			(at 225.044 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+DCDC_1"
+			(at 219.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 219.964 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c6d68e1-6a64-47db-b2a2-7a028bbfce03")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
+					(reference "#PWR0907")
 					(unit 1)
 				)
 			)
@@ -9431,6 +9569,72 @@
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
 					(reference "U901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:+DCDC_1")
+		(at 57.15 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faaad17d-980b-4ee5-976f-8330c06045c2")
+		(property "Reference" "#PWR0901"
+			(at 62.484 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+DCDC_1"
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 57.404 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "781d308c-1e38-44e5-803d-d67a5a49761a")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/abbcaca0-0b45-4de8-86ef-a8249be36b44"
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)

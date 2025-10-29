@@ -4,7 +4,13 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "",
+      "/uCMain/DEBUG_JTMS-SWDIO-H",
+      "/uCMain/DEBUG_JTCK-SWCLK-H",
+      "/uCMain/DEBUG_JTDO-SWO-H",
+      "/uCMain/NRST-H"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 2,
     "opacity": {
@@ -64,7 +70,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffc3_7fffffe1",
+    "visible_layers": "fffff03_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

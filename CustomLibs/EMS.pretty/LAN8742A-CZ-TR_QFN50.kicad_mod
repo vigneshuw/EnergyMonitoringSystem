@@ -327,7 +327,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9e30538b-1d40-4b81-a17d-88b5fa869df1")
 	)
-	(model "LAN8742A-CZ-TR.stp"
+	(model "${KIPRJMOD}/CustomLibs/Downloaded/ETHERNET/LAN8742A-CZ-TR/LAN8742A-CZ-TR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

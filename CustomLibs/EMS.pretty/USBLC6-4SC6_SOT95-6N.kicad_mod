@@ -252,7 +252,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8ae3f2c3-84ea-4ad2-8cd9-838ce7669c91")
 	)
-	(model "USBLC6-4SC6.stp"
+	(model "${KIPRJMOD}/CustomLibs/Downloaded/ETHERNET/USBLC6-4SC6/USBLC6-4SC6.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -8050,6 +8050,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 33.02) (xy 96.52 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f02eddb-7ab2-4616-bef1-0f3c3d85e330")
+	)
+	(wire
+		(pts
 			(xy 223.52 63.5) (xy 219.71 63.5)
 		)
 		(stroke
@@ -8177,6 +8187,16 @@
 			(type default)
 		)
 		(uuid "5b2f7cbe-32ab-4653-ba60-d28e8ca735f0")
+	)
+	(wire
+		(pts
+			(xy 127 184.15) (xy 127 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be83035-ae3d-419f-a000-f1b3ec68c38e")
 	)
 	(wire
 		(pts
@@ -8327,6 +8347,16 @@
 			(type default)
 		)
 		(uuid "687639da-b9cd-44e8-bbfe-edbd2f9afd74")
+	)
+	(wire
+		(pts
+			(xy 99.06 33.02) (xy 99.06 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6879b2c5-c1c5-4e4a-9638-c40cd0cda6c7")
 	)
 	(wire
 		(pts
@@ -9410,6 +9440,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 44.45) (xy 99.06 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1e1418-2bb4-49e8-af80-dbf99ebf25e3")
+	)
+	(wire
+		(pts
 			(xy 204.47 135.89) (xy 204.47 128.27)
 		)
 		(stroke
@@ -9467,6 +9507,16 @@
 			(type default)
 		)
 		(uuid "c254557c-6504-48d2-a3dc-127a1c9cc953")
+	)
+	(wire
+		(pts
+			(xy 96.52 44.45) (xy 96.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a95f7b-df13-46f7-bb4c-edbd806b41a8")
 	)
 	(wire
 		(pts
@@ -10310,6 +10360,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 196.85) (xy 127 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8da3e8e-2ce2-4a28-ae85-f665362b4300")
+	)
+	(wire
+		(pts
 			(xy 363.22 140.97) (xy 363.22 146.05)
 		)
 		(stroke
@@ -11017,7 +11077,7 @@
 	)
 	(global_label "RMII_TXD0"
 		(shape input)
-		(at 96.52 49.53 90)
+		(at 96.52 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11027,7 +11087,7 @@
 		)
 		(uuid "140f6e3a-5139-44f3-923e-5172ebbaaa40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 36.9896 90)
+			(at 96.52 20.4796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11825,7 @@
 	)
 	(global_label "RMII_TX_EN"
 		(shape input)
-		(at 127 179.07 270)
+		(at 127 196.85 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11775,7 +11835,7 @@
 		)
 		(uuid "847963b9-57b3-4ac8-a996-898222a0f92e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 192.578 90)
+			(at 127 210.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11809,7 +11869,7 @@
 	)
 	(global_label "RMII_TXD1"
 		(shape input)
-		(at 99.06 49.53 90)
+		(at 99.06 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11819,7 +11879,7 @@
 		)
 		(uuid "8bb64f7b-baa7-4b4b-98b6-b63d1f1aaa3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 36.9896 90)
+			(at 99.06 20.4796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13267,7 +13327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAM.pdf"
 			(at 195.58 125.73 0)
 			(effects
 				(font
@@ -13303,7 +13363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04023C104KAT2A?qs=nNezP%252BoerbAsgsxxIAjFOw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KAM05CT70J475KH?qs=amGC7iS6iy%252BulcRHQtmtBg%3D%3D"
 			(at 195.58 125.73 0)
 			(effects
 				(font
@@ -13321,7 +13381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "04023C104KAT2A"
+		(property "Manufacturer_Part_Number" "KAM05CT70J475KH"
 			(at 195.58 125.73 0)
 			(effects
 				(font
@@ -13545,7 +13605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Manufacturer_Name" "KYOCERA AVX "
 			(at 189.23 156.21 0)
 			(effects
 				(font
@@ -13716,7 +13776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/CK/RS282G05A3SMRT?qs=Gufeu08L%2Fl2VU43xmeLp5Q%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/CK/RS-282G05A3-SM-RT?qs=T%252BgPUmif8%252BjtyA9QuPnoeg%3D%3D"
 			(at 125.73 247.65 0)
 			(effects
 				(font
@@ -14627,7 +14687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAM.pdf"
 			(at 195.58 120.65 0)
 			(effects
 				(font
@@ -14663,7 +14723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04023C104KAT2A?qs=nNezP%252BoerbAsgsxxIAjFOw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KAM05CT70J475KH?qs=amGC7iS6iy%252BulcRHQtmtBg%3D%3D"
 			(at 195.58 120.65 0)
 			(effects
 				(font
@@ -14681,7 +14741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "04023C104KAT2A"
+		(property "Manufacturer_Part_Number" "KAM05CT70J475KH"
 			(at 195.58 120.65 0)
 			(effects
 				(font
@@ -15461,7 +15521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Manufacturer_Name" "KYOCERA AVX "
 			(at 297.18 204.47 0)
 			(effects
 				(font
@@ -15915,6 +15975,100 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
 					(reference "C409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 187.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a83ae01-2afc-4da1-90ef-8f0828c25819")
+		(property "Reference" "R414"
+			(at 125.73 193.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 125.73 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 128.778 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+			(at 127 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+			(at 127 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 127 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
+			(at 127 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66953c8d-ee2c-4add-b9d2-756aa11ba382")
+		)
+		(pin "1"
+			(uuid "331ed00f-abf6-4d63-893c-85531821d3e0")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
+					(reference "R414")
 					(unit 1)
 				)
 			)
@@ -16419,6 +16573,100 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
 					(reference "C404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 96.52 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "569fe8b1-4d07-44df-8772-bda6ba71e568")
+		(property "Reference" "R412"
+			(at 95.25 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 95.25 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 98.298 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdeacdff-da68-4f8c-b6a9-43e77b0d92c7")
+		)
+		(pin "1"
+			(uuid "02091b0b-8eb2-4d7c-a158-b5b86499e1ae")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
+					(reference "R412")
 					(unit 1)
 				)
 			)
@@ -19617,6 +19865,100 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
 					(reference "C434")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e904ac5-2ff1-4c9d-aafa-bce032761830")
+		(property "Reference" "R413"
+			(at 97.79 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 97.79 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.838 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bf3c7fa-47da-405c-8206-6ee81c9d2ef3")
+		)
+		(pin "1"
+			(uuid "a9144b8b-eae2-4820-9783-a4df00cce91d")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/cbc904b9-333e-4714-b631-f1a18fb6652e"
+					(reference "R413")
 					(unit 1)
 				)
 			)
@@ -23660,7 +24002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/CK/RS282G05A3SMRT?qs=Gufeu08L%2Fl2VU43xmeLp5Q%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/CK/RS-282G05A3-SM-RT?qs=T%252BgPUmif8%252BjtyA9QuPnoeg%3D%3D"
 			(at 62.23 247.65 0)
 			(effects
 				(font

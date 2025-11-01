@@ -666,7 +666,7 @@
 				)
 			)
 		)
-		(symbol "EMS:+DCDC_2"
+		(symbol "EMS:+DCDC_1"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -675,7 +675,7 @@
 			(in_bom no)
 			(on_board no)
 			(property "Reference" "#PWR"
-				(at 4.572 0.762 0)
+				(at 5.334 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -683,8 +683,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+DCDC_2"
-				(at 0 3.302 0)
+			(property "Value" "+DCDC_1"
+				(at -0.254 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -709,8 +709,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol for \"+DCDC_2V\""
-				(at 0.762 -8.89 0)
+			(property "Description" "Power supply \"+DCDC_1V\""
+				(at 0.254 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -718,7 +718,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+DCDC_2_0_1"
+			(symbol "+DCDC_1_0_1"
 				(polyline
 					(pts
 						(xy 0 2.54) (xy 0.762 1.27)
@@ -744,7 +744,7 @@
 					)
 				)
 			)
-			(symbol "+DCDC_2_1_1"
+			(symbol "+DCDC_1_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4937,7 +4937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/1/GCM1555C2A102JE02-01A.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
 			(at 256.54 52.07 0)
 			(effects
 				(font
@@ -4955,7 +4955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Murata-Electronics/GCM1555C2A102JE02D?qs=ZcfC38r4PotRVMCtISugCA%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/04025C102KAZ2A?qs=%252BdQmOuGyFcHUWKrsS7iuyw%3D%3D"
 			(at 256.54 52.07 0)
 			(effects
 				(font
@@ -4964,7 +4964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Murata Electronics"
+		(property "Manufacturer_Name" "KYOCERA AVX "
 			(at 256.54 52.07 0)
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GCM1555C2A102JE02D"
+		(property "Manufacturer_Part_Number" "04025C102KAZ2A"
 			(at 256.54 52.07 0)
 			(effects
 				(font
@@ -5410,72 +5410,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
 					(reference "R802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+DCDC_2")
-		(at 154.94 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22d45b19-0a15-4af1-bb61-8ba08aa22a5f")
-		(property "Reference" "#PWR0811"
-			(at 154.94 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_2"
-			(at 154.94 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+DCDC_2V\""
-			(at 155.702 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b96f39d-e531-4f29-8d8d-708525cf6f6c")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "#PWR0811")
 					(unit 1)
 				)
 			)
@@ -7047,7 +6981,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EMS:+DCDC_2")
+		(lib_id "EMS:+DCDC_1")
 		(at 120.65 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7055,9 +6989,9 @@
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6bbb6524-6244-4d02-a06a-7aa7d137f9dd")
-		(property "Reference" "#PWR0808"
-			(at 120.65 22.86 0)
+		(uuid "6428ffd4-7141-4b27-9f6b-e4d573cdaf17")
+		(property "Reference" "#PWR0805"
+			(at 125.984 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,7 +6999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+DCDC_2"
+		(property "Value" "+DCDC_1"
 			(at 120.65 17.78 0)
 			(effects
 				(font
@@ -7091,8 +7025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol for \"+DCDC_2V\""
-			(at 121.412 31.75 0)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 120.904 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,12 +7035,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "e72ef475-abf8-4932-853d-04166516aebd")
+			(uuid "69f4ed1f-4bf9-4d20-b42b-f005a66e7490")
 		)
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "#PWR0808")
+					(reference "#PWR0805")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EMS:+DCDC_1")
+		(at 58.42 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d70a8cf-377c-4e98-a4b5-0801014f4699")
+		(property "Reference" "#PWR0818"
+			(at 63.754 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+DCDC_1"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 58.674 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5a517ac-1fdd-447d-a23a-205fc9f69ab6")
+		)
+		(instances
+			(project "EnergyMonitoringSystem"
+				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
+					(reference "#PWR0818")
 					(unit 1)
 				)
 			)
@@ -7524,7 +7524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "KYOCERA AVX"
+		(property "Manufacturer_Name" "KYOCERA AVX "
 			(at 147.32 119.38 0)
 			(effects
 				(font
@@ -8567,6 +8567,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Bel-Magnetic-Solutions/SI-60062-F?qs=FESYatJ8odK8fgoNWoNb9g%3D%3D"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "2ccaf373-721c-4dca-a8be-f8dd5d9e788d")
 		)
@@ -8811,17 +8820,17 @@
 		)
 	)
 	(symbol
-		(lib_id "EMS:+DCDC_2")
-		(at 58.42 43.18 0)
+		(lib_id "EMS:+DCDC_1")
+		(at 154.94 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6ebf2f3-d487-438f-8650-ee35ab2eef8a")
-		(property "Reference" "#PWR0805"
-			(at 58.42 43.18 0)
+		(uuid "c67673ad-5979-4553-b203-93697ef52bc6")
+		(property "Reference" "#PWR0808"
+			(at 160.274 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8829,8 +8838,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+DCDC_2"
-			(at 58.42 38.1 0)
+		(property "Value" "+DCDC_1"
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,7 +8847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 43.18 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +8856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 43.18 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,8 +8864,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol for \"+DCDC_2V\""
-			(at 59.182 52.07 0)
+		(property "Description" "Power supply \"+DCDC_1V\""
+			(at 155.194 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8865,12 +8874,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "760e586e-9e37-48f9-8f81-3fddd597ffac")
+			(uuid "5f944dfd-463a-415c-bb1e-fd30018e019e")
 		)
 		(instances
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/226bef4b-1d5d-48eb-b4d8-e2f18f5b1a03"
-					(reference "#PWR0805")
+					(reference "#PWR0808")
 					(unit 1)
 				)
 			)
@@ -8910,7 +8919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-TR_0-30_RoHS_L_1.pdf"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-1&DocType=Data%20Sheet&DocLang=English&PartCntxt=2176177-4&DocFormat=pdf"
 			(at 262.89 86.36 0)
 			(effects
 				(font
@@ -8928,7 +8937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/TR0603NR-07270RL?qs=k2KEx2DUIRRrefrp4eQOhw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/CRGH0603F270R?qs=gt1LBUVyoHkSOaKreGSGBQ%3D%3D"
 			(at 262.89 86.36 0)
 			(effects
 				(font
@@ -8937,7 +8946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "TE Connectivity"
 			(at 262.89 86.36 0)
 			(effects
 				(font
@@ -8946,7 +8955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TR0603NR-07270RL"
+		(property "Manufacturer_Part_Number" "CRGH0603F270R"
 			(at 262.89 86.36 0)
 			(effects
 				(font
@@ -9581,7 +9590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-TR_0-30_RoHS_L_1.pdf"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-1&DocType=Data%20Sheet&DocLang=English&PartCntxt=2176177-4&DocFormat=pdf"
 			(at 267.97 86.36 0)
 			(effects
 				(font
@@ -9599,7 +9608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/TR0603NR-07270RL?qs=k2KEx2DUIRRrefrp4eQOhw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/CRGH0603F270R?qs=gt1LBUVyoHkSOaKreGSGBQ%3D%3D"
 			(at 267.97 86.36 0)
 			(effects
 				(font
@@ -9608,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "TE Connectivity"
 			(at 267.97 86.36 0)
 			(effects
 				(font
@@ -9617,7 +9626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TR0603NR-07270RL"
+		(property "Manufacturer_Part_Number" "CRGH0603F270R"
 			(at 267.97 86.36 0)
 			(effects
 				(font

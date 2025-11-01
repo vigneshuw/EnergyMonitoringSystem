@@ -222,7 +222,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "06d91c0f-754c-46bd-a137-e685ea8f3593")
 	)
-	(model "NX3225SA-25.000M-STD-CSR-6.stp"
+	(model "${KIPRJMOD}/CustomLibs/Downloaded/ETHERNET/NX3225SA-25.000M-STD-CSR-6/NX3225SA-25.000M-STD-CSR-6.stp"
 		(offset
 			(xyz 0 0 0)
 		)

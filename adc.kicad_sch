@@ -7456,7 +7456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F1502V?qs=Zyl8A9hlmJqFaE%2FSdjcX1A%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-3EKF1502V?qs=H7k1u0Mp9JTF6x646045AQ%3D%3D"
 			(at 85.09 300.99 0)
 			(effects
 				(font
@@ -7474,7 +7474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F1502V "
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1502V"
 			(at 85.09 300.99 0)
 			(effects
 				(font
@@ -7916,7 +7916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F1502V?qs=Zyl8A9hlmJqFaE%2FSdjcX1A%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-3EKF1502V?qs=H7k1u0Mp9JTF6x646045AQ%3D%3D"
 			(at 85.09 231.14 0)
 			(effects
 				(font
@@ -7934,7 +7934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F1502V "
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1502V"
 			(at 85.09 231.14 0)
 			(effects
 				(font
@@ -10176,7 +10176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F1502V?qs=Zyl8A9hlmJqFaE%2FSdjcX1A%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-3EKF1502V?qs=H7k1u0Mp9JTF6x646045AQ%3D%3D"
 			(at 87.63 372.11 0)
 			(effects
 				(font
@@ -10194,7 +10194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F1502V "
+		(property "Manufacturer_Part_Number" "ERJ-3EKF1502V"
 			(at 87.63 372.11 0)
 			(effects
 				(font

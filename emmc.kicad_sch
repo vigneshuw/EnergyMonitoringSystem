@@ -3717,6 +3717,12 @@
 		(uuid "4b084444-eada-47c4-8a48-730927ad27aa")
 	)
 	(junction
+		(at 120.65 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d6c2390-76e7-46c1-a74a-c1e0cbf845d5")
+	)
+	(junction
 		(at 184.15 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3783,12 +3789,6 @@
 		(uuid "87dbafe7-10fb-4859-b4c8-89f95f144941")
 	)
 	(junction
-		(at 120.65 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88bcd644-3050-4fd5-9500-999b1e33282f")
-	)
-	(junction
 		(at 237.49 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3831,6 +3831,12 @@
 		(uuid "a9e45502-3c40-4ad0-8e1e-b5e804dbdf37")
 	)
 	(junction
+		(at 119.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b110d240-4625-4d6c-9ace-f125e7412cae")
+	)
+	(junction
 		(at 69.85 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3871,12 +3877,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e58eee56-7fb0-4bac-b0f6-715ad3092df4")
-	)
-	(junction
-		(at 120.65 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e747b95c-565d-4ec4-bfde-86b3a8b0df27")
 	)
 	(junction
 		(at 184.15 106.68)
@@ -4038,6 +4038,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 113.03) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ae9d6e-d8ae-46b2-8bdd-94f1d7a7ff7f")
+	)
+	(wire
+		(pts
 			(xy 59.69 74.93) (xy 95.25 74.93)
 		)
 		(stroke
@@ -4068,16 +4078,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 113.03) (xy 129.54 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e58b095-e526-4d70-be8d-7529a8998a19")
-	)
-	(wire
-		(pts
 			(xy 102.87 77.47) (xy 129.54 77.47)
 		)
 		(stroke
@@ -4105,16 +4105,6 @@
 			(type default)
 		)
 		(uuid "20bda5db-41c2-4763-acb7-fd4ff66c78c3")
-	)
-	(wire
-		(pts
-			(xy 118.11 110.49) (xy 120.65 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2107e036-af54-4aee-8f9f-283730ec0532")
 	)
 	(wire
 		(pts
@@ -4438,6 +4428,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 104.14) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58da16b9-f454-463a-810a-e2ff10b00c5a")
+	)
+	(wire
+		(pts
 			(xy 170.18 116.84) (xy 184.15 116.84)
 		)
 		(stroke
@@ -4495,6 +4495,16 @@
 			(type default)
 		)
 		(uuid "644a85fc-be6b-4072-84bb-623faeab9231")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 119.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d79845-2e67-4be8-afb2-fd59b0e224ee")
 	)
 	(wire
 		(pts
@@ -4678,6 +4688,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 106.68) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9132cfc7-2ed0-41d3-b542-f318f97399fd")
+	)
+	(wire
+		(pts
 			(xy 210.82 97.79) (xy 219.71 97.79)
 		)
 		(stroke
@@ -4698,7 +4718,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 106.68) (xy 129.54 106.68)
+			(xy 115.57 106.68) (xy 119.38 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4828,16 +4848,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 106.68) (xy 120.65 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02e02ff-66d7-4658-8a7f-eb5d809142ae")
-	)
-	(wire
-		(pts
 			(xy 76.2 134.62) (xy 97.79 134.62)
 		)
 		(stroke
@@ -4885,6 +4895,16 @@
 			(type default)
 		)
 		(uuid "ba3d79ec-f5db-40a6-a194-d9fbc1718ca4")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba79bf55-653e-4fe1-8af3-73798270e74a")
 	)
 	(wire
 		(pts
@@ -5008,13 +5028,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 104.14) (xy 120.65 104.14)
+			(xy 120.65 110.49) (xy 120.65 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cecd8c50-4cd7-4e59-b859-734270eb8180")
+		(uuid "d0e4aa75-4763-48c5-ac59-2baa85a63f9c")
 	)
 	(wire
 		(pts
@@ -5148,16 +5168,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 104.14) (xy 120.65 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84c0c4a-26ea-4be7-bfe5-b509adfb7bd1")
-	)
-	(wire
-		(pts
 			(xy 50.8 85.09) (xy 69.85 85.09)
 		)
 		(stroke
@@ -5245,16 +5255,6 @@
 			(type default)
 		)
 		(uuid "f9fc6ba4-2624-4d1c-b664-04bf06d6ee7e")
-	)
-	(wire
-		(pts
-			(xy 120.65 110.49) (xy 120.65 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa9f1388-b750-4573-839e-9d6804b20b0c")
 	)
 	(wire
 		(pts
@@ -5352,7 +5352,7 @@
 		(uuid "45d4c2f7-8693-46c1-9af9-cc09395a5dd0")
 	)
 	(label "SDMMC1_CMD_R"
-		(at 118.11 104.14 0)
+		(at 114.3 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5374,7 +5374,7 @@
 		(uuid "7fcc3c57-45ef-4074-9447-6aee264f78d2")
 	)
 	(label "SDMMC1_CK_R"
-		(at 118.11 110.49 0)
+		(at 114.3 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5839,7 +5839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 58.928 59.69 90)
 			(effects
 				(font
@@ -5848,7 +5848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 57.15 59.69 0)
 			(effects
 				(font
@@ -5866,7 +5866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 57.15 59.69 0)
 			(effects
 				(font
@@ -5875,7 +5875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 57.15 59.69 0)
 			(effects
 				(font
@@ -5884,7 +5884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 57.15 59.69 0)
 			(effects
 				(font
@@ -5933,7 +5933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.628 59.69 90)
 			(effects
 				(font
@@ -5942,7 +5942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 69.85 59.69 0)
 			(effects
 				(font
@@ -5960,7 +5960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 69.85 59.69 0)
 			(effects
 				(font
@@ -5969,7 +5969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 69.85 59.69 0)
 			(effects
 				(font
@@ -5978,7 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 69.85 59.69 0)
 			(effects
 				(font
@@ -6219,7 +6219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.568 125.73 90)
 			(effects
 				(font
@@ -6228,7 +6228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -6246,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-PA2F1002X?qs=sGAEpiMZZMvdGkrng054t8V0tHQ%2Ftw2TWjqdjdzL2zQDFBfDmYpZSg%3D%3D"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -6255,7 +6255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -6264,7 +6264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" "ERJ-PA2F1002X"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -6313,7 +6313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 86.868 90)
 			(effects
 				(font
@@ -6322,7 +6322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -6340,7 +6340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -6349,7 +6349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -6358,7 +6358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL "
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -6407,7 +6407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.548 59.69 90)
 			(effects
 				(font
@@ -6416,7 +6416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 64.77 59.69 0)
 			(effects
 				(font
@@ -6434,7 +6434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 64.77 59.69 0)
 			(effects
 				(font
@@ -6443,7 +6443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 64.77 59.69 0)
 			(effects
 				(font
@@ -6452,7 +6452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 64.77 59.69 0)
 			(effects
 				(font
@@ -6597,7 +6597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.168 59.69 90)
 			(effects
 				(font
@@ -6606,7 +6606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -6624,7 +6624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -6633,7 +6633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -6642,7 +6642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -6691,7 +6691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 79.248 109.22 90)
 			(effects
 				(font
@@ -6700,7 +6700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -6727,7 +6727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -6736,7 +6736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -6852,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 76.708 90)
 			(effects
 				(font
@@ -6861,7 +6861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -6879,7 +6879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -6888,7 +6888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -6897,7 +6897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL"
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -7042,7 +7042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.008 59.69 90)
 			(effects
 				(font
@@ -7051,7 +7051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -7069,7 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -7078,7 +7078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -7136,7 +7136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 81.788 90)
 			(effects
 				(font
@@ -7145,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 99.06 80.01 0)
 			(effects
 				(font
@@ -7163,7 +7163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 99.06 80.01 0)
 			(effects
 				(font
@@ -7172,7 +7172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 99.06 80.01 0)
 			(effects
 				(font
@@ -7181,7 +7181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL "
 			(at 99.06 80.01 0)
 			(effects
 				(font
@@ -7296,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 79.248 90)
 			(effects
 				(font
@@ -7305,7 +7305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 99.06 77.47 0)
 			(effects
 				(font
@@ -7323,7 +7323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 99.06 77.47 0)
 			(effects
 				(font
@@ -7332,7 +7332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 99.06 77.47 0)
 			(effects
 				(font
@@ -7341,7 +7341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL "
 			(at 99.06 77.47 0)
 			(effects
 				(font
@@ -7390,7 +7390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 61.468 59.69 90)
 			(effects
 				(font
@@ -7399,7 +7399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 59.69 59.69 0)
 			(effects
 				(font
@@ -7417,7 +7417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 59.69 59.69 0)
 			(effects
 				(font
@@ -7426,7 +7426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 59.69 59.69 0)
 			(effects
 				(font
@@ -7435,7 +7435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 59.69 59.69 0)
 			(effects
 				(font
@@ -7484,7 +7484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 91.948 90)
 			(effects
 				(font
@@ -7493,7 +7493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -7511,7 +7511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -7520,7 +7520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -7529,7 +7529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL "
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -7645,7 +7645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 74.168 90)
 			(effects
 				(font
@@ -7654,7 +7654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 99.06 72.39 0)
 			(effects
 				(font
@@ -7672,7 +7672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 99.06 72.39 0)
 			(effects
 				(font
@@ -7681,7 +7681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 99.06 72.39 0)
 			(effects
 				(font
@@ -7690,7 +7690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL"
 			(at 99.06 72.39 0)
 			(effects
 				(font
@@ -7739,7 +7739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 108.458 90)
 			(effects
 				(font
@@ -7748,7 +7748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 111.76 106.68 0)
 			(effects
 				(font
@@ -7766,7 +7766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 111.76 106.68 0)
 			(effects
 				(font
@@ -7775,7 +7775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 111.76 106.68 0)
 			(effects
 				(font
@@ -7784,7 +7784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL "
 			(at 111.76 106.68 0)
 			(effects
 				(font
@@ -7833,7 +7833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.708 59.69 90)
 			(effects
 				(font
@@ -7842,7 +7842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 74.93 59.69 0)
 			(effects
 				(font
@@ -7860,7 +7860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 74.93 59.69 0)
 			(effects
 				(font
@@ -7869,7 +7869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 74.93 59.69 0)
 			(effects
 				(font
@@ -7878,7 +7878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 74.93 59.69 0)
 			(effects
 				(font
@@ -7927,7 +7927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 69.088 59.69 90)
 			(effects
 				(font
@@ -7936,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 67.31 59.69 0)
 			(effects
 				(font
@@ -7954,7 +7954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 67.31 59.69 0)
 			(effects
 				(font
@@ -7963,7 +7963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 67.31 59.69 0)
 			(effects
 				(font
@@ -7972,7 +7972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 67.31 59.69 0)
 			(effects
 				(font
@@ -8182,7 +8182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 84.328 90)
 			(effects
 				(font
@@ -8191,7 +8191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -8209,7 +8209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -8218,7 +8218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -8227,7 +8227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL "
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -8276,7 +8276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 89.408 90)
 			(effects
 				(font
@@ -8285,7 +8285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -8303,7 +8303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -8312,7 +8312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -8321,7 +8321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL "
 			(at 99.06 87.63 0)
 			(effects
 				(font
@@ -8696,7 +8696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 114.808 90)
 			(effects
 				(font
@@ -8705,7 +8705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C334-1314047.pdf"
+		(property "Datasheet" ""
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -8723,7 +8723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-S03F22R0V?qs=sGAEpiMZZMvdGkrng054t59%2FMXCyyixeZfkxx1NkMqo%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D22RL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNgRBZnblmLDFH63Ajc8pXvg%3D%3D"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -8732,7 +8732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -8741,7 +8741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-S03F22R0V"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D22RL "
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -8856,7 +8856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 124.968 129.54 90)
 			(effects
 				(font
@@ -8865,7 +8865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20043"
+		(property "Datasheet" ""
 			(at 123.19 129.54 0)
 			(effects
 				(font
@@ -8883,7 +8883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060347K0FKEAHP?qs=k2%2FDWSARqgGdf8xU6XXKnw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
 			(at 123.19 129.54 0)
 			(effects
 				(font
@@ -8892,7 +8892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 123.19 129.54 0)
 			(effects
 				(font
@@ -8901,7 +8901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060347K0FKEAHP"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
 			(at 123.19 129.54 0)
 			(effects
 				(font

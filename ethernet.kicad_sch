@@ -5346,7 +5346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 90.678 90)
 			(effects
 				(font
@@ -5355,7 +5355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+		(property "Datasheet" ""
 			(at 40.64 88.9 0)
 			(effects
 				(font
@@ -5373,7 +5373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D33RL?qs=F5EMLAvA7IDm7JsSOw%2FPgg%3D%3D"
 			(at 40.64 88.9 0)
 			(effects
 				(font
@@ -5382,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 40.64 88.9 0)
 			(effects
 				(font
@@ -5391,7 +5391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D33RL"
 			(at 40.64 88.9 0)
 			(effects
 				(font
@@ -5507,7 +5507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 65.278 60.96 90)
 			(effects
 				(font
@@ -5516,7 +5516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -5534,7 +5534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-PA2F1002X?qs=sGAEpiMZZMvdGkrng054t8V0tHQ%2Ftw2TWjqdjdzL2zQDFBfDmYpZSg%3D%3D"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -5543,7 +5543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -5552,7 +5552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" "ERJ-PA2F1002X"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -5697,7 +5697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 99.568 90)
 			(effects
 				(font
@@ -5706,7 +5706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+		(property "Datasheet" ""
 			(at 40.64 97.79 0)
 			(effects
 				(font
@@ -5724,7 +5724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D33RL?qs=F5EMLAvA7IDm7JsSOw%2FPgg%3D%3D"
 			(at 40.64 97.79 0)
 			(effects
 				(font
@@ -5733,7 +5733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 40.64 97.79 0)
 			(effects
 				(font
@@ -5742,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D33RL"
 			(at 40.64 97.79 0)
 			(effects
 				(font
@@ -6022,7 +6022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 93.218 90)
 			(effects
 				(font
@@ -6031,7 +6031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -6049,7 +6049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-PA2F1002X?qs=sGAEpiMZZMvdGkrng054t8V0tHQ%2Ftw2TWjqdjdzL2zQDFBfDmYpZSg%3D%3D"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -6058,7 +6058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -6067,7 +6067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" "ERJ-PA2F1002X"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -6844,7 +6844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.118 60.96 90)
 			(effects
 				(font
@@ -6853,7 +6853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -6871,7 +6871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-PA2F1002X?qs=sGAEpiMZZMvdGkrng054t8V0tHQ%2Ftw2TWjqdjdzL2zQDFBfDmYpZSg%3D%3D"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -6880,7 +6880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -6889,7 +6889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" "ERJ-PA2F1002X"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -7137,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 60.198 60.96 90)
 			(effects
 				(font
@@ -7146,7 +7146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -7164,7 +7164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-PA2F1002X?qs=sGAEpiMZZMvdGkrng054t8V0tHQ%2Ftw2TWjqdjdzL2zQDFBfDmYpZSg%3D%3D"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -7182,7 +7182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" "ERJ-PA2F1002X"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -7785,7 +7785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.658 60.96 90)
 			(effects
 				(font
@@ -7794,7 +7794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -7812,7 +7812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-PA2F1002X?qs=sGAEpiMZZMvdGkrng054t8V0tHQ%2Ftw2TWjqdjdzL2zQDFBfDmYpZSg%3D%3D"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -7821,7 +7821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -7830,7 +7830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" "ERJ-PA2F1002X"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -8013,7 +8013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 259.588 86.36 90)
 			(effects
 				(font
@@ -8022,7 +8022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 257.81 86.36 0)
 			(effects
 				(font
@@ -8040,7 +8040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-PA2F1002X?qs=sGAEpiMZZMvdGkrng054t8V0tHQ%2Ftw2TWjqdjdzL2zQDFBfDmYpZSg%3D%3D"
 			(at 257.81 86.36 0)
 			(effects
 				(font
@@ -8049,7 +8049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 257.81 86.36 0)
 			(effects
 				(font
@@ -8058,7 +8058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" "ERJ-PA2F1002X"
 			(at 257.81 86.36 0)
 			(effects
 				(font
@@ -9004,7 +9004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 88.138 90)
 			(effects
 				(font
@@ -9013,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+		(property "Datasheet" ""
 			(at 40.64 86.36 0)
 			(effects
 				(font
@@ -9031,7 +9031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D33RL?qs=F5EMLAvA7IDm7JsSOw%2FPgg%3D%3D"
 			(at 40.64 86.36 0)
 			(effects
 				(font
@@ -9040,7 +9040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 40.64 86.36 0)
 			(effects
 				(font
@@ -9049,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D33RL"
 			(at 40.64 86.36 0)
 			(effects
 				(font
@@ -9165,7 +9165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 62.738 60.96 90)
 			(effects
 				(font
@@ -9326,7 +9326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 255.778 86.36 90)
 			(effects
 				(font
@@ -9335,7 +9335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20035"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -9353,7 +9353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/Panasonic/ERJ-PA2F1002X?qs=sGAEpiMZZMvdGkrng054t8V0tHQ%2Ftw2TWjqdjdzL2zQDFBfDmYpZSg%3D%3D"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -9362,7 +9362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay/Dale"
+		(property "Manufacturer_Name" "Panasonic"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -9371,7 +9371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" "ERJ-PA2F1002X"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -9420,7 +9420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 117.348 90)
 			(effects
 				(font
@@ -9429,7 +9429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=ESR03EZPF&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+		(property "Datasheet" ""
 			(at 40.64 115.57 0)
 			(effects
 				(font
@@ -9447,7 +9447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/ESR03EZPF33R0?qs=493kPxzlxfImjDH5P%252Bz4Hw%3D%3D"
+		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D33RL?qs=F5EMLAvA7IDm7JsSOw%2FPgg%3D%3D"
 			(at 40.64 115.57 0)
 			(effects
 				(font
@@ -9456,7 +9456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 40.64 115.57 0)
 			(effects
 				(font
@@ -9465,7 +9465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ESR03EZPF33R0"
+		(property "Manufacturer_Part_Number" "RC0402FR-7D33RL"
 			(at 40.64 115.57 0)
 			(effects
 				(font

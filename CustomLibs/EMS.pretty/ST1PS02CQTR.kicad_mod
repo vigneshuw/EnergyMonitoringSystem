@@ -249,7 +249,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d26e5ced-6ad7-4a18-b2bd-86a0f8d005f6")
 	)
-	(model "ST1PS02CQTR.stp"
+	(model "${KIPRJMOD}/CustomLibs/Downloaded/VR/ST1PS02CQTR/ST1PS02CQTR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

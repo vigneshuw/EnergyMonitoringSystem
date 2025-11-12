@@ -2663,28 +2663,10 @@
 		(uuid "020ffb5c-010d-4c1d-aba7-142555939f23")
 	)
 	(junction
-		(at 133.35 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05543bb1-bf3d-438b-8d05-a431052c9b53")
-	)
-	(junction
-		(at 140.97 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16daccbe-2643-4151-9fe3-5bea63e3c705")
-	)
-	(junction
 		(at 26.67 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a07fa87-940f-4d19-a5b1-82c9e66fe383")
-	)
-	(junction
-		(at 137.16 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24a6e99c-c9d0-4d28-ab10-503c33d93664")
 	)
 	(junction
 		(at 106.68 132.08)
@@ -2697,12 +2679,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31867061-ea83-445d-a82e-7058e1e330eb")
-	)
-	(junction
-		(at 140.97 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3512f92d-5d6c-4fab-9ff9-0eb65bbfa42f")
 	)
 	(junction
 		(at 26.67 116.84)
@@ -2861,34 +2837,16 @@
 		(uuid "a11b07c1-fe85-489c-9103-cf8fd6ada136")
 	)
 	(junction
-		(at 137.16 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a32c561f-5b0f-4e40-ac05-0fcd1f408a4f")
-	)
-	(junction
 		(at 106.68 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a742d1af-7fe1-4259-af50-197808bd983a")
 	)
 	(junction
-		(at 144.78 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af35d2dc-8fc5-4df3-b8be-161ac1738061")
-	)
-	(junction
 		(at 158.75 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af3accbf-846f-452d-b99c-73431b9c4fbe")
-	)
-	(junction
-		(at 133.35 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4a510f5-02a7-4690-858b-035ddd12b526")
 	)
 	(junction
 		(at 266.7 41.91)
@@ -2901,12 +2859,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b95a4ed1-655b-4f6a-8dd5-dcaa6c5541b9")
-	)
-	(junction
-		(at 148.59 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2a49dd1-987a-44ef-8b7e-6e181ac4f600")
 	)
 	(junction
 		(at 118.11 144.78)
@@ -2943,12 +2895,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e220ed90-14d9-4295-af10-95ea30651c0b")
-	)
-	(junction
-		(at 144.78 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f54052e8-4e7f-4264-a0a3-d278624a9554")
 	)
 	(junction
 		(at 50.8 116.84)
@@ -2989,16 +2935,6 @@
 			(type default)
 		)
 		(uuid "041578bf-85aa-48a5-be12-42ddca0c0d55")
-	)
-	(wire
-		(pts
-			(xy 133.35 26.67) (xy 133.35 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06c3a925-23ba-4955-89fc-4eb6d0b58a7b")
 	)
 	(wire
 		(pts
@@ -3092,36 +3028,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 16.51) (xy 133.35 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e9e329e-9624-4e3a-b22e-c2ae848218e1")
-	)
-	(wire
-		(pts
-			(xy 140.97 16.51) (xy 137.16 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fde25b0-7af9-4b2d-85db-fca8aac50d58")
-	)
-	(wire
-		(pts
-			(xy 137.16 16.51) (xy 137.16 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2066f67b-8cef-4c36-bac0-7c680d737699")
-	)
-	(wire
-		(pts
 			(xy 36.83 102.87) (xy 26.67 102.87)
 		)
 		(stroke
@@ -3182,7 +3088,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 38.1) (xy 140.97 38.1)
+			(xy 125.73 38.1) (xy 161.29 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3219,16 +3125,6 @@
 			(type default)
 		)
 		(uuid "32f94b84-dd1f-46cd-92ab-b227242c5bc0")
-	)
-	(wire
-		(pts
-			(xy 125.73 45.72) (xy 133.35 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ef7513-ffa0-47f9-9a15-193c56565426")
 	)
 	(wire
 		(pts
@@ -3362,16 +3258,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 19.05) (xy 148.59 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d57384-a3ba-4f75-9446-2417869a010b")
-	)
-	(wire
-		(pts
 			(xy 50.8 137.16) (xy 57.15 137.16)
 		)
 		(stroke
@@ -3462,16 +3348,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 33.02) (xy 148.59 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53e946a5-ccbd-4cb1-8002-b4de12063a35")
-	)
-	(wire
-		(pts
 			(xy 118.11 114.3) (xy 118.11 101.6)
 		)
 		(stroke
@@ -3519,16 +3395,6 @@
 			(type default)
 		)
 		(uuid "5b780aaf-8cdb-457d-8854-0ca0ba27bae4")
-	)
-	(wire
-		(pts
-			(xy 140.97 38.1) (xy 161.29 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c1604a9-512e-481a-b907-ceac78c3e998")
 	)
 	(wire
 		(pts
@@ -3622,7 +3488,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 33.02) (xy 161.29 33.02)
+			(xy 125.73 33.02) (xy 161.29 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3772,16 +3638,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 26.67) (xy 140.97 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8064f29b-3ab0-4203-8d72-a72c87b98894")
-	)
-	(wire
-		(pts
 			(xy 102.87 147.32) (xy 106.68 147.32)
 		)
 		(stroke
@@ -3809,26 +3665,6 @@
 			(type default)
 		)
 		(uuid "855079db-01d3-4655-b694-6f060c46e047")
-	)
-	(wire
-		(pts
-			(xy 125.73 35.56) (xy 144.78 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88126fc8-f324-41e2-8da7-4372fcc3797b")
-	)
-	(wire
-		(pts
-			(xy 144.78 26.67) (xy 144.78 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "887e60bb-f55a-498d-a40b-248e2c062237")
 	)
 	(wire
 		(pts
@@ -3872,16 +3708,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 16.51) (xy 121.92 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e1ecbcb-5b6f-4f59-a548-a04e3d96dd23")
-	)
-	(wire
-		(pts
 			(xy 21.59 102.87) (xy 21.59 100.33)
 		)
 		(stroke
@@ -3899,16 +3725,6 @@
 			(type default)
 		)
 		(uuid "9127bf20-dfc2-4525-946f-8278830e64ba")
-	)
-	(wire
-		(pts
-			(xy 144.78 16.51) (xy 140.97 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936efdd8-6aa6-4ea0-9e99-275c0598ad10")
 	)
 	(wire
 		(pts
@@ -3982,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 35.56) (xy 161.29 35.56)
+			(xy 125.73 35.56) (xy 161.29 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4052,16 +3868,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 16.51) (xy 133.35 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1b0395d-af8a-49f4-821d-38c3dc9af864")
-	)
-	(wire
-		(pts
 			(xy 111.76 119.38) (xy 118.11 119.38)
 		)
 		(stroke
@@ -4072,16 +3878,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 16.51) (xy 144.78 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a251639f-4902-44fd-a458-633cedfb50b8")
-	)
-	(wire
-		(pts
 			(xy 118.11 144.78) (xy 123.19 144.78)
 		)
 		(stroke
@@ -4089,16 +3885,6 @@
 			(type default)
 		)
 		(uuid "a48837eb-eace-4f09-bc12-982bf3cc8c35")
-	)
-	(wire
-		(pts
-			(xy 125.73 43.18) (xy 137.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56e12b2-db0b-49f7-b877-ce6902813f82")
 	)
 	(wire
 		(pts
@@ -4139,16 +3925,6 @@
 			(type default)
 		)
 		(uuid "ad12400d-c61c-4775-9400-5eb00a096f41")
-	)
-	(wire
-		(pts
-			(xy 137.16 26.67) (xy 137.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af29a952-92e3-4572-9be3-9bff78804565")
 	)
 	(wire
 		(pts
@@ -4352,16 +4128,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 26.67) (xy 148.59 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3e2ad9e-f72a-4550-86bc-e57f562b5ad7")
-	)
-	(wire
-		(pts
 			(xy 50.8 119.38) (xy 50.8 116.84)
 		)
 		(stroke
@@ -4432,16 +4198,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 16.51) (xy 144.78 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3c9190-dddb-4515-95c2-44eb688cc8fa")
-	)
-	(wire
-		(pts
 			(xy 153.67 101.6) (xy 153.67 106.68)
 		)
 		(stroke
@@ -4452,7 +4208,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 43.18) (xy 161.29 43.18)
+			(xy 125.73 43.18) (xy 161.29 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4509,16 +4265,6 @@
 			(type default)
 		)
 		(uuid "d59174dc-6b7a-4b3c-b0d7-a792b59cb4a9")
-	)
-	(wire
-		(pts
-			(xy 140.97 16.51) (xy 140.97 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5bb9336-5918-4d3b-8d30-04972326c2c2")
 	)
 	(wire
 		(pts
@@ -4602,7 +4348,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 45.72) (xy 161.29 45.72)
+			(xy 125.73 45.72) (xy 161.29 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4791,6 +4537,16 @@
 			(type none)
 		)
 		(uuid d202d613-adf6-4244-9754-1f9e37a3f72f)
+	)
+	(text "Provides internal\n90K Ohm pull-up"
+		(exclude_from_sim no)
+		(at 145.796 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16a59565-ba80-4e58-8aea-693e934222c0")
 	)
 	(text "Between VISOIN \nand GND2 (21)\n"
 		(exclude_from_sim no)
@@ -5816,71 +5572,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
 					(reference "R701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EMS:+DCDC_2")
-		(at 121.92 16.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "22eeafb0-28dc-40ec-9d3f-a3a19aa1afdb")
-		(property "Reference" "#PWR0714"
-			(at 121.92 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+DCDC_2"
-			(at 116.332 14.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol for \"+DCDC_2V\""
-			(at 122.682 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a84d9063-4ebc-4271-93c6-8960dce5821f")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "#PWR0714")
 					(unit 1)
 				)
 			)
@@ -7244,100 +6935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 144.78 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b36d395-a046-4bda-9189-b24a468181da")
-		(property "Reference" "R705"
-			(at 143.002 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 143.256 18.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 146.558 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
-			(at 144.78 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 144.78 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
-			(at 144.78 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51c04f59-70e9-421c-9c7d-f37459fdc36f")
-		)
-		(pin "2"
-			(uuid "d8661c0e-3fce-40b5-b4a3-2b1e7351b33c")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "R705")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 140.97 119.38 90)
 		(unit 1)
@@ -7445,100 +7042,6 @@
 			(project "EnergyMonitoringSystem"
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
 					(reference "FB702")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83aa9e81-0b4e-4f10-939e-a09a0058c8fe")
-		(property "Reference" "R706"
-			(at 146.812 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 147.066 18.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 150.368 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
-			(at 148.59 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 148.59 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
-			(at 148.59 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "815bfb11-8b1d-4eda-98a7-0c7eba788a36")
-		)
-		(pin "2"
-			(uuid "b74ea4ee-cb1c-41f5-82ce-9bd590e8b9dd")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "R706")
 					(unit 1)
 				)
 			)
@@ -8153,100 +7656,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6a752f2-f929-487a-b646-7897fb709d59")
-		(property "Reference" "R703"
-			(at 135.382 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 135.636 18.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 138.938 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
-			(at 137.16 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 137.16 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
-			(at 137.16 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d174964d-52f3-49bf-84cd-c08513d4eff6")
-		)
-		(pin "2"
-			(uuid "1492d9f4-0825-422a-8ac7-8633468cb099")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "R703")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 69.85 189.23 90)
 		(unit 1)
@@ -8604,100 +8013,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 140.97 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dae7e9de-7411-406d-8e7b-0e0146fb4f7e")
-		(property "Reference" "R704"
-			(at 139.192 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 139.446 18.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 142.748 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 140.97 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
-			(at 140.97 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 140.97 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
-			(at 140.97 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "549dee1e-5523-47dd-af2d-8403abadc241")
-		)
-		(pin "2"
-			(uuid "19c50a34-ca45-40fe-a0a3-5e97a199291a")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "R704")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EMS:+DCDC_2")
 		(at 21.59 100.33 0)
 		(unit 1)
@@ -8951,100 +8266,6 @@
 			(project ""
 				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
 					(reference "C708")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f26692ef-1869-43cd-ba6b-81736cc6c9c6")
-		(property "Reference" "R702"
-			(at 131.318 23.368 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 131.826 18.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 135.128 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_Link" "https://www.mouser.com/ProductDetail/YAGEO/RC0402FR-7D47KL?qs=sGAEpiMZZMvdGkrng054tz1y1XEHv7sNGO0vS3V2%2FFyu8iXqnLDyaw%3D%3D"
-			(at 133.35 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 133.35 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0402FR-7D47KL"
-			(at 133.35 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15682bd2-5822-40f5-b7a9-8047847719d2")
-		)
-		(pin "2"
-			(uuid "65f50f9c-3db3-4674-b0e0-edd5394c4a8a")
-		)
-		(instances
-			(project "EnergyMonitoringSystem"
-				(path "/e660428c-c9b7-476c-8ac8-2d419f233469/107b47ad-de26-4dce-b636-52b3b123a40b"
-					(reference "R702")
 					(unit 1)
 				)
 			)
